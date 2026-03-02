@@ -6242,12 +6242,45 @@
 	<type tag="rapids" value="4" minzoom="11" additional="true"/>
 	<type tag="rapids" value="5" minzoom="11" additional="true"/>
 	<type tag="rapids" value="6" minzoom="11" additional="true"/>
-	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="1+" to_tag1="rapids" to_value1="2"/>
-	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="2+" to_tag1="rapids" to_value1="3"/>
-	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="3+" to_tag1="rapids" to_value1="4"/>
-	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="4-5" to_tag1="rapids" to_value1="5"/>
-	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="1-2" to_tag1="rapids" to_value1="2"/>
-	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="2-" to_tag1="rapids" to_value1="2"/>
+	<type tag="rapids" value="x" minzoom="11" additional="true"/>
+	<type tag="rapids" value="yes" minzoom="11" additional="true"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="0" to_tag1="rapids" to_value1="0" to_tag2="rapids_grade" to_value2="0"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="1" to_tag1="rapids" to_value1="1" to_tag2="rapids_grade" to_value2="1"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="2" to_tag1="rapids" to_value1="2" to_tag2="rapids_grade" to_value2="2"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="3" to_tag1="rapids" to_value1="3" to_tag2="rapids_grade" to_value2="3"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="4" to_tag1="rapids" to_value1="4" to_tag2="rapids_grade" to_value2="4"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="5" to_tag1="rapids" to_value1="5" to_tag2="rapids_grade" to_value2="5"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="6" to_tag1="rapids" to_value1="6" to_tag2="rapids_grade" to_value2="6"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="X" to_tag1="rapids" to_value1="X" to_tag2="rapids_grade" to_value2="X"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="no" to_tag1="rapids" to_value1="0" to_tag2="rapids_grade" to_value2="0"/>
+
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="1+" to_tag1="rapids" to_value1="2" to_tag2="rapids_grade" to_value2="2"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="2+" to_tag1="rapids" to_value1="3" to_tag2="rapids_grade" to_value2="3"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="3+" to_tag1="rapids" to_value1="4" to_tag2="rapids_grade" to_value2="4"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="4+" to_tag1="rapids" to_value1="5" to_tag2="rapids_grade" to_value2="5"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="5+" to_tag1="rapids" to_value1="6" to_tag2="rapids_grade" to_value2="6"/>
+	
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="2-" to_tag1="rapids" to_value1="2" to_tag2="rapids_grade" to_value2="2"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="3-" to_tag1="rapids" to_value1="3" to_tag2="rapids_grade" to_value2="3"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="4-" to_tag1="rapids" to_value1="4" to_tag2="rapids_grade" to_value2="4"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="5-" to_tag1="rapids" to_value1="5" to_tag2="rapids_grade" to_value2="5"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="6-" to_tag1="rapids" to_value1="6" to_tag2="rapids_grade" to_value2="6"/>
+
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="1-2" to_tag1="rapids" to_value1="2" to_tag2="rapids_grade" to_value2="2"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="2-3" to_tag1="rapids" to_value1="3" to_tag2="rapids_grade" to_value2="3"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="3-4" to_tag1="rapids" to_value1="4" to_tag2="rapids_grade" to_value2="4"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="4-5" to_tag1="rapids" to_value1="5" to_tag2="rapids_grade" to_value2="5"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="5-6" to_tag1="rapids" to_value1="6" to_tag2="rapids_grade" to_value2="6"/>
+
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="2;1" to_tag1="rapids" to_value1="2" to_tag2="rapids_grade" to_value2="2"/>
+
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="0;1" to_tag1="rapids" to_value1="1" to_tag2="rapids_grade" to_value2="1"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="1;2" to_tag1="rapids" to_value1="2" to_tag2="rapids_grade" to_value2="2"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="2;3" to_tag1="rapids" to_value1="3" to_tag2="rapids_grade" to_value2="3"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="3;4" to_tag1="rapids" to_value1="4" to_tag2="rapids_grade" to_value2="4"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="4;5" to_tag1="rapids" to_value1="5" to_tag2="rapids_grade" to_value2="5"/>
+	<entity_convert pattern="tag_transform" from_tag="rapids" from_value="5;6" to_tag1="rapids" to_value1="6" to_tag2="rapids_grade" to_value2="6"/>
+
 	<type tag="canoe" value="put_in" minzoom="11"/>
 	<type tag="canoe" value="egress" minzoom="11"/>
 	<type tag="canoe" value="put_in;egress" minzoom="11"/>

@@ -5043,7 +5043,18 @@
 				<poi_additional name="sinkhole_pit" tag="sinkhole" value="pit"/>
 			</poi_type>
 			<poi_type name="waterfall" tag="waterway" value="waterfall" poi_additional_category="fee,payment_type,wheelchair_accessibility"/>
-			<poi_type name="rapids" tag="waterway" value="rapids" no_edit="true"/>
+			<poi_type name="rapids" tag="waterway" value="rapids" no_edit="true">
+				<poi_additional_category name="rapids_filter">
+					<poi_additional name="rapids_grade_0" tag="rapids_grade" value="0" edit_tag="rapids"/>
+					<poi_additional name="rapids_grade_1" tag="rapids_grade" value="1" edit_tag="rapids"/>
+					<poi_additional name="rapids_grade_2" tag="rapids_grade" value="2" edit_tag="rapids"/>
+					<poi_additional name="rapids_grade_3" tag="rapids_grade" value="3" edit_tag="rapids"/>
+					<poi_additional name="rapids_grade_4" tag="rapids_grade" value="4" edit_tag="rapids"/>
+					<poi_additional name="rapids_grade_5" tag="rapids_grade" value="5" edit_tag="rapids"/>
+					<poi_additional name="rapids_grade_6" tag="rapids_grade" value="6" edit_tag="rapids"/>
+					<poi_additional name="rapids_grade_x" tag="rapids_grade" value="X" edit_tag="rapids"/>
+				</poi_additional_category>
+			</poi_type>
 			<poi_type name="canoe_put_in" tag="canoe" value="put_in" icon="put_in"/>
 			<poi_type name="canoe_egress" tag="canoe" value="egress" icon="egress"/>
 			<!-- <poi_type name="canoe_put_in_egress" tag="canoe" value="put_in;egress" icon="put_in_egress"/> Broken combination is not allowed -->

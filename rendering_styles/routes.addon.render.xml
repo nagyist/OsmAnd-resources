@@ -399,7 +399,6 @@
 		<case attrColorValue="#88ff0000"/>
 	</renderingAttribute>
 
-
 	<renderingAttribute name="whitewaterSectionGrade0Color">
 		<case attrColorValue="#EE00A3FF"/>
 	</renderingAttribute>
@@ -421,12 +420,14 @@
 	<renderingAttribute name="whitewaterSectionGrade6Color">
 		<case attrColorValue="#EE494949"/>
 	</renderingAttribute>
+	<renderingAttribute name="whitewaterSectionGradeXColor">
+		<case attrColorValue="#d05f0000"/>
+	</renderingAttribute>
 
 	<renderingAttribute name="whitewaterTextColor">
 		<case nightMode="true" attrColorValue="#F0F7FF"/>
 		<case attrColorValue="#313E4D"/>
 	</renderingAttribute>
-
 
 	<renderingAttribute name="climbingRouteColor">
 		<case nightMode="true" attrColorValue="#B1002B"/>
@@ -944,6 +945,7 @@
 				<apply_if additional="rapids=4" icon="rapid_white" shield="whitewater_rapid_grade4_shield"/>
 				<apply_if additional="rapids=5" icon="rapid_white" shield="whitewater_rapid_grade5_shield"/>
 				<apply_if additional="rapids=6" icon="rapid_white" shield="whitewater_rapid_grade6_shield"/>
+				<apply_if additional="rapids=x" icon="rapid_white" shield="whitewater_rapid_gradex_shield"/>
 			</case>
 			<case icon="waterway_rapids" shield="rapids_shield"/>
 		</switch>
@@ -1438,6 +1440,7 @@
 				<case additional="rapids=4" color__2="$whitewaterSectionGrade4Color" onewayArrowsColor="#800000"/>
 				<case additional="rapids=5" color__2="$whitewaterSectionGrade5Color" onewayArrowsColor="#611F81"/>
 				<case additional="rapids=6" color__2="$whitewaterSectionGrade6Color" onewayArrowsColor="#B2B2B2"/>
+				<case additional="rapids=x" color__2="$whitewaterSectionGradeXColor" onewayArrowsColor="#B2B2B2"/>
 				<apply_if maxzoom="13" strokeWidth__2="6"/>
 				<apply_if minzoom="14" maxzoom="15" strokeWidth__2="10"/>
 				<apply_if minzoom="16" maxzoom="17" strokeWidth__2="14"/>
