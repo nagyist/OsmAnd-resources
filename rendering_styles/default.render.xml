@@ -4935,12 +4935,12 @@
 
 			<switch textColor="#654321" textDy="7" textWrapWidth="25" textHaloColor="#aaf1eae4" textHaloRadius="$textHaloRadius" textItalic="true">
 				<switch>
-					<switch minzoom="7" tag="natural" additional="osmand_prominent_peak=yes" nameTag="">
+					<switch hidePOILabels="false" minzoom="7" tag="natural" additional="osmand_prominent_peak=yes" nameTag="">
 						<case value="peak"/>
 						<case value="volcano" textHaloColor="#99ffd6c0"/>
 						<apply textSize="11" intersectionMargin="5" textOrder="38" textDy="0"/>
 					</switch>
-					<switch>
+					<switch hidePOILabels="false">
 						<case minzoom="$naturalPeakTextMinZoom" tag="natural" value="peak" textOrder="80"/>
 						<case minzoom="12" tag="natural" value="volcano" textOrder="79"/>
 						<apply>
@@ -4960,7 +4960,7 @@
 							</switch>
 						</apply>
 					</switch>
-					<case minzoom="$naturalHillTextMinZoom" tag="natural" value="hill" textOrder="70">
+					<case hidePOILabels="false" minzoom="$naturalHillTextMinZoom" tag="natural" value="hill" textOrder="70">
 						<case eleUnits="feet" nameTag="ele_feet"/>
 						<case eleUnits="feet" nameTag="" nameTag2="ele_feet"/>
 						<case eleUnits="meters" nameTag="ele" />
@@ -4992,9 +4992,9 @@
 						<apply_if maxzoom="10" moreDetailed="true" textOrder="6"/> <!-- Only if region:type is available at z10- -->
 					</switch>
 					<case minzoom="14" textSize="12" tag="waterway" value="drystream" nameTag="" textOnPath="true" textOrder="77" textDy="0"/>
-					<case minzoom="15" textSize="12" tag="natural" value="saddle" nameTag="" nameTag2="rtsa_scale"/>
+					<case hidePOILabels="false" minzoom="15" textSize="12" tag="natural" value="saddle" nameTag="" nameTag2="rtsa_scale"/>
 					<case minzoom="13" textSize="14" tag="natural" value="crater" nameTag="" textColor="#4e0d0d"/>
-					<case minzoom="16" textSize="11" tag="natural" value="fumarole" nameTag="" textColor="#4e0d0d"/>
+					<case hidePOILabels="false" minzoom="16" textSize="11" tag="natural" value="fumarole" nameTag="" textColor="#4e0d0d"/>
 					<case minzoom="14" textSize="14" tag="natural" value="crevasse" nameTag="" textColor="#4e0d0d">
 						<apply_if legend="true" textOnPath="true"/>
 					</case>
@@ -5003,7 +5003,7 @@
 						<case hidePOILabels="false" minzoom="16" textSize="14" tag="natural" value="sinkhole" nameTag="" textColor="#4e0d0d"/>
 						<apply_if baseAppMode="car" moreDetailed="false" maxzoom="17" disable="true"/>
 					</switch>
-					<case minzoom="16" textSize="11" tag="natural" value="arch" nameTag="" textOnPath="true"/>
+					<case hidePOILabels="false" minzoom="16" textSize="11" tag="natural" value="arch" nameTag="" textOnPath="true"/>
 					<apply_if nightMode="true" textColor="#ffcc9b" textHaloColor="#774d2803"/>
 					<apply_if legend="true" textDy="0"/>
 				</switch>
@@ -5082,16 +5082,16 @@
 					<case minzoom="17" tag="landuse" value="aquaculture" textOrder="239" nameTag=""/>
 					<apply_if engine_v1="false" textDy="0"/>
 				</switch>
-				<case minzoom="16" tag="lock" value="yes" nameTag="lock_name" textColor="#00ff0000" textSize="11"/>
-				<switch minzoom="17" textColor="#2579D0" textHaloRadius="$waterTextHaloRadiusDay" textHaloColor="$defaultColor" textSize="12" textItalic="true">
+				<case minzoom="16" hidePOILabels="false" tag="lock" value="yes" nameTag="lock_name" textColor="#00ff0000" textSize="11"/>
+				<switch minzoom="17" hidePOILabels="false" textColor="#2579D0" textHaloRadius="$waterTextHaloRadiusDay" textHaloColor="$defaultColor" textSize="12" textItalic="true">
 					<case tag="ford" value="yes" nameTag="osmand_ford_stub" textColor="#00ff0000" textHaloColor="#01000000" textSize="11" textShield="ford_shield" icon="ford" textMinDistance="1"/>
 					<case tag="ford" value="yes" textDy="7" nameTag="" nameTag2="depth" textOrder="208"/>
 					<case tag="ford" value="yes" textDy="7" nameTag="depth" textOrder="208"/>
 					<case tag="ford" value="stepping_stones" textDy="7" textOrder="208"/>
-					<case tag="highway" value="emergency_bay" nameTag="osmand_emergency_bay_stub" textColor="#00ff0000" textHaloColor="#01000000" textSize="11" textShield="blue_round_shield" icon="emergency_bay"/>
-					<case tag="highway" value="emergency_bay" nameTag="" textColor="#00ff0000" textHaloColor="#01000000" textSize="11"/>
 					<apply_if engine_v1="false" textDy="0"/>
 				</switch>
+				<case hideIcons="false" tag="highway" value="emergency_bay" nameTag="osmand_emergency_bay_stub" textColor="#00ff0000" textHaloColor="#01000000" textSize="11" textShield="blue_round_shield" icon="emergency_bay"/>
+				<case hidePOILabels="false" tag="highway" value="emergency_bay" nameTag="" textColor="#00ff0000" textHaloColor="#01000000" textSize="11"/>
 				<case minzoom="13" tag="natural" value="glacier" nameTag="" textColor="$glacierTextColor" textHaloRadius="$waterTextHaloRadiusDay" textHaloColor="$glacierTextHaloColor" textSize="12" textItalic="true" textWrapWidth="20" textOrder="81"/>
 				<!-- landuse -->
 				<switch nameTag="">
@@ -5208,9 +5208,9 @@
 						<case hidePOILabels="false" minzoom="18" tag="natural" value="tree" textSize="11" textDy="5" textOrder="252"/>
 						<case hidePOILabels="false" minzoom="19" tag="natural" value="shrub" textSize="11" textDy="5" textOrder="252"/>
 						<case hidePOILabels="false" minzoom="18" tag="natural" value="stone" textSize="11" textDy="4"/>
-						<case minzoom="19" tag="natural" value="birds_nest" textSize="10" textDy="5"/>
-						<case minzoom="19" tag="natural" value="termite_mound" textSize="10" textDy="5"/>
-						<case minzoom="19" tag="natural" value="anthill" textSize="10" textDy="5"/>
+						<case hidePOILabels="false" minzoom="19" tag="natural" value="birds_nest" textSize="10" textDy="5"/>
+						<case hidePOILabels="false" minzoom="19" tag="natural" value="termite_mound" textSize="10" textDy="5"/>
+						<case hidePOILabels="false" minzoom="19" tag="natural" value="anthill" textSize="10" textDy="5"/>
 						<case minzoom="17" tag="natural" value="rock" textSize="11" textDy="4"/>
 						<case minzoom="16" tag="natural" value="bare_rock" textSize="11" textDy="4"/>
 						<case minzoom="16" tag="natural" value="scree" textSize="11" textDy="4"/>
@@ -5335,13 +5335,13 @@
 					<case minzoom="16" tag="amenity" value="ferry_terminal" textOrder="105" />
 					<case minzoom="16" tag="highway" value="rest_area" nameTag="" textOrder="101" />
 					<case minzoom="18" tag="amenity" value="weighbridge"/>
+					<case minzoom="14" tag="mountain_pass" value="yes">
+						<case nameTag="" nameTag2="rtsa_scale"/>
+						<case eleUnits="" nameTag="ele"/>
+						<case eleUnits="feet" nameTag="ele_feet"/>
+						<case eleUnits="meters" nameTag="ele"/>
+					</case>
 				</switch>
-				<case minzoom="14" tag="mountain_pass" value="yes">
-					<case nameTag="" nameTag2="rtsa_scale"/>
-					<case eleUnits="" nameTag="ele"/>
-					<case eleUnits="feet" nameTag="ele_feet"/>
-					<case eleUnits="meters" nameTag="ele"/>
-				</case>
 				<apply_if nightMode="true" textColor="#b9d5ff" textHaloColor="#88355777"/>
 				<apply_if engine_v1="true" textDy="5"/>
 			</switch>
@@ -6064,7 +6064,7 @@
 						<case minzoom="19" tag="entrance" value="" nameTag="ref" nameTag2="addr:flats"/>
 						<case minzoom="19" tag="entrance" value="" nameTag="addr:flats"/>
 						<case minzoom="19" tag="entrance" value="" nameTag="" nameTag2="ref"/>
-						<case tag="highway" value="elevator" textOnPath="true"/>
+						<case hidePOILabels="false" tag="highway" value="elevator" textOnPath="true"/>
 						<case tag="man_made" value="goods_conveyor" textOnPath="true"/>
 						<apply textSize="12" textColor="#555555" textWrapWidth="15"/>
 						<apply textOrder="161"/>
@@ -6502,7 +6502,7 @@
 			<apply_if nightMode="true" textColor="#ffffff" textHaloColor="#77777777"/>
 		</switch>
 
-		<switch nameTag="" textColor="$tourismAttractionTextColor" textHaloRadius="$textHaloRadius" textHaloColor="$tourismAttractionTextHaloColorDay" textWrapWidth="16" textBold="true" intersectionMargin="25">
+		<switch hidePOILabels="false" nameTag="" textColor="$tourismAttractionTextColor" textHaloRadius="$textHaloRadius" textHaloColor="$tourismAttractionTextHaloColorDay" textWrapWidth="16" textBold="true" intersectionMargin="25">
 			<switch>
 				<case minzoom="16" tag="historic" value="city_gate" textSize="12" textOrder="85"/>
 				<case minzoom="15" tag="tourism" value="attraction" textSize="13" textOrder="150">
@@ -8393,7 +8393,7 @@
 			<case minzoom="16" tag="junction" value="yes" icon=""/>
 
 			<!-- Barriers -->
-			<switch>
+			<switch hideIcons="false">
 				<switch iconOrder="138">
 				<!-- Passable barriers -->
 					<switch>
@@ -8553,7 +8553,7 @@
 				<switch tag="entrance" value="service">
 					<case minzoom="19" icon="entrance_service" shield="barrier_entrance_main_shield"/>
 				</switch>
-				<switch tag="amenity" value="parking_entrance" >
+				<switch hideIcons="false" tag="amenity" value="parking_entrance" >
 					<case maxzoom="17" icon="barrier_small_black_3">
 						<apply_if nightMode="true" icon="barrier_small_white_3"/>
 					</case>
@@ -8570,18 +8570,18 @@
 				<apply_if baseAppMode="car" moreDetailed="false" maxzoom="17" icon=""/>
 			</switch>
 
-			<case minzoom="18" tag="highway" value="elevator" icon="elevator" shield="elevator_shield"/>
-			<case minzoom="$powerTowerIconMinZoom" tag="power" value="tower">
+			<case hideIcons="false" minzoom="18" tag="highway" value="elevator" icon="elevator" shield="elevator_shield"/>
+			<case hideIcons="false" minzoom="$powerTowerIconMinZoom" tag="power" value="tower">
 				<case maxzoom="14" icon="power_tower_small2" iconVisibleSize="3"/>
 				<case maxzoom="15" icon="power_tower_small" iconVisibleSize="3"/>
 				<case maxzoom="17" icon="power_tower_square" iconVisibleSize="7"/>
 				<case minzoom="18" icon="power_tower" shield="power_tower_big_shield"/>
 			</case>
-			<case minzoom="17" tag="power" value="portal" icon="power_portal" shield="power_portal_shield"/>
+			<case hideIcons="false" minzoom="17" tag="power" value="portal" icon="power_portal" shield="power_portal_shield"/>
 			<case minzoom="15" tag="aerialway" value="pylon" icon="aerialway_pylon_small" iconVisibleSize="4">
 				<apply_if moreDetailed="false" maxzoom="15" icon=""/>
 			</case>
-			<switch>
+			<switch hideIcons="false">
 				<case minzoom="16" tag="power" value="pole"/>
 				<case moreDetailed="true" minzoom="17" tag="man_made" value="utility_pole"/>
 				<apply icon="barrier_small_black_4"/>
@@ -8608,7 +8608,7 @@
 				<apply_if maxzoom="16" icon=""/>
 			</switch>
 
-			<switch minzoom="17">
+			<switch minzoom="17" hideIcons="false">
 				<case tag="osmand_hazard_map" value="yes"/>
 				<case tag="hazard_map" value="yes"/>
 				<case minzoom="18" tag="hazard" value=""/> <!-- All unsupported values -->
@@ -8800,10 +8800,10 @@
 					</case>-->
 				</case>
 				<!-- <apply iconOrder="19"/>-->
+				<case minzoom="16" tag="railway" value="yard" icon="railway_yard" shield="blue_round_shield" iconVisibleSize="14">
+					<apply_if nightMode="true" shield="blue_round_night_shield"/>
+				</case>
 			</switch>
-			<case minzoom="16" tag="railway" value="yard" icon="railway_yard" shield="blue_round_shield" iconVisibleSize="14">
-				<apply_if nightMode="true" shield="blue_round_night_shield"/>
-			</case>
 
 			<apply_if legend="true" iconVisibleSize="0"/>
 		</switch>

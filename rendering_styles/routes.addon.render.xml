@@ -936,7 +936,7 @@
 			<apply shield="green_round_shield"/>
 	    		<apply_if nightMode="true" shield="green_round_night_shield"/>
 		</switch>
-		<switch minzoom="16" tag="waterway" value="rapids">
+		<switch hideIcons="false" minzoom="16" tag="waterway" value="rapids">
 			<case whiteWaterSports="true" icon="waterway_rapids" shield="rapids_shield" iconOrder="10">
 				<apply_if additional="rapids=0" icon="rapid_white" shield="whitewater_rapid_grade0_shield"/>
 				<apply_if additional="rapids=1" icon="rapid_white" shield="whitewater_rapid_grade1_shield"/>
