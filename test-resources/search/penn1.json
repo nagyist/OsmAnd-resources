@@ -11,12 +11,24 @@
     "lang": "",
     "lat": "40.790356"
   },
+  "files": [
+    "penn3.obf.gz",
+    "penn1.obf.gz",
+    "penn2.obf.gz",    
+    "spring_street.obf.gz",
+    "31st_road.obf.gz"
+  ],
   "phrases": [
     "3119 Pleasant Valley Boulevard #1 Altoona",
     "301 West Main Street Valley View",
     "108 North Mountain Boulevard Mountain Top",
     "8508 PA 61 Coal Township",
-    "101 South Main Street Ashley"],
+    "101 South Main Street Ashley",
+    "spring street",
+    "14-45, 31st Road",
+    "Pine City",
+    "31st Street, Brooklyn"
+  ],
   "results": [
     [
       "3119, Pleasant Valley Boulevard (Pleasant Valley), Altoona [[5, HOUSE, 4.807, 160.84 km]]",
@@ -93,6 +105,65 @@
       "North Main Street (Carey's Patch), Ashley [[3, STREET, 3.700, 71.24 km]]",
       "North Main Street (Carey's Patch), Ashley Street (Carey's Patch), Ashley [[3, STREET_INTERSECTION, 2.030, 71.39 km]]",
      
+    ],
+    [
+      "Spring (Natural) [[1, POI_TYPE, 1.000, 0.00 km]] [-]",
+      "Spring Street, Waverly [[2, STREET, 80.000, 135.82 km]] [penn2.obf]",
+      "Spring Street, Southfields [[2, STREET, 80.000, 204.47 km]] [spring_street.obf]",
+      "Spring Street, Haverstraw [[2, STREET, 80.000, 219.91 km]] [spring_street.obf]",
+      "Spring Street, Stony Point [[2, STREET, 80.000, 220.10 km]] [spring_street.obf]",
+      "Spring Street, Tomkins Cove [[2, STREET, 80.000, 220.52 km]] [spring_street.obf]",
+      "Spring Street, South Nyack [[2, STREET, 80.000, 221.93 km]] [spring_street.obf]",
+      "Spring Street (Hastings-on-Hudson), Town of Greenburgh [[2, STREET, 80.000, 224.28 km]] [spring_street.obf]",
+      "Spring Street, Hastings-on-Hudson [[2, STREET, 80.000, 224.28 km]] [spring_street.obf]",
+      "Spring Street, Ossining [[2, STREET, 80.000, 228.19 km]] [spring_street.obf]",
+      "Spring Street (Quigley Park), Long View [[2, STREET, 80.000, 280.91 km]] [penn1.obf]",
+      "Spring Street, Elmira [[2, STREET, 80.000, 450.84 km]] [penn2.obf]",
+      "Pine Heights Street, Roaring Spring [[2, STREET, 30.200, 165.27 km]] [penn2.obf]",
+      "Pine Street, Roaring Spring [[2, STREET, 30.200, 165.84 km]] [penn2.obf]",
+      "Spring Garden Street, Garden View [[2, STREET, 30.000, 67.40 km]] [penn1.obf]",
+      "Spring View Street, Carlisle [[2, STREET, 30.000, 87.31 km]] [penn1.obf]",
+      "West Spring Street, Pine Hill [[2, STREET, 30.000, 172.21 km]] [penn2.obf]",
+      "East Spring Street, Pine Hill [[2, STREET, 30.000, 172.31 km]] [penn2.obf]",
+      "Allison Street, Spring Valley [[2, STREET, 30.200, 212.76 km]] [spring_street.obf]",
+      "Ann Street, Spring Valley [[2, STREET, 30.200, 212.53 km]] [spring_street.obf]"     
+    ],
+    [
+      "14-45, 31st Road, New York [[3, HOUSE, 90.800, 219.46 km]] [31st_road.obf]",
+      "31st Road, New York [[2, STREET, 3.000, 219.36 km]] [31st_road.obf]",
+      "21st Street & 31st Road [[2, POI, 1.000, 219.53 km]] [31st_road.obf]",
+      "31st Road & 138th Street [[2, POI, 1.000, 227.88 km]] [31st_road.obf]",
+      "31st Street (Westmont), Altoona [[1, STREET, 3.000, 162.12 km]] [penn1.obf]",
+      "14, West 31st Street (Manhattan), New York [[1, HOUSE, 4.300, 214.77 km]] [31st_road.obf]",
+      "14, East 31st Street, Brooklyn [[1, HOUSE, 4.300, 218.68 km]] [31st_road.obf]",
+      "14, 31st Street, Wyandanch [[1, HOUSE, 4.300, 266.62 km]] [31st_road.obf]",
+      "31st Street, Brooklyn [[1, STREET, 3.000, 214.05 km]] [31st_road.obf]",
+      "West 31st Street (Manhattan), New York [[1, STREET, 3.000, 214.18 km]] [31st_road.obf]",
+      "West 31st Street (Koreatown), Manhattan [[1, STREET, 3.000, 214.60 km]] [31st_road.obf]",
+      "East 31st St Penthouse (Manhattan), New York [[1, STREET, 3.000, 215.07 km]] [31st_road.obf]",
+      "East 31st Street (Manhattan), New York [[1, STREET, 3.000, 215.27 km]] [31st_road.obf]"
+    ],
+    [
+      "Pine City, Elmira [[2, VILLAGE, 70.000, 141.38 km]] [penn3.obf]",
+      "Pine City, Meadville [[2, VILLAGE, 70.000, 255.70 km]] [penn2.obf]",
+      "Atlantic City Expressway, Pine Hill [[2, STREET, 30.200, 175.07 km]] [penn2.obf]",
+      "Atlantic City Boulevard, Pine Beach [[2, STREET, 30.200, 221.76 km]] [penn2.obf]",
+      "Oil City Road, Pine Island [[2, STREET, 30.200, 178.01 km]] [penn2.obf]",
+      "Pine City Road, Venus [[2, STREET, 30.000, 253.54 km]] [penn2.obf]",
+      "Pine City Road, Venango [[2, STREET, 30.000, 254.22 km]] [penn2.obf]",
+      "Pine City Road, Clarion [[2, STREET, 30.000, 254.99 km]] [penn2.obf]",
+      "Pine City Road, Billing [[2, STREET, 30.000, 255.50 km]] [penn2.obf]",
+      "Pine City Road, Pine City [[2, STREET, 30.000, 255.67 km]] [penn2.obf]",
+      "Pine City Bridge [[2, POI, 10.000, 141.15 km]] [penn2.obf]"
+    ],
+    [
+      "31st Street, Brooklyn [[3, STREET, 80.700, 214.05 km]] [31st_road.obf]",
+      "Bay 31st Street, Brooklyn [[3, STREET, 30.700, 215.37 km]] [31st_road.obf]",
+      "East 31st Street, Brooklyn [[3, STREET, 30.700, 219.42 km]] [31st_road.obf]",
+      "West 31st Street, Brooklyn [[3, STREET, 30.700, 215.45 km]] [31st_road.obf]",
+      "Blenheim-Erial-New Brooklyn Road, Pine Hill [[1, STREET, 3.000, 170.28 km]] [penn2.obf]",
+      "Clementon New Brooklyn Road, Pine Hill [[1, STREET, 3.000, 173.09 km]] [penn2.obf]",
+      "Brooklyn, 31stRoad.obf [[1, CITY, 2.000, 218.59 km]] [31st_road.obf]"
     ]
   ]
 }
