@@ -523,14 +523,21 @@ message OsmAndPoiIndex {
 
 }
 
+message OsmAndBloomFilterAlgorithm {
+	required uint32 version = 1; // version or algoritym
+	optional bytes data = 4; // data could be used in future as dictionary or smth
+}
+
 message OsmAndPoiNameIndex {
+	repeated OsmAndBloomFilterAlgorithm filters = 2;
+	
 	// shift to OsmAndPoiNameIndexData starting from OsmAndPoiIndex message
 	// encoded as fixed32 length delimited
 	required IndexedStringTable table = 3;
 
 	repeated OsmAndPoiNameIndexData data = 5;
-    message OsmAndPoiNameIndexData {
-      	// can contain multiple data offsets
+	message OsmAndPoiNameIndexData {
+		// can contain multiple data offsets
 		repeated OsmAndPoiNameIndexDataAtom atoms = 3;
 	}
 }
@@ -541,7 +548,7 @@ message OsmAndPoiNameIndexDataAtom {
 	optional uint32 x = 3;
 	optional uint32 y = 4;
     
-    repeated bytes indexBloom = 5; // 1st byte is version or algorithm, multiple filters could be applied
+	repeated bytes bloomIndex = 5; // 1st byte is version or algorithm, multiple filters could be applied
     
 	// shift to OsmAndPoiBoxData message from OsmAndPoiIndex.start
 	// message is started when body is started
