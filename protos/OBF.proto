@@ -529,6 +529,7 @@ message OsmAndBloomFilterAlgorithm {
 }
 
 message OsmAndPoiNameIndex {
+    // indexes and order of filter algorithms are strictly corresponding bloomIndex = 5 inside Atom
 	repeated OsmAndBloomFilterAlgorithm filters = 2;
 	
 	// shift to OsmAndPoiNameIndexData starting from OsmAndPoiIndex message
