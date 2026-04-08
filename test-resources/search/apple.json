@@ -20,16 +20,16 @@
       "Apple bank [[1, POI_TYPE, 1.000, 0.00 km]]",
       "Apple, Riggles Gap [[1, STREET, 80.000, 371.84 km]]",
       "Apple, Mountain Dale [[1, STREET, 80.000, 486.02 km]]",
-      "New York [[1, POI, 62.067, 2.82 km]]",
+      "New York [[1, POI, 61.067, 2.82 km]]",
       "Home Run Apple [[1, POI, 57.920, 11.84 km]]",
-      "Apple Fifth Avenue [[1, POI, 57.747, 6.07 km]]",
-      "Big Apple, apple.obf [[1, CITY, 56.000, 2.82 km]]",
+      "Apple Fifth Avenue [[1, POI, 56.747, 6.07 km]]",
       "Apple Store [[1, POI, 55.000, 1.31 km]]",
       "Big Apple Food Market [[1, POI, 55.000, 1.33 km]]",
       "Apple Bank [[1, POI, 55.000, 1.84 km]]",
-      "All in One Deli Mart [[1, POI, 55.000, 2.06 km]]",
-      "Toy Apple Beauty & Barber Shop [[1, POI, 55.000, 2.20 km]]",
-      "Apple Art Supplies [[1, POI, 55.000, 2.24 km]]"
+      "All in One Deli Mart [[1, POI, 54.000, 2.06 km]]",
+      "Toy Apple Beauty & Barber Shop [[1, POI, 54.000, 2.20 km]]",
+      "Apple Art Supplies [[1, POI, 54.000, 2.24 km]]",
+      "Big Apple Gourmet [[1, POI, 54.000, 2.33 km]]"
     ],
     [
       "Apple store [[2, POI_TYPE, 1.000, 0.00 km]]",
@@ -47,8 +47,7 @@
       "Apple Store [[2, POI, 60.000, 26.74 km]]"
     ],
     [
-      "Big Apple, apple.obf [[3, CITY, 1.000, 2.82 km]]",
-      "New York [[2, POI, 8.067, 2.82 km]]",
+      "New York, apple.obf [[3, CITY, 1.000, 2.82 km]]",
       "Big Apple Food Market [[2, POI, 1.000, 1.33 km]]",
       "Big Apple Gourmet [[2, POI, 1.000, 2.33 km]]",
       "Big Apple Barbers [[2, POI, 1.000, 2.50 km]]",
