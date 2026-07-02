@@ -482,7 +482,7 @@
 			<region name="guadeloupe" lang="fr"/>
 			<region name="guatemala" translate="name:en=Guatemala;admin_level=2;entity=relation" lang="es"/>
 			<region name="haiti" lang="fr" translate="name:en=Haiti;entity=relation"/>
-			<region name="honduras" lang="es,en" translate="name:en=Belize;entity=relation"/>
+			<region name="honduras" lang="es,en" translate="name:en=Honduras;entity=relation"/>
 			<region name="jamaica" lang="en" left_hand_navigation="yes" translate="name:en=Jamaica;entity=relation"/>
 			<region name="martinique" lang="fr"/>
 			<region name="montserrat" lang="en" translate="name:en=Montserrat;entity=relation"/>
