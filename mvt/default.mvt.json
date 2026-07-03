@@ -2677,11 +2677,125 @@
       }
     },
     {
-      "id": "shops",
+      "id": "poi-accomodation-wild",
       "type": "symbol",
       "source": "osm",
       "source-layer": "osmand",
-      "minzoom": 16,
+      "minzoom": 13,
+      "filter": [
+        "any",
+        ["==", ["get", "tourism"], "camp_site"],
+        ["==", ["get", "tourism"], "caravan_site"],
+        ["==", ["get", "tourism"], "chalet"],
+        ["==", ["get", "tourism"], "alpine_hut"],
+        ["==", ["get", "tourism"], "cabin"],
+        ["==", ["get", "tourism"], "wilderness_hut"],
+        ["==", ["get", "amenity"], "shelter"],
+        ["==", ["get", "amenity"], "refugee_site"]
+      ],
+      "layout": {
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "case",
+          ["==", ["get", "tourism"], "camp_site"],
+          "tourism_camp_site",
+          ["==", ["get", "tourism"], "caravan_site"],
+          "tourism_caravan_site",
+          ["==", ["get", "tourism"], "chalet"],
+          "tourism_chalet",
+          ["==", ["get", "tourism"], "alpine_hut"],
+          "tourism_alpine_hut",
+          ["==", ["get", "tourism"], "cabin"],
+          "cabin",
+          ["==", ["get", "tourism"], "wilderness_hut"],
+          "wilderness_hut",
+          ["==", ["get", "amenity"], "shelter"],
+          "amenity_shelter",
+          ["==", ["get", "amenity"], "refugee_site"],
+          "refugee_site",
+          "poi"
+        ]
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "poi-accomodation",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 15,
+      "filter": [
+        "any",
+        ["==", ["get", "tourism"], "apartment"],
+        ["==", ["get", "tourism"], "guest_house"],
+        ["==", ["get", "tourism"], "hostel"],
+        ["==", ["get", "tourism"], "hotel"],
+        ["==", ["get", "tourism"], "motel"],
+        [
+          "all",
+          ["==", ["get", "leisure"], "resort"],
+          ["==", ["get", "resort"], "kids_camp"]
+        ]
+      ],
+      "layout": {
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "case",
+          ["==", ["get", "tourism"], "apartment"],
+          "tourism_apartment",
+          ["==", ["get", "tourism"], "guest_house"],
+          "tourism_guest_house",
+          ["==", ["get", "tourism"], "hostel"],
+          "tourism_hostel",
+          ["==", ["get", "tourism"], "hotel"],
+          "tourism_hotel",
+          ["==", ["get", "tourism"], "motel"],
+          "tourism_motel",
+          [
+            "all",
+            ["==", ["get", "leisure"], "resort"],
+            ["==", ["get", "resort"], "kids_camp"]
+          ],
+          "summer_camp",
+          "poi"
+        ]
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "poi-shops",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 15,
       "filter": ["all", ["has", "shop"], ["!=", ["get", "shop"], ""]],
       "layout": {
         "icon-image": [
@@ -3015,7 +3129,8 @@
         "text-offset": [0, 1.2],
         "text-optional": true,
         "text-max-width": 8,
-        "visibility": "visible"
+        "visibility": "visible",
+        "icon-padding": [10, 10, 10, 10]
       },
       "paint": {
         "text-color": "rgba(113, 26, 164, 1)",
@@ -4827,7 +4942,7 @@
       "maxzoom": 2,
       "filter": ["all", ["==", "place", "continent"]],
       "layout": {
-        "text-field": "{name}",
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"], ""],
         "text-font": ["Noto Sans Bold"],
         "text-size": 12,
         "text-max-width": 10,
@@ -4848,7 +4963,7 @@
       "maxzoom": 7,
       "filter": ["all", ["==", "place", "country"]],
       "layout": {
-        "text-field": "{name}",
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"], ""],
         "text-font": ["Noto Sans Bold"],
         "text-size": ["interpolate", ["linear"], ["zoom"], 2, 10, 4, 13, 7, 14],
         "text-max-width": 10,
