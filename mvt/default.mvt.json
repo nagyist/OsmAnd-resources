@@ -38,6 +38,14 @@
       "paint": {"fill-color": "#f0e8d8"}
     },
     {
+      "id": "area-allotments",
+      "type": "fill",
+      "source": "osm",
+      "source-layer": "osmand",
+      "filter": ["all", ["==", "landuse", "allotments"]],
+      "paint": {"fill-color": "#DCE2AA"}
+    },
+    {
       "id": "area-farmland",
       "type": "fill",
       "source": "osm",
@@ -1075,7 +1083,7 @@
       "type": "line",
       "source": "osm",
       "source-layer": "osmand",
-      "minzoom": 16,
+      "minzoom": 15,
       "filter": [
         "all",
         ["==", "highway", "service"],
@@ -1395,7 +1403,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "line-color": "#886",
-        "line-width": 1.5,
+        "line-width": ["interpolate", ["linear"], ["zoom"], 13, 1, 18, 2],
         "line-dasharray": [2, 2]
       }
     },
@@ -1416,7 +1424,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "line-color": "rgba(121, 121, 118, 1)",
-        "line-width": 1.5,
+        "line-width": ["interpolate", ["linear"], ["zoom"], 12, 1, 18, 2],
         "line-dasharray": [2, 2]
       }
     },
@@ -2512,12 +2520,13 @@
       "layout": {
         "icon-image": "arrow_blue_big",
         "symbol-placement": "line",
-        "symbol-spacing": 250,
         "icon-rotation-alignment": "map",
         "icon-rotate": 90,
-        "icon-allow-overlap": true,
-        "icon-ignore-placement": true,
-        "icon-size": 0.8
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "icon-size": 0.8,
+        "icon-optional": true,
+        "icon-padding": [5, 5, 5, 5]
       }
     },
     {
@@ -2725,7 +2734,8 @@
           "ice_cream",
           "ice_cream",
           "poi"
-        ]
+        ],
+        "icon-padding": [10, 10, 10, 10]
       },
       "paint": {
         "text-color": "rgba(118, 86, 20, 1)",
@@ -2829,6 +2839,141 @@
       },
       "paint": {
         "text-color": "rgba(47, 71, 95, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "poi-finance",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 16,
+      "filter": [
+        "any",
+        ["==", ["get", "amenity"], "atm"],
+        ["==", ["get", "amenity"], "payment_terminal"],
+        ["==", ["get", "amenity"], "payment_centre"],
+        ["==", ["get", "amenity"], "money_transfer"],
+        ["==", ["get", "shop"], "money_lender"],
+        ["==", ["get", "amenity"], "bank"],
+        ["==", ["get", "amenity"], "bureau_de_change"],
+        ["==", ["get", "amenity"], "mobile_money_agent"],
+        ["==", ["get", "amenity"], "ticket_validator"]
+      ],
+      "layout": {
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"], ""],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "case",
+          ["==", ["get", "amenity"], "atm"],
+          "amenity_atm",
+          ["==", ["get", "amenity"], "payment_terminal"],
+          "payment_terminal",
+          ["==", ["get", "amenity"], "payment_centre"],
+          "payment_centre",
+          ["==", ["get", "amenity"], "money_transfer"],
+          "money_transfer",
+          ["==", ["get", "shop"], "money_lender"],
+          "shop_money_lender",
+          ["==", ["get", "amenity"], "bank"],
+          "amenity_bank",
+          ["==", ["get", "amenity"], "bureau_de_change"],
+          "amenity_bureau_de_change",
+          ["==", ["get", "amenity"], "mobile_money_agent"],
+          "mobile_money_agent",
+          ["==", ["get", "amenity"], "ticket_validator"],
+          "ticket_validator",
+          "poi"
+        ],
+        "icon-padding": [10, 10, 10, 10]
+      },
+      "paint": {
+        "text-color": "rgba(88, 88, 88, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "poi-education",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 15,
+      "filter": [
+        "any",
+        ["==", ["get", "amenity"], "kindergarten"],
+        ["==", ["get", "amenity"], "school"],
+        ["==", ["get", "amenity"], "prep_school"],
+        ["==", ["get", "amenity"], "music_school"],
+        ["==", ["get", "amenity"], "language_school"],
+        ["==", ["get", "amenity"], "driving_school"],
+        ["==", ["get", "amenity"], "driver_training"],
+        ["==", ["get", "amenity"], "training"],
+        ["==", ["get", "amenity"], "college"],
+        ["==", ["get", "amenity"], "university"],
+        ["==", ["get", "amenity"], "library"],
+        ["==", ["get", "amenity"], "childcare"]
+      ],
+      "layout": {
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"], ""],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "case",
+          [
+            "all",
+            ["==", ["get", "amenity"], "training"],
+            ["==", ["get", "training"], "yoga"]
+          ],
+          "training_yoga",
+          ["==", ["get", "amenity"], "kindergarten"],
+          "kindergarten",
+          ["==", ["get", "amenity"], "school"],
+          "amenity_school",
+          ["==", ["get", "amenity"], "prep_school"],
+          "prep_school",
+          ["==", ["get", "amenity"], "music_school"],
+          "music_school",
+          ["==", ["get", "amenity"], "language_school"],
+          "language_school",
+          ["==", ["get", "amenity"], "driving_school"],
+          "driving_school",
+          ["==", ["get", "amenity"], "driver_training"],
+          "driver_training",
+          ["==", ["get", "amenity"], "training"],
+          "training",
+          ["==", ["get", "amenity"], "college"],
+          "amenity_college",
+          ["==", ["get", "amenity"], "university"],
+          "amenity_university",
+          ["==", ["get", "amenity"], "library"],
+          "amenity_library",
+          ["==", ["get", "amenity"], "childcare"],
+          "childcare",
+          "poi"
+        ],
+        "icon-padding": [10, 10, 10, 10]
+      },
+      "paint": {
+        "text-color": "rgba(56, 56, 56, 1)",
         "text-halo-color": "rgba(239, 239, 239, 1)",
         "text-halo-width": 1.5
       }
@@ -2969,6 +3114,87 @@
       },
       "paint": {
         "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "poi-public",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 15,
+      "filter": [
+        "any",
+        ["==", ["get", "office"], "diplomatic"],
+        ["==", ["get", "amenity"], "townhall"],
+        ["==", ["get", "amenity"], "courthouse"],
+        ["==", ["get", "office"], "government"],
+        ["==", ["get", "amenity"], "public_building"],
+        ["==", ["get", "amenity"], "community_centre"],
+        ["==", ["get", "amenity"], "social_centre"],
+        ["==", ["get", "amenity"], "conference_centre"],
+        ["==", ["get", "amenity"], "research_institute"],
+        ["==", ["get", "amenity"], "ranger_station"],
+        ["==", ["get", "amenity"], "waste_transfer_station"],
+        ["==", ["get", "amenity"], "mobile_library"],
+        ["==", ["get", "amenity"], "toy_library"],
+        ["==", ["get", "amenity"], "lavoir"],
+        ["==", ["get", "man_made"], "dovecote"],
+        ["==", ["get", "amenity"], "photo_booth"]
+      ],
+      "layout": {
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"], ""],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "case",
+          ["==", ["get", "office"], "diplomatic"],
+          "amenity_embassy",
+          ["==", ["get", "amenity"], "townhall"],
+          "amenity_townhall",
+          ["==", ["get", "amenity"], "courthouse"],
+          "amenity_courthouse",
+          ["==", ["get", "office"], "government"],
+          "office_government",
+          ["==", ["get", "amenity"], "public_building"],
+          "amenity_public_building",
+          ["==", ["get", "amenity"], "community_centre"],
+          "amenity_public_building",
+          ["==", ["get", "amenity"], "social_centre"],
+          "amenity_public_building",
+          ["==", ["get", "amenity"], "conference_centre"],
+          "conference_centre",
+          ["==", ["get", "amenity"], "research_institute"],
+          "research_institute",
+          ["==", ["get", "amenity"], "ranger_station"],
+          "ranger_station",
+          ["==", ["get", "amenity"], "waste_transfer_station"],
+          "waste_transfer_station",
+          ["==", ["get", "amenity"], "mobile_library"],
+          "mobile_library",
+          ["==", ["get", "amenity"], "toy_library"],
+          "toy_library",
+          ["==", ["get", "amenity"], "lavoir"],
+          "lavoir",
+          ["==", ["get", "man_made"], "dovecote"],
+          "dovecote",
+          ["==", ["get", "amenity"], "photo_booth"],
+          "photo_booth",
+          "poi"
+        ],
+        "icon-padding": [10, 10, 10, 10]
+      },
+      "paint": {
+        "text-color": "rgba(65, 65, 65, 1)",
         "text-halo-color": "rgba(239, 239, 239, 1)",
         "text-halo-width": 1.5
       }
@@ -4156,6 +4382,12 @@
             ["==", ["typeof", ["get", "landuse"]], "string"],
             ["==", ["get", "landuse"], "retail"],
             false
+          ],
+          [
+            "case",
+            ["==", ["typeof", ["get", "landuse"]], "string"],
+            ["==", ["get", "landuse"], "allotments"],
+            false
           ]
         ]
       ],
@@ -4170,7 +4402,7 @@
       },
       "paint": {
         "text-color": "#555",
-        "text-halo-color": "#fff",
+        "text-halo-color": "rgba(255, 255, 255, 0.6)",
         "text-halo-width": 1.5
       }
     },
@@ -4443,7 +4675,7 @@
         "text-anchor": "top",
         "text-padding": 20,
         "text-keep-upright": false,
-        "text-offset": [0, 0.5],
+        "text-offset": [0, 0.9],
         "icon-padding": [0, 0, 0, 0],
         "icon-size": 0.6
       },
