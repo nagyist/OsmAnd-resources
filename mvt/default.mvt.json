@@ -901,7 +901,7 @@
       "type": "line",
       "source": "osm",
       "source-layer": "osmand",
-      "minzoom": 12,
+      "minzoom": 14,
       "filter": [
         "all",
         ["in", "highway", "service"],
@@ -923,7 +923,7 @@
       "type": "line",
       "source": "osm",
       "source-layer": "osmand",
-      "minzoom": 12,
+      "minzoom": 14,
       "filter": [
         "all",
         ["in", "highway", "service"],
@@ -1048,7 +1048,7 @@
         ["!has", "bridge"]
       ],
       "layout": {"visibility": "visible"},
-      "paint": {"line-color": "#999999", "line-width": 1.5}
+      "paint": {"line-color": "rgba(89, 89, 89, 1)", "line-width": 1.5}
     },
     {
       "id": "highway-residential-casing",
@@ -1097,7 +1097,7 @@
       "type": "line",
       "source": "osm",
       "source-layer": "osmand",
-      "minzoom": 15,
+      "minzoom": 14,
       "filter": [
         "all",
         ["==", "highway", "service"],
@@ -1112,7 +1112,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "line-color": "rgba(124, 124, 124, 1)",
-        "line-width": ["interpolate", ["linear"], ["zoom"], 14, 3, 18, 11],
+        "line-width": ["interpolate", ["linear"], ["zoom"], 14, 2, 18, 11],
         "line-opacity": 0.9
       }
     },
@@ -1550,7 +1550,7 @@
       "type": "line",
       "source": "osm",
       "source-layer": "osmand",
-      "minzoom": 15,
+      "minzoom": 14,
       "filter": [
         "all",
         ["==", "highway", "service"],
@@ -1565,7 +1565,7 @@
       "layout": {"line-cap": "round", "line-join": "miter"},
       "paint": {
         "line-color": "#ffffff",
-        "line-width": ["interpolate", ["linear"], ["zoom"], 12, 2.5, 18, 7.5]
+        "line-width": ["interpolate", ["linear"], ["zoom"], 14, 2, 18, 7.5]
       }
     },
     {
@@ -1800,7 +1800,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "line-color": "rgba(248, 248, 248, 1)",
-        "line-width": ["interpolate", ["linear"], ["zoom"], 11, 4, 18, 8]
+        "line-width": ["interpolate", ["linear"], ["zoom"], 11, 3, 18, 8]
       }
     },
     {
@@ -1834,7 +1834,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "line-color": "rgba(155, 155, 155, 1)",
-        "line-width": ["interpolate", ["linear"], ["zoom"], 11, 4, 18, 8],
+        "line-width": ["interpolate", ["linear"], ["zoom"], 11, 3, 18, 8],
         "line-dasharray": [1, 1]
       }
     },
@@ -1963,7 +1963,7 @@
       "type": "line",
       "source": "osm",
       "source-layer": "osmand",
-      "minzoom": 15,
+      "minzoom": 14,
       "filter": [
         "all",
         ["in", "highway", "service"],
@@ -1982,7 +1982,7 @@
       "type": "line",
       "source": "osm",
       "source-layer": "osmand",
-      "minzoom": 15,
+      "minzoom": 14,
       "filter": [
         "all",
         ["in", "highway", "service"],
@@ -2677,6 +2677,191 @@
       }
     },
     {
+      "id": "poi-food-drink",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 16,
+      "filter": [
+        "any",
+        ["==", ["get", "amenity"], "restaurant"],
+        ["==", ["get", "amenity"], "cafe"],
+        ["==", ["get", "amenity"], "fast_food"],
+        ["==", ["get", "amenity"], "food_court"],
+        ["==", ["get", "amenity"], "pub"],
+        ["==", ["get", "amenity"], "bar"],
+        ["==", ["get", "amenity"], "biergarten"],
+        ["==", ["get", "amenity"], "ice_cream"]
+      ],
+      "layout": {
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"], ""],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "match",
+          ["get", "amenity"],
+          "restaurant",
+          "amenity_restaurant",
+          "cafe",
+          "amenity_cafe",
+          "fast_food",
+          "amenity_fast_food",
+          "food_court",
+          "amenity_food_court",
+          "pub",
+          "amenity_pub",
+          "bar",
+          "amenity_bar",
+          "biergarten",
+          "amenity_biergarten",
+          "ice_cream",
+          "ice_cream",
+          "poi"
+        ]
+      },
+      "paint": {
+        "text-color": "rgba(118, 86, 20, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "poi-craft",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 17,
+      "filter": ["all", ["has", "craft"], ["!=", ["get", "craft"], ""]],
+      "layout": {
+        "icon-image": [
+          "match",
+          ["get", "craft"],
+          "agricultural_engines",
+          "craft_agricultural_engines",
+          "beekeeper",
+          "craft_beekeeper",
+          "blacksmith",
+          "craft_blacksmith",
+          "boatbuilder",
+          "craft_boatbuilder",
+          "brewery",
+          "craft_brewery",
+          "builder",
+          "craft_builder",
+          "carpenter",
+          "craft_carpenter",
+          "caterer",
+          "craft_caterer",
+          "clockmaker",
+          "craft_clockmaker",
+          "confectionery",
+          "shop_confectionery",
+          "electrician",
+          "craft_electrician",
+          "electronics_repair",
+          "craft_electronics_repair",
+          "handicraft",
+          "craft_handicraft",
+          "hvac",
+          "craft_hvac",
+          "insulation",
+          "craft_insulation",
+          "gardener",
+          "craft_gardener",
+          "jeweller",
+          "craft_jeweller",
+          "joiner",
+          "craft_carpenter",
+          "key_cutter",
+          "craft_key_cutter",
+          "locksmith",
+          "craft_locksmith",
+          "metal_construction",
+          "craft_metal_construction",
+          "painter",
+          "craft_painter",
+          "photographer",
+          "craft_photographer",
+          "photographic_laboratory",
+          "craft_photographic_laboratory",
+          "plasterer",
+          "craft_plasterer",
+          "plumber",
+          "craft_plumber",
+          "pottery",
+          "craft_pottery",
+          "roofer",
+          "craft_roofer",
+          "sawmill",
+          "craft_sawmill",
+          "shoemaker",
+          "craft_shoemaker",
+          "stonemason",
+          "craft_stonemason",
+          "tailor",
+          "craft_tailor",
+          "window_construction",
+          "craft_window_construction",
+          "winery",
+          "craft_winery",
+          "shop_craft"
+        ],
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"], ""],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-padding": [10, 10, 10, 10]
+      },
+      "paint": {
+        "text-color": "rgba(47, 71, 95, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "poi-accomodation-shelter",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 15,
+      "filter": ["all", ["==", "amenity", "shelter"]],
+      "layout": {
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": "amenity_shelter",
+        "icon-padding": [10, 10, 10, 10]
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
       "id": "poi-accomodation-wild",
       "type": "symbol",
       "source": "osm",
@@ -2690,7 +2875,6 @@
         ["==", ["get", "tourism"], "alpine_hut"],
         ["==", ["get", "tourism"], "cabin"],
         ["==", ["get", "tourism"], "wilderness_hut"],
-        ["==", ["get", "amenity"], "shelter"],
         ["==", ["get", "amenity"], "refugee_site"]
       ],
       "layout": {
@@ -2719,8 +2903,6 @@
           "cabin",
           ["==", ["get", "tourism"], "wilderness_hut"],
           "wilderness_hut",
-          ["==", ["get", "amenity"], "shelter"],
-          "amenity_shelter",
           ["==", ["get", "amenity"], "refugee_site"],
           "refugee_site",
           "poi"
@@ -2782,7 +2964,8 @@
           ],
           "summer_camp",
           "poi"
-        ]
+        ],
+        "icon-padding": [10, 10, 10, 10]
       },
       "paint": {
         "text-color": "rgba(74, 138, 255, 1)",
@@ -5164,7 +5347,6 @@
       "filter": ["all", ["==", ["get", "amenity"], "monastery"]],
       "layout": {
         "icon-image": "amenity_monastery",
-        "icon-size": 1,
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "text-field": "{name}",
@@ -5172,7 +5354,8 @@
         "text-size": 10,
         "text-anchor": "top",
         "text-offset": [0, 1.3],
-        "text-max-width": 8
+        "text-max-width": 8,
+        "icon-size": 0.6
       },
       "paint": {
         "text-color": "#222",
