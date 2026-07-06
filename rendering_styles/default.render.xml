@@ -7685,9 +7685,6 @@
 						<apply_if minzoom="17" additional="drinking_water=yes" icon_2="drinking_water_yes_map"/>
 						<apply_if nightMode="true" icon="amenity_fountain" shield=""/>
 					</case>
-					<case minzoom="17" tag="amenity" value="post_office" icon="amenity_post_office" shield="gray_round_shield" iconVisibleSize="24">
-						<apply_if nightMode="true" shield="gray_round_night_shield"/>
-					</case>
 					<switch shield="gray_round_shield" iconOrder="171" iconVisibleSize="24">
 						<switch>
 							<case minzoom="$waterWellIconMinZoom" tag="man_made" value="water_well" icon="man_made_water_well"/>
@@ -7697,7 +7694,7 @@
 						<case minzoom="18" tag="amenity" value="telephone" icon="amenity_telephone"/>
 						<case minzoom="17" tag="amenity" value="post_box" icon="amenity_post_box"/>
 						<case minzoom="18" tag="amenity" value="letter_box" icon="letter_box"/>
-						<case minzoom="17" tag="amenity" value="post_office" icon="amenity_post_office"/>
+						<case minzoom="17" tag="amenity" value="post_office" icon="amenity_post_office" iconVisibleSize="24"/>
 						<case minzoom="17" tag="amenity" value="parcel_locker" icon="parcel_locker"/>
 						<case minzoom="17" tag="amenity" value="prison" icon="amenity_prison"/>
 						<case minzoom="17" tag="amenity" value="toilets" icon="amenity_toilets" iconOrder="90">
