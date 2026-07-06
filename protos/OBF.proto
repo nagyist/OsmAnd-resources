@@ -599,7 +599,8 @@ message OsmAndPoiNameIndexDataAtom {
 	// stats: now 0.05% only objects with 2+ suffixes bit set (no need to merge different objects in 1 atom)
 	repeated uint32 poiIndInBlock = 9;
 
-    // search in large parks, neighboorhoud same as in boundaryes
+    // search in large parks, neighboorhoud same as in boundaries
+	// not used now as x, y, zoom could be used as single tile
 	optional bytes bbox = 10;
 
     

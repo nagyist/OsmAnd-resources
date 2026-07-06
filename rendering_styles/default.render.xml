@@ -3064,7 +3064,7 @@
 					<switch baseAppMode="bicycle" tag="barrier" order="-1">
 						<case value="height_restrictor"/>
 					</switch>
-					<switch maxzoom="16" order="-1" tag="highway" value="motorway_junction">
+					<switch maxzoom="15" order="-1" tag="highway" value="motorway_junction">
 						<case baseAppMode="default"/>
 						<case baseAppMode="bicycle"/>
 						<case baseAppMode="pedestrian"/>
