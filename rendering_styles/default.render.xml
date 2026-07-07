@@ -2110,6 +2110,8 @@
 			<case additional="surface=grass_paver" attrColorValue="$surfaceGrassPaverColor" attrStringValue="surface_grass_paver"/>
 			<case additional="surface=ground" attrColorValue="$surfaceGroundColor" attrStringValue="surface_ground"/>
 			<case additional="surface=dirt" attrColorValue="$surfaceDirtColor" attrStringValue="surface_dirt"/>
+			<case additional="surface=clay" attrColorValue="$surfaceDirtColor" attrStringValue="surface_clay"/>
+			<case additional="surface=laterite" attrColorValue="$surfaceDirtColor" attrStringValue="surface_laterite"/>
 			<case additional="surface=mud" attrColorValue="$surfaceMudColor" attrStringValue="surface_mud"/>
 			<case additional="surface=ice" attrColorValue="$surfaceIceColor" attrStringValue="surface_ice"/>
 			<case additional="surface=salt" attrColorValue="$surfaceSaltColor" attrStringValue="surface_salt"/>
