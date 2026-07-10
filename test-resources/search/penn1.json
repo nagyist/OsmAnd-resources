@@ -62,11 +62,13 @@
     ],
     [
       "301, West Main Street, Valley View [[6, HOUSE, 91.817, 15.97 km]] [penn1.obf]",
-      "West Main Street, Valley View [[5, STREET, 1.710, 16.56 km]] [penn1.obf]",
-      "West Main Street, East Main Street, Valley View [[5, STREET_INTERSECTION, 1.507, 15.91 km]] [penn1.obf]",
-      "East Main Street, Valley View [[4, STREET, 1.710, 15.84 km]] [penn1.obf]",
-      "Rear West Main, Valley View [[4, STREET, 1.710, 15.90 km]] [penn1.obf]",
-      "South Main Street (Valley View), Elwyn Terrace [[4, STREET, 1.000, 71.53 km]] [penn1.obf]"
+	    "301, Main Street, Ridgefield Park [[5, HOUSE, 1.800, 211.60 km]] [penn1.obf]",
+	    "301, Main Street, Little Ferry [[5, HOUSE, 1.800, 209.82 km]] [penn1.obf]",
+	    "West Main Street, Valley View [[5, STREET, 1.710, 16.56 km]] [penn1.obf]",
+	    "West Main Street, East Main Street, Valley View [[5, STREET_INTERSECTION, 1.507, 15.91 km]] [penn1.obf]",
+	    "301, South Main Street, South Hackensack [[5, HOUSE, 1.100, 209.74 km]] [penn1.obf]",
+	    "301, North Main Street, Manheim [[5, HOUSE, 1.100, 70.05 km]] [penn1.obf]",
+	    "301, South Main Street, Lancaster [[5, HOUSE, 1.100, 71.39 km]] [penn1.obf]",
     ],
     [
       "108, North Mountain Boulevard (Solomon Gap), Fairview [[6, HOUSE, 90.800, 69.32 km]]",
