@@ -1,0 +1,31 @@
+{
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "en",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "-73.93093",
+        "lang": "", 
+        "lat": "40.76712"
+    },
+    "phrases":[
+       "14-45, 31st Road",
+       "14, 31st Road",
+       "31st Road"
+    ],
+    "results": [
+        [
+            "14-45, 31st Road, Queens [[3, HOUSE,, 0.00 km]]"
+        ],
+        [
+           "14-45, 31st Road, Queens [[3, HOUSE,, 0.00 km]]"
+        ],
+        [
+            "31st Road, Queens [[2, STREET,, 0.12 km]]",
+            "21st Street & 31st Road [[2, POI, os:1, 0.07 km]]",
+            "31st Road & 138th Street [[2, POI, os:1, 8.44 km]]"
+        ]
+    ]
+}

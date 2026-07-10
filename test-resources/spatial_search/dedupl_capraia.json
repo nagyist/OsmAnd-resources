@@ -1,0 +1,46 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (20 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "it",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "11.01530",
+        "lat": "43.76140",
+        "description":"Isola diCapraia problem and deduplication by route_id for Anello di Capraia e Montelupo"
+    },
+    "phrases": ["di Capraia",
+                "Anello di Capraia"],
+    "results": [[
+		"Capraia Isola [[2, POI, r:1710, 123.53 km]]",
+		"Isola di Capraia [[2, POI, os:1 r:1486, 125.71 km]]",
+		"Via di Capraia, Arezzo [[2, STREET, os:1, 46.94 km]]",
+		"Via di Capraia, Viterbo [[2, STREET, os:1, 166.82 km]]",
+		"Lame di Capraia [[2, POI, os:1, 58.96 km]]",
+		"Cimitero di Capraia [[2, POI, os:1, 61.65 km]]",
+		"Castello di Capraia [[2, POI, os:1, 66.87 km]]",
+		"Fosso di Capraia [[2, POI, os:1, 95.15 km]]",
+		"Faro di Capraia [[2, POI, os:1, 123.26 km]]",
+		"Porto di Capraia Isola [[2, POI, os:1, 123.80 km]]",
+		"Isola di Capraia [[2, POI, os:1, 123.92 km]]",
+		"Cimitero di Capraia [[2, POI, os:1, 123.98 km]]",
+		"Via Isola di Capraia, Pisa [[2, STREET, os:2, 52.81 km]]",
+		"Via Isola di Capraia (Scarlino), Grosseto [[2, STREET, os:2, 92.53 km]]",
+		"Via Isola di Capraia (Follonica), Grosseto [[2, STREET, os:2, 94.98 km]]",
+		"Stretta di a Capraia, Casaglione [[2, STREET, os:2, 263.77 km]]",
+		"Cimitero di Capraia Fiorentina [[2, POI, os:2, 2.54 km]]",
+		"Biblioteca di Capraia Isola [[2, POI, os:2, 123.46 km]]",
+		"Municipio di Capraia Isola [[2, POI, os:2, 123.47 km]]",
+		"Semaforo di Monte Arpagna [[2, POI, os:2, 127.87 km]]",
+		"Anello di Capraia e Montelupo [[2, POI, os:3, 0.00 km]]",
+		"Fontanello di Capraia e Limite [[2, POI, os:3, 2.95 km]]",
+		"Comune di Capraia e Limite [[2, POI, os:3, 3.80 km]]",
+		"Monumento ai Caduti di Capraia Isola [[2, POI, os:4, 123.60 km]]",
+		"Scuola secondaria di primo grado di Capraia Isola [[2, POI, os:5, 123.52 km]]"
+    ],
+    [
+        "Anello di Capraia e Montelupo [[3, POI, os:2, 0.00 km]]"
+    ]]
+}
