@@ -321,6 +321,23 @@
       }
     },
     {
+      "id": "line-lock-gate",
+      "type": "line",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 13,
+      "filter": [
+        "all",
+        ["==", "waterway", "lock_gate"],
+        ["==", "$type", "LineString"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(175, 173, 173, 1)",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 14, 2, 18, 8]
+      }
+    },
+    {
       "id": "line-pier",
       "type": "line",
       "source": "osm",
@@ -364,7 +381,7 @@
       "paint": {
         "line-color": "rgba(189, 189, 189, 1)",
         "line-dasharray": [3, 2],
-        "line-width": ["interpolate", ["linear"], ["zoom"], 12, 1, 18, 5]
+        "line-width": ["interpolate", ["linear"], ["zoom"], 12, 1, 18, 3]
       }
     },
     {
@@ -375,16 +392,15 @@
       "minzoom": 9,
       "filter": [
         "all",
-        ["==", ["get", "railway"], "rail"],
-        ["==", ["get", "tunnel"], "yes"],
-        ["!=", ["get", "construction"], "yes"],
-        ["!=", ["get", "proposed"], "yes"]
+        ["in", "railway", "rail", "tram", "light_rail", "narrow_gauge"],
+        ["!=", "proposed", "yes"],
+        ["==", "tunnel", "yes"]
       ],
       "layout": {"visibility": "visible"},
       "paint": {
-        "line-color": "rgba(169, 169, 169, 1)",
-        "line-width": 1.2,
-        "line-dasharray": [5, 3]
+        "line-color": "rgba(194, 194, 194, 1)",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 12, 1, 18, 3],
+        "line-dasharray": [3, 2]
       }
     },
     {
@@ -1560,7 +1576,7 @@
       ],
       "paint": {
         "line-color": "#3388ff",
-        "line-width": 1.8,
+        "line-width": ["interpolate", ["linear"], ["zoom"], 14, 1, 18, 2],
         "line-dasharray": [3, 2]
       }
     },
@@ -1988,7 +2004,6 @@
       "filter": [
         "all",
         ["==", ["get", "railway"], "rail"],
-        ["!=", ["get", "construction"], "yes"],
         ["!=", ["get", "proposed"], "yes"],
         ["!", ["has", "tunnel"]],
         ["!", ["has", "bridge"]]
@@ -2008,7 +2023,6 @@
       "filter": [
         "all",
         ["==", ["get", "railway"], "rail"],
-        ["!=", ["get", "construction"], "yes"],
         ["!=", ["get", "proposed"], "yes"],
         ["!", ["has", "tunnel"]],
         ["!", ["has", "bridge"]]
@@ -2067,7 +2081,10 @@
         ["!", ["has", "bridge"]]
       ],
       "layout": {"visibility": "visible"},
-      "paint": {"line-color": "#888888", "line-width": 2}
+      "paint": {
+        "line-color": "#888888",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 12, 1, 18, 3]
+      }
     },
     {
       "id": "railway-tram",
@@ -3070,6 +3087,177 @@
       }
     },
     {
+      "id": "transporticons-traffic-calming",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        ["has", "traffic_calming"],
+        ["!=", ["get", "traffic_calming"], ""]
+      ],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "match",
+          ["get", "traffic_calming"],
+          "bump",
+          "traffic_calming_bump",
+          "hump",
+          "traffic_calming_hump",
+          "cushion",
+          "traffic_calming_cushion",
+          "choker",
+          "traffic_calming_choker",
+          "chicane",
+          "traffic_calming_chicane",
+          "island",
+          "traffic_calming_island",
+          "table",
+          "traffic_calming_table",
+          "rumble_strip",
+          "traffic_calming_rumble_strip",
+          "traffic_calming"
+        ]
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "transporticons-railway-level-crossing",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "filter": ["all", ["==", ["get", "railway"], "level_crossing"]],
+      "layout": {
+        "icon-image": "level_crossing_map",
+        "visibility": "visible",
+        "icon-size": 0.5
+      }
+    },
+    {
+      "id": "transporticons-railway-crossing",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "filter": ["all", ["==", ["get", "railway"], "level_crossing"]],
+      "layout": {
+        "icon-image": "level_crossing_map",
+        "visibility": "visible",
+        "icon-size": 0.5
+      }
+    },
+    {
+      "id": "transporticons-bicycle-parking",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 16,
+      "filter": ["any", ["==", ["get", "amenity"], "bicycle_parking"]],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "case",
+          ["==", ["get", "amenity"], "bicycle_parking"],
+          [
+            "match",
+            ["get", "bicycle_parking"],
+            "stands",
+            "bicycle_parking_stands",
+            "wall_loops",
+            "bicycle_parking_wall_loops",
+            "rack",
+            "bicycle_parking_rack",
+            "anchors",
+            "bicycle_parking_anchors",
+            "building",
+            "bicycle_parking_building",
+            "shed",
+            "bicycle_parking_building",
+            "bollard",
+            "bicycle_parking_bollard",
+            "informal",
+            "bicycle_parking_informal",
+            "lockers",
+            "bicycle_parking_lockers",
+            "tree",
+            "bicycle_parking_tree",
+            "streetpod",
+            "bicycle_parking_streetpod",
+            "bicycle_parking"
+          ],
+          "poi"
+        ],
+        "icon-padding": [10, 10, 10, 10]
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "transporticons-motorcycle-parking",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        ["==", ["get", "amenity"], "motorcycle_parking"],
+        ["!=", ["get", "motorcycle_parking"], ""]
+      ],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "case",
+          ["==", ["get", "fee"], "yes"],
+          "amenity_motorcycle_parking_paid",
+          "amenity_motorcycle_parking"
+        ],
+        "icon-padding": [10, 10, 10, 10]
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
       "id": "poi-club",
       "type": "symbol",
       "source": "osm",
@@ -3518,6 +3706,57 @@
       },
       "paint": {
         "text-color": "rgba(40, 40, 40, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "poi-rental",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 16,
+      "filter": [
+        "any",
+        ["==", ["get", "amenity"], "car_rental"],
+        ["==", ["get", "amenity"], "car_pooling"],
+        ["==", ["get", "amenity"], "car_sharing"],
+        ["==", ["get", "amenity"], "boat_sharing"],
+        ["==", ["get", "amenity"], "boat_storage"],
+        ["==", ["get", "amenity"], "boat_rental"]
+      ],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "match",
+          ["get", "amenity"],
+          "car_rental",
+          "amenity_car_rental",
+          "car_pooling",
+          "car_pooling",
+          "car_sharing",
+          "amenity_car_sharing",
+          "boat_sharing",
+          "amenity_boat_sharing",
+          "boat_storage",
+          "boat_storage",
+          "boat_rental",
+          "boat_rental",
+          "poi"
+        ]
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
         "text-halo-color": "rgba(239, 239, 239, 1)",
         "text-halo-width": 1.5
       }
@@ -5269,7 +5508,7 @@
         "text-offset": [0, 1.3],
         "icon-offset": [0, 0],
         "icon-padding": [10, 10, 10, 10],
-        "icon-size": 0.6
+        "icon-size": 0.5
       },
       "paint": {
         "text-color": "rgba(10, 70, 14, 1)",
@@ -5711,7 +5950,7 @@
         "text-optional": true,
         "icon-optional": false,
         "icon-padding": [10, 10, 10, 10],
-        "icon-size": 0.6
+        "icon-size": 0.5
       },
       "paint": {
         "text-halo-color": "rgba(255, 255, 255, 0.61)",
@@ -5826,7 +6065,7 @@
         ["==", ["get", "tourism"], "attraction"]
       ],
       "layout": {
-        "icon-size": 0.6,
+        "icon-size": 0.5,
         "icon-allow-overlap": false,
         "icon-ignore-placement": false,
         "text-field": ["step", ["zoom"], "", 16.1, ["get", "name"]],
@@ -6009,6 +6248,34 @@
       }
     },
     {
+      "id": "transporticons-vehicle-inspection",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 17,
+      "filter": ["all", ["==", "amenity", "vehicle_inspection"]],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-padding": [10, 10, 10, 10],
+        "icon-image": "vehicle_inspection"
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
       "id": "transporticons-traffic-signals",
       "type": "symbol",
       "source": "osm",
@@ -6040,27 +6307,130 @@
       "paint": {}
     },
     {
-      "id": "transporticons-railway-crossing",
+      "id": "transporticons-lock-gate",
       "type": "symbol",
       "source": "osm",
       "source-layer": "osmand",
-      "filter": ["all", ["==", ["get", "railway"], "level_crossing"]],
+      "minzoom": 14,
+      "filter": [
+        "all",
+        ["==", "waterway", "lock_gate"],
+        ["==", "$type", "LineString"]
+      ],
       "layout": {
-        "icon-image": "level_crossing_map",
+        "icon-size": 0.6,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
         "visibility": "visible",
-        "icon-size": 0.5
+        "icon-image": "waterway_lock_gate_small",
+        "symbol-placement": "line-center"
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
       }
     },
     {
-      "id": "transporticons-railway-level-crossing",
+      "id": "transporticons-dock",
       "type": "symbol",
       "source": "osm",
       "source-layer": "osmand",
-      "filter": ["all", ["==", ["get", "railway"], "level_crossing"]],
+      "minzoom": 16,
+      "filter": ["all", ["==", "waterway", "dock"]],
       "layout": {
-        "icon-image": "level_crossing_map",
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
         "visibility": "visible",
-        "icon-size": 0.5
+        "icon-image": "waterway_dock"
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "transporticons-harbour",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 15,
+      "filter": ["all", ["==", "harbour", "yes"]],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": "harbour_yes"
+      },
+      "paint": {
+        "text-color": "rgba(70, 70, 70, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "transporticons-marina-slipway",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 14,
+      "filter": [
+        "any",
+        ["==", ["get", "leisure"], "slipway"],
+        ["==", ["get", "osmand_leisure"], "slipway"],
+        ["==", ["get", "leisure"], "marina"]
+      ],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": [
+          "case",
+          ["==", ["get", "leisure"], "marina"],
+          "leisure_marina",
+          ["in", ["get", "leisure"], ["literal", ["slipway"]]],
+          "leisure_slipway",
+          ["==", ["get", "osmand_leisure"], "slipway"],
+          "leisure_slipway",
+          "poi"
+        ]
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
       }
     },
     {
@@ -6091,7 +6461,7 @@
           "religion_taoist",
           "amenity_place_of_worship"
         ],
-        "icon-size": 0.6,
+        "icon-size": 0.5,
         "icon-allow-overlap": false,
         "icon-ignore-placement": false,
         "text-field": "{name}",
@@ -6134,6 +6504,33 @@
       }
     },
     {
+      "id": "poi-lighthouse",
+      "type": "symbol",
+      "source": "osm",
+      "source-layer": "osmand",
+      "minzoom": 14,
+      "filter": ["all", ["==", ["get", "man_made"], "lighthouse"]],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10.5,
+        "text-anchor": "top",
+        "text-offset": [0, 1.2],
+        "text-optional": true,
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": "man_made_lighthouse"
+      },
+      "paint": {
+        "text-color": "rgba(74, 138, 255, 1)",
+        "text-halo-color": "rgba(239, 239, 239, 1)",
+        "text-halo-width": 1.5
+      }
+    },
+    {
       "id": "poi-culture-main",
       "type": "symbol",
       "source": "osm",
@@ -6153,7 +6550,7 @@
         ["==", ["get", "amenity"], "arts_centre"]
       ],
       "layout": {
-        "icon-size": 0.6,
+        "icon-size": 0.5,
         "icon-allow-overlap": false,
         "icon-ignore-placement": false,
         "text-field": ["step", ["zoom"], "", 15.1, ["get", "name"]],
@@ -6953,7 +7350,7 @@
         ]
       ],
       "layout": {
-        "icon-size": 0.6,
+        "icon-size": 0.5,
         "icon-allow-overlap": false,
         "icon-ignore-placement": false,
         "text-field": "{name}",
@@ -7016,7 +7413,7 @@
         ]
       ],
       "layout": {
-        "icon-size": 0.6,
+        "icon-size": 0.5,
         "icon-allow-overlap": false,
         "icon-ignore-placement": false,
         "text-field": "{name}",
@@ -7122,7 +7519,7 @@
         "icon-image": "aeroway_aerodrome",
         "text-justify": "auto",
         "text-radial-offset": 1,
-        "icon-size": 0.6
+        "icon-size": 0.5
       },
       "paint": {
         "text-color": "rgba(61, 61, 176, 1)",
