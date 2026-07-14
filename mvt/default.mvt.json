@@ -7270,7 +7270,10 @@
         "text-optional": true,
         "text-keep-upright": false,
         "text-radial-offset": 0.7,
-        "icon-size": 0.5
+        "icon-size": 0.5,
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": false,
+        "icon-overlap": "always"
       },
       "paint": {
         "text-color": "#222",
