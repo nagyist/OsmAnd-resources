@@ -6766,7 +6766,7 @@
       "minzoom": 15,
       "filter": ["all", ["==", ["get", "railway"], "subway_entrance"]],
       "layout": {
-        "icon-size": 0.9,
+        "icon-size": 0.7,
         "icon-allow-overlap": false,
         "icon-ignore-placement": false,
         "text-field": [
