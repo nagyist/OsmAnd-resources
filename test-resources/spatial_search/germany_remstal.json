@@ -1,0 +1,46 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "de",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "9.17390",
+        "lat": "48.77700"
+    },
+    "phrases": [
+        "1 W&W Platz Kornwestheim",
+        "1/1 Salierstraße Waiblingen",
+        "3 Hofäckerstraße Kernen im Remstal",
+        "Kelterstraße Kernen im Remstal",
+        "Kelter. Kernen im Remstal"
+    ],
+    "results": [
+        [
+            "1, W&W Platz, Kornwestheim [[5, HOUSE, t5-w2+0-oth0-tp3, 11.75 km]]"
+        ],
+        [
+            "1/1, Salierstraße, Waiblingen [[4, HOUSE, t4-w2+0-oth0-tp3, 13.49 km]]",
+		    "20/1, Salierstraße, Fellbach [[4, HOUSE, t4-w2+-2-oth0-tp3, 8.90 km]]"
+        ],
+        [
+            "3, Hofäckerstraße, Rommelshausen [[5, HOUSE, t5-w2+0-oth1-tp3, 11.06 km]]"
+        ],
+        [
+            "Kelterstraße, Rommelshausen [[4, STREET, t4-w2+0-oth1-tp5, 10.71 km]]",
+		    "Spielplatz Kelterstraße, Kernen im Remstal [[4, POI, t4-w2+0-oth2-tp4, 10.97 km]]"
+        ],
+        [
+            "Kelterweg, Rommelshausen [[4, STREET, t4-w2+0-oth1-tp5, 10.25 km]]",
+            "Kelterstraße, Rommelshausen [[4, STREET, t4-w2+0-oth1-tp5, 10.71 km]]",
+            "Kelterabbruch, Kernen im Remstal [[4, POI, t4-w2+0-oth1-tp4, 12.82 km]]",
+            "Wein- und Kelterroute, Kernen im Remstal [[4, POI, t4-w2+0-oth2-tp4, 10.19 km]]",
+            "Spielplatz Kelterstraße, Kernen im Remstal [[4, POI, t4-w2+0-oth2-tp4, 10.97 km]]",
+            "Hohe Kelter, Kernen im Remstal [[4, POI, t4-w2+0-oth2-tp4, 11.74 km]]",
+            "Stetten i.R. Kelter, Kernen im Remstal [[4, POI, t4-w2+0-oth3-tp4, 12.04 km]]",
+            "Stetten i.R. Kelter, Kernen im Remstal [[4, POI, t4-w2+0-oth3-tp4, 12.05 km]]"
+        ]
+    ]
+}

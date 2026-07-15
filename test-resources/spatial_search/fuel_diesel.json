@@ -9,6 +9,7 @@
 		"emptyQueryAllowed": false,
 		"sortByName": false
 	},
+	"ignore": "true",
 	"phrases": [
 		"Fuel diesel",
 		"Fuel diesel BP",

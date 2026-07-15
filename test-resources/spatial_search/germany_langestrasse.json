@@ -1,0 +1,32 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "de",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "9.31550",
+        "lat": "48.83150"
+    },
+    "phrases": [
+        "53 Langestraße Waiblingen",
+        "69 Daimler Straße Stuttgart",
+        "69 Daimlerstraße Stuttgart"
+    ],
+    "results": [
+        [
+            "53, Langestraße, Benningen am Neckar [[3, HOUSE, t3-w2+0-oth0-tp3, 13.84 km]]",
+		    "53, Langestraße, Kirchheim am Ries [[3, HOUSE, t3-w2+0-oth0-tp3, 79.60 km]]"
+        ],
+        [
+            "69, Daimlerstraße (Bad Cannstatt), Stuttgart [[4, HOUSE, t4-w2+0-oth0-tp3, 7.59 km]]",
+		    "69, Daimlerstraße, Leingarten [[4, HOUSE, t4-w2+0-oth1-tp3, 37.88 km]]"
+        ],
+        [
+            "69, Daimlerstraße (Bad Cannstatt), Stuttgart [[4, HOUSE, t4-w2+0-oth0-tp3, 7.59 km]]",
+		    "69, Daimlerstraße, Leingarten [[4, HOUSE, t4-w2+0-oth1-tp3, 37.88 km]]"
+        ]
+    ]
+}

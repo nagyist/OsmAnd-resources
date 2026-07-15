@@ -9,6 +9,7 @@
         "emptyQueryAllowed": false,
         "sortByName": false
     },
+    "ignore": "true",
     "phrases": [
         "A-13",
         "A, Ramakrishna Puram"

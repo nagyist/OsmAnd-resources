@@ -32,16 +32,17 @@
       "130/6, Mercedes-Benz Werk 1 (Untertürkheim), Stuttgart [[8, HOUSE, os:2, 5.54 km]]"
     ],
     [
-      "4, Hofäckerstraße, Rommelshausen [[2, HOUSE, 4.800, 1.51 km]]",
-      "4/1, Hofäckerstraße, Rommelshausen [[2, HOUSE, 4.800, 1.52 km]]",
-      "4, Hofäckerstraße (Zuffenhausen), Stuttgart [[2, HOUSE, 4.800, 9.40 km]]",
-      "4, Hofäckerstraße (Burkhardshof), Birkmannsweiler [[2, HOUSE, 4.800, 11.20 km]]",
-      "4, Hofäckerstraße, Wolfschlugen [[2, HOUSE, 4.800, 17.59 km]]",
-      "4, Hofäckerstraße, Tamm [[2, HOUSE, 4.800, 17.54 km]]",
-      "4, Hofackerstraße (Hägnachhof), Steinheim an der Murr [[2, HOUSE, 4.800, 17.56 km]]",
-      "4, Hofackerstraße, Hochdorf [[2, HOUSE, 4.800, 17.91 km]]",
-      "4, Hofackerstraße (Nonnenäcker), Rietenau [[2, HOUSE, 4.800, 21.13 km]]",
-      "4, Hofackerstraße, Rutesheim [[2, HOUSE, 4.800, 25.93 km]]"
+      "4, Hofäckerstraße, Rommelshausen [[2, HOUSE, t2-w1+0-oth0-tp-1, 1.51 km]]",
+      "4, Hofäckerstraße (Zuffenhausen), Stuttgart [[2, HOUSE, t2-w1+0-oth0-tp-1, 9.40 km]]",
+      "4, Hofäckerstraße (Keltersiedlung), Zuffenhausen [[2, HOUSE, t2-w1+0-oth0-tp-1, 9.40 km]]",
+      "4, Hofäckerstraße (Birkmannsweiler), Winnenden [[2, HOUSE, t2-w1+0-oth0-tp-1, 11.20 km]]",
+      "4, Hofäckerstraße (Burkhardshof), Birkmannsweiler [[2, HOUSE, t2-w1+0-oth0-tp-1, 11.20 km]]",
+      "4, Hofäckerstraße, Tamm [[2, HOUSE, t2-w1+0-oth0-tp-1, 17.54 km]]",
+      "4, Hofackerstraße (Hägnachhof), Steinheim an der Murr [[2, HOUSE, t2-w1+0-oth0-tp-1, 17.56 km]]",
+      "4, Hofäckerstraße, Wolfschlugen [[2, HOUSE, t2-w1+0-oth0-tp-1, 17.59 km]]",
+      "4, Hofackerstraße, Hochdorf [[2, HOUSE, t2-w1+0-oth0-tp-1, 17.90 km]]",
+      "4, Hofackerstraße, Hochdorf [[2, HOUSE, t2-w1+0-oth0-tp-1, 17.91 km]]",
+      "4, Hofackerstraße (Nonnenäcker), Rietenau [[2, HOUSE, t2-w1+0-oth0-tp-1, 21.13 km]]"
     ]
   ]
 }

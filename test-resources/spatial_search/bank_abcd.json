@@ -9,6 +9,7 @@
     "emptyQueryAllowed": false,
     "sortByName": false
   },
+  "ignore": "true",
   "phrase": "Bank dr",
   "results": [
    	"Bank (Finance) [[1, POI_TYPE, 1.000, 0.00 km]]",

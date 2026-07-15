@@ -1,0 +1,90 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "de",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "10.70350",
+        "lat": "49.20410"
+    },
+    "phrases": [
+        "Weberstraße",
+        "Von-Weber-Straße",
+        "Weber Straße",
+        "WeberStraße",
+        "Von Weberstraße"
+    ],
+    "results": [
+        [
+            "Weberstraße, Merkendorf [[1, STREET, t1-w1+0-oth0-tp1, 0.01 km]]",
+            "Weberstraße, Rennertshofen [[1, STREET, t1-w1+0-oth0-tp1, 59.05 km]]",
+            "Weberstraße, Forchheim [[1, STREET, t1-w1+0-oth0-tp1, 62.98 km]]",
+            "Weberstraße, Dillingen an der Donau [[1, STREET, t1-w1+0-oth0-tp1, 71.47 km]]",
+            "Weberstraße, Heidenheim an der Brenz [[1, STREET, t1-w1+0-oth0-tp1, 71.63 km]]",
+            "Weberstraße, Igersheim [[1, STREET, t1-w1+0-oth0-tp1, 72.20 km]]",
+            "Weberstraße, Iggingen [[1, STREET, t1-w1+0-oth0-tp1, 73.21 km]]",
+            "Weberstraße, Steinheim am Albuch [[1, STREET, t1-w1+0-oth0-tp1, 73.45 km]]",
+            "Weberstraße, Meitingen [[1, STREET, t1-w1+0-oth0-tp1, 73.58 km]]",
+            "Weberstraße, Herbrechtingen [[1, STREET, t1-w1+0-oth0-tp1, 75.51 km]]"
+        ],
+        [
+            "Von-Weber-Straße, Ansbach [[3, STREET, t3-w1+0-oth0-tp1, 14.25 km]]",
+            "Von-Weber-Straße, Herzogenaurach [[3, STREET, t3-w1+0-oth0-tp1, 41.44 km]]",
+            "Von-Weber-Straße, Neusäß [[3, STREET, t3-w1+0-oth0-tp1, 91.26 km]]",
+            "Von-Weber-Straße, Neu-Ulm [[3, STREET, t3-w1+0-oth0-tp1, 102.01 km]]",
+            "Von-Weber-Straße, Steinheim an der Murr [[3, STREET, t3-w1+0-oth0-tp1, 106.99 km]]",
+            "Von-Weber-Straße, Bad Rappenau [[3, STREET, t3-w1+0-oth0-tp1, 116.56 km]]",
+            "Von-Weber-Straße, Rodgau [[3, STREET, t3-w1+0-oth0-tp1, 161.40 km]]",
+            "Von-Weber-Straße, Groß-Rohrheim [[3, STREET, t3-w1+0-oth0-tp1, 170.35 km]]",
+            "Von-Weber-Straße, Töging am Inn [[3, STREET, t3-w1+0-oth0-tp1, 172.60 km]]",
+            "Von-Weber-Straße, Zwickau [[3, STREET, t3-w1+0-oth0-tp1, 206.75 km]]"
+        ],
+        [
+            "Weberstraße, Merkendorf [[2, STREET, t2-w1+0-oth0-tp1, 0.01 km]]",
+            "Weberstraße, Rennertshofen [[2, STREET, t2-w1+0-oth0-tp1, 59.05 km]]",
+            "Weberstraße, Forchheim [[2, STREET, t2-w1+0-oth0-tp1, 62.98 km]]",
+            "Weberstraße, Dillingen an der Donau [[2, STREET, t2-w1+0-oth0-tp1, 71.47 km]]",
+            "Weberstraße, Heidenheim an der Brenz [[2, STREET, t2-w1+0-oth0-tp1, 71.63 km]]",
+            "Weberstraße, Igersheim [[2, STREET, t2-w1+0-oth0-tp1, 72.20 km]]",
+            "Weberstraße, Iggingen [[2, STREET, t2-w1+0-oth0-tp1, 73.21 km]]",
+            "Weberstraße, Steinheim am Albuch [[2, STREET, t2-w1+0-oth0-tp1, 73.45 km]]",
+            "Weberstraße, Meitingen [[2, STREET, t2-w1+0-oth0-tp1, 73.58 km]]",
+            "Weberstraße, Herbrechtingen [[2, STREET, t2-w1+0-oth0-tp1, 75.51 km]]"
+        ],
+        [
+            "Weberstraße, Merkendorf [[1, STREET, t1-w1+0-oth0-tp1, 0.01 km]]",
+            "Weberstraße, Rennertshofen [[1, STREET, t1-w1+0-oth0-tp1, 59.05 km]]",
+            "Weberstraße, Forchheim [[1, STREET, t1-w1+0-oth0-tp1, 62.98 km]]",
+            "Weberstraße, Dillingen an der Donau [[1, STREET, t1-w1+0-oth0-tp1, 71.47 km]]",
+            "Weberstraße, Heidenheim an der Brenz [[1, STREET, t1-w1+0-oth0-tp1, 71.63 km]]",
+            "Weberstraße, Igersheim [[1, STREET, t1-w1+0-oth0-tp1, 72.20 km]]",
+            "Weberstraße, Iggingen [[1, STREET, t1-w1+0-oth0-tp1, 73.21 km]]",
+            "Weberstraße, Steinheim am Albuch [[1, STREET, t1-w1+0-oth0-tp1, 73.45 km]]",
+            "Weberstraße, Meitingen [[1, STREET, t1-w1+0-oth0-tp1, 73.58 km]]",
+            "Weberstraße, Herbrechtingen [[1, STREET, t1-w1+0-oth0-tp1, 75.51 km]]",
+            "Weberstraße, Klepsau [[1, STREET, t1-w1+0-oth0-tp1, 77.66 km]]",
+            "Weberstraße, Manching [[1, STREET, t1-w1+0-oth0-tp1, 78.48 km]]",
+            "Weberstraße, Langweid am Lech [[1, STREET, t1-w1+0-oth0-tp1, 82.25 km]]",
+            "Weberstraße, Aindling [[1, STREET, t1-w1+0-oth0-tp1, 82.75 km]]",
+            "Weberstraße, Bieringen [[1, STREET, t1-w1+0-oth0-tp1, 86.87 km]]"
+        ],
+        [
+            "Von-Weber-Straße, Ansbach [[2, STREET, t2-w1+0-oth1-tp1, 14.25 km]]",
+            "Von-Weber-Straße, Herzogenaurach [[2, STREET, t2-w1+0-oth1-tp1, 41.44 km]]",
+            "Von-Weber-Straße, Neusäß [[2, STREET, t2-w1+0-oth1-tp1, 91.26 km]]",
+            "Von-Weber-Straße, Neu-Ulm [[2, STREET, t2-w1+0-oth1-tp1, 102.01 km]]",
+            "Von-Weber-Straße, Steinheim an der Murr [[2, STREET, t2-w1+0-oth1-tp1, 106.99 km]]",
+            "Von-Weber-Straße, Bad Rappenau [[2, STREET, t2-w1+0-oth1-tp1, 116.56 km]]",
+            "Von-Weber-Straße, Rodgau [[2, STREET, t2-w1+0-oth1-tp1, 161.40 km]]",
+            "Von-Weber-Straße, Groß-Rohrheim [[2, STREET, t2-w1+0-oth1-tp1, 170.35 km]]",
+            "Von-Weber-Straße, Töging am Inn [[2, STREET, t2-w1+0-oth1-tp1, 172.60 km]]",
+            "Von-Weber-Straße, Zwickau [[2, STREET, t2-w1+0-oth1-tp1, 206.75 km]]",
+            "Von-Weber-Straße, Freilassing [[2, STREET, t2-w1+0-oth1-tp1, 225.47 km]]",
+            "Von-Weber-Straße [[2, POI, t2-w1+0-oth1-tp0, 41.52 km]]",
+            "Von-Weber-Straße [[2, POI, t2-w1+0-oth1-tp0, 41.52 km]]"
+        ]
+    ]
+}
