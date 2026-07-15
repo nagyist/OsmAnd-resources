@@ -239,7 +239,7 @@
       "type": "fill",
       "source": "osm",
       "source-layer": "osmand",
-      "filter": ["all", ["==", ["get", "leisure"], "garden"]],
+      "filter": ["all", ["==", "leisure", "garden"]],
       "layout": {"visibility": "visible"},
       "paint": {"fill-color": "#8cc96e"}
     },
@@ -5954,7 +5954,7 @@
       "source": "osm",
       "source-layer": "osmand",
       "minzoom": 16,
-      "filter": ["all", ["==", ["get", "leisure"], "garden"]],
+      "filter": ["all", ["==", ["get", "leisure"], "garden"], ["has", "name"]],
       "layout": {
         "text-field": "{name}",
         "text-font": ["Noto Sans Italic"],
