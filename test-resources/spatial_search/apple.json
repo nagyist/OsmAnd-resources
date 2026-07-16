@@ -33,6 +33,7 @@
       "top_index_brand_apple_store [[2, POI_TYPE, t2-w1+0-oth-106-tp2, 0.00 km]]",
       "Apple Fifth Avenue [[2, POI wiki_place, t2-w1+0-oth0-9elo-tp0, 6.07 km]]",
       "Apple Store [[2, POI electronics, t2-w1+0-oth0-tp0, 1.31 km]]",
+      "Apple Art Supplies [[2, POI shop_craft, t2-w1+0-oth0-tp0, 2.24 km]]",
       "Apple Store [[2, POI electronics, t2-w1+0-oth0-tp0, 2.67 km]]",
       "Apple Store SoHo [[2, POI electronics, t2-w1+0-oth0-tp0, 2.82 km]]",
       "Apple World Trade Center [[2, POI electronics, t2-w1+0-oth0-tp0, 3.27 km]]",
@@ -40,7 +41,11 @@
       "Apple Store, Grand Central [[2, POI electronics, t2-w1+0-oth0-tp0, 4.86 km]]",
       "Apple Store [[2, POI electronics, t2-w1+0-oth0-tp0, 7.17 km]]",
       "Apple Store [[2, POI electronics, t2-w1+0-oth0-tp0, 7.37 km]]",
-      "Apple Store [[2, POI electronics, t2-w1+0-oth0-tp0, 9.21 km]]"
+      "Apple Store [[2, POI electronics, t2-w1+0-oth0-tp0, 9.21 km]]",
+      "Red Apple Discount [[2, POI variety_store, t2-w1+0-oth0-tp0, 10.34 km]]",
+      "Big Apple Department Store [[2, POI department_store, t2-w1+0-oth0-tp0, 12.75 km]]",
+      "Apple Store [[2, POI electronics, t2-w1+0-oth0-tp0, 13.66 km]]",
+      "Apple Store [[2, POI electronics, t2-w1+0-oth0-tp0, 13.73 km]]"
     ],
     [
       "New York [[3, POI wiki_place, t3-w1+0-oth0-10elo-tp0, 2.82 km]]",
