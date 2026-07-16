@@ -13,7 +13,8 @@
     "phrases": [
         "Beat’n’Burger",
         "Burger King",
-        "Beatn"
+        "Beatn.",
+        "Beatnburger"
     ],
     "results": [
         [
@@ -35,6 +36,11 @@
             "Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 67.87 km]]",
             "Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 82.01 km]]"
         ],
-        []
+        [
+            "Beat’n’Burger [[1, POI, 61.000, 0.00 km]]"
+        ],
+        [
+            "Beat’n’Burger [[1, POI, 61.000, 0.00 km]]"
+        ]
     ]
 }
