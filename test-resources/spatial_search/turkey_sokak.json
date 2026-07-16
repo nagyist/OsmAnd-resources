@@ -1,0 +1,33 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (5 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "tr",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "29.84540",
+        "lat": "40.76270"
+    },
+    "phrases": [
+        "2.Sokak",
+        "2 Sokak",
+        "Sokak 2",
+        "2. Sokak"
+    ],
+    "results": [
+        [
+            "2.Sokak, Derince [[1, STREET, t1-w1+0-oth0-tp1, 0.00 km]]"
+        ],
+        [
+            "2.Sokak, Derince [[1, STREET, t1-w1+0-oth0-tp1, 0.00 km]]"
+        ],
+        [
+            "2.Sokak, Derince [[1, STREET, t1-w1+0-oth0-tp1, 0.00 km]]"
+        ],
+        [
+            "2.Sokak, Derince [[1, STREET, t1-w1+0-oth0-tp1, 0.00 km]]"
+        ]
+    ]
+}

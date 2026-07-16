@@ -1,0 +1,17 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "en",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "-76.91380",
+        "lat": "41.18750"
+    },
+    "phrases": ["5676 US-15 Montgomery"],
+    "results": [[
+        "5676, US 15, Montgomery [[3, HOUSE, 91.017, 0.01 km]]"
+    ]]
+}
