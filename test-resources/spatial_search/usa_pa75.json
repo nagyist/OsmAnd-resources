@@ -1,0 +1,41 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "en",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "-77.36932",
+        "lat": "40.54466"
+    },
+    "phrases": [
+        "PA 75 27193",
+        "PA-75 27193",
+        "PA75 27193",
+        "PA 75 27193 17059",
+        "PA 75 27193 17059 PA",
+        "PA75 Mifflintown"
+    ],
+    "results": [
+        [
+            "27193, PA-75, Mifflintown [[3, HOUSE, t3-w1+0-oth0-tp-1, 0.00 km]]"
+        ],
+        [
+            "27193, PA-75, Mifflintown [[3, HOUSE, t3-w1+0-oth0-tp-1, 0.00 km]]"
+        ],
+        [
+            "27193, PA-75, Mifflintown [[3, HOUSE, t3-w1+0-oth0-tp-1, 0.00 km]]"
+        ],
+        [
+            "27193, PA-75, Mifflintown [[3, HOUSE, t3-w1+0-oth0-tp-1, 0.00 km]]"
+        ],
+        [
+            "27193, PA-75, Mifflintown [[3, HOUSE, t3-w1+0-oth0-tp-1, 0.00 km]]"
+        ],
+        [
+           "PA-75, Mifflintown [[2, STREET, t2-w2+0-oth1-tp5, 0.00 km]]"
+        ]
+    ]
+}
