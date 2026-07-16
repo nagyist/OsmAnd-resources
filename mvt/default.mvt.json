@@ -7916,7 +7916,7 @@
         "icon-size": 0.5,
         "icon-allow-overlap": false,
         "icon-ignore-placement": false,
-        "text-field": "{name}",
+        "text-field": ["step", ["zoom"], "", 13.1, ["get", "name"]],
         "text-font": ["Noto Sans Bold"],
         "text-size": 10.5,
         "text-anchor": "top",
