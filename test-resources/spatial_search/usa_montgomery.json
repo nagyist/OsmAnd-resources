@@ -10,8 +10,16 @@
         "lon": "-76.91380",
         "lat": "41.18750"
     },
-    "phrases": ["5676 US-15 Montgomery"],
+    "phrases": ["5676 US-15 Montgomery",
+                "5676 US 15 Montgomery",
+                "5676 US15 Montgomery"],
     "results": [[
+        "5676, US 15, Montgomery [[3, HOUSE, 91.017, 0.01 km]]"
+    ],
+    [
+        "5676, US 15, Montgomery [[3, HOUSE, 91.017, 0.01 km]]"
+    ],
+    [
         "5676, US 15, Montgomery [[3, HOUSE, 91.017, 0.01 km]]"
     ]]
 }
