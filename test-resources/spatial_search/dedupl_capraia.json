@@ -1,0 +1,34 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (20 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "regionLang": "it",
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "11.01530",
+        "lat": "43.76140",
+        "description":"Isola diCapraia problem and deduplication by route_id for Anello di Capraia e Montelupo"
+    },
+    "phrases": ["di Capraia",
+                "Anello di Capraia"],
+    "results": [[
+		"Capraia Isola [[2, POI wiki_place, t2-w1+0-oth0-4elo-tp0, 123.53 km]]",
+		"Isola di Capraia [[2, POI wiki_place, t2-w1+0-oth0-1elo-tp0, 125.71 km]]",
+		"Via di Capraia, Arezzo [[2, STREET, t2-w1+0-oth0-tp1, 46.94 km]]",
+		"Via di Capraia, Viterbo [[2, STREET, t2-w1+0-oth0-tp1, 166.82 km]]",
+		"Isola di Capraia [[2, POI information, t2-w1+0-oth0-tp0, 123.92 km]]",
+		"Via Isola di Capraia, Pisa [[2, STREET, t2-w1+0-oth1-tp1, 52.81 km]]",
+		"Via Isola di Capraia (Scarlino), Grosseto [[2, STREET, t2-w1+0-oth1-tp1, 92.53 km]]",
+		"Via Isola di Capraia (Follonica), Grosseto [[2, STREET, t2-w1+0-oth1-tp1, 94.98 km]]",
+		"Stretta di a Capraia, Casaglione [[2, STREET, t2-w1+0-oth1-tp1, 263.77 km]]",
+		"Lame di Capraia [[2, POI isolated_dwelling, t2-w1+0-oth1-tp0, 58.96 km]]",
+		"Cimitero di Capraia [[2, POI cemetery, t2-w1+0-oth1-tp0, 61.65 km]]",
+		"Castello di Capraia [[2, POI castle, t2-w1+0-oth1-tp0, 66.87 km]]",
+		"Fosso di Capraia [[2, POI stream, t2-w1+0-oth1-tp0, 95.15 km]]"
+    ],
+    [
+        "Anello di Capraia e Montelupo [[3, POI, os:2, 0.00 km]]"
+    ]]
+}

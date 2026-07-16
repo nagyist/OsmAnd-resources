@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "sortByName": false,
+    "emptyQueryAllowed": false,
+    "totalLimit": -1,
+    "regionLang": "de",
+    "radiusLevel": 1,
+    "transliterateIfMissing": false,
+    "appLang": "",
+    "lon": "9.30",
+    "lang": "",
+    "lat": "48.81"
+  },
+  "phrases": [
+    "6 Dorfstraße Remseck am Neckar"
+  ],
+  "results": [
+        "6, Dorfstraße, Neckarrems [[5, HOUSE,, 6.87 km]]"
+  ]
+}

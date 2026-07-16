@@ -1,0 +1,29 @@
+{
+    "settings": {
+        "lat": "38.90122",
+        "lon": "-94.40567",
+        "regionLang":"en",
+        "radiusLevel": 1,
+        "totalLimit": -1,
+        "lang": "",
+        "transliterateIfMissing": false,
+        "emptyQueryAllowed": false,
+        "sortByName": false
+    },
+    "phrases": [
+        "SW Summit Valley Ln, Lee's Summit",
+        "Southwest Summit Valley Lane Lee's Summit",
+        "NW Windwood Dr 2425"
+    ],
+    "results": [
+        [
+			"Southwest Summit Valley Lane, Lee's Summit [[6, STREET, os:2, 0.00 km]]"
+        ],
+        [
+			"Southwest Summit Valley Lane, Lee's Summit [[6, STREET, os:2, 0.00 km]]"
+        ],
+        [
+            "2425, Northwest Windwood Drive, Lee's Summit [[4, HOUSE,, 3.46 km]]"
+        ]
+    ]
+}

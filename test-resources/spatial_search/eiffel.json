@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "sortByName": false,
+    "emptyQueryAllowed": false,
+    "totalLimit": -1,
+    "regionLang": "en",
+    "radiusLevel": 1,
+    "transliterateIfMissing": false,
+    "appLang": "",
+    "lon": "2.2931762",
+    "lang": "",
+    "lat": "48.856506"
+  },
+  "phrases": [
+    "Eiffel",
+    "Tour Eiffel",
+    "Louvre"
+  ],
+  "results": [
+    [
+      "Tour Eiffel [[1, POI monument, t1-w1+0-oth0-48elo-tp0, 0.22 km]]",
+      "Gustave Eiffel [[1, POI memorial, t1-w1+0-oth0-15elo-tp0, 0.27 km]]",
+      "Passerelle de l'Avre [[1, POI wiki_place, t1-w1+0-oth0-1elo-tp0, 5.13 km]]",
+      "Rue Eiffel, Bouffémont [[1, STREET, t1-w1+0-oth0-tp1, 21.00 km]]",
+      "Tour Eiffel [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 0.06 km]]",
+      "Tour Eiffel [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 0.07 km]]",
+      "Tour Eiffel [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 0.17 km]]",
+      "Tour eiffel [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 0.19 km]]",
+      "Paris Tour Eiffel [[1, POI atm, t1-w1+0-oth0-tp0, 0.19 km]]",
+      "Tour Eiffel [[1, POI information, t1-w1+0-oth0-tp0, 0.23 km]]",
+      "Tour Eiffel [[1, POI information, t1-w1+0-oth0-tp0, 0.27 km]]",
+      "Tour Eiffel [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 0.29 km]]"
+    ],
+    [
+      "Tour Eiffel [[2, POI monument, t2-w1+0-oth0-48elo-tp0, 0.22 km]]",
+      "Tour Eiffel [[2, POI public_transport_platform, t2-w1+0-oth0-tp0, 0.06 km]]",
+      "Tour Eiffel [[2, POI public_transport_platform, t2-w1+0-oth0-tp0, 0.07 km]]",
+      "Tour Eiffel [[2, POI public_transport_platform, t2-w1+0-oth0-tp0, 0.17 km]]",
+      "Tour eiffel [[2, POI public_transport_platform, t2-w1+0-oth0-tp0, 0.19 km]]",
+      "Paris Tour Eiffel [[2, POI atm, t2-w1+0-oth0-tp0, 0.19 km]]",
+      "Tour Eiffel [[2, POI information, t2-w1+0-oth0-tp0, 0.23 km]]",
+      "Tour Eiffel [[2, POI information, t2-w1+0-oth0-tp0, 0.27 km]]",
+      "Tour Eiffel [[2, POI public_transport_platform, t2-w1+0-oth0-tp0, 0.29 km]]",
+      "Tour Eiffel [[2, POI public_transport_stop_position, t2-w1+0-oth0-tp0, 0.29 km]]",
+      "Tour Eiffel [[2, POI public_transport_platform, t2-w1+0-oth0-tp0, 0.31 km]]",
+      "Tour Eiffel [[2, POI public_transport_stop_position, t2-w1+0-oth0-tp0, 0.33 km]]",
+      "Tour Eiffel [[2, POI public_transport_platform, t2-w1+0-oth0-tp0, 0.33 km]]",
+      "Tour-Eiffel [[2, POI public_transport_station, t2-w1+0-oth0-tp0, 0.38 km]]"
+    ],
+    [
+      "Musée du Louvre [[1, POI museum, t1-w1+0-oth0-48elo-tp0, 3.17 km]]",
+      "Palais du Louvre [[1, POI castle, t1-w1+0-oth0-37elo-tp0, 3.20 km]]",
+      "Hôtel du Louvre [[1, POI hotel, t1-w1+0-oth0-25elo-tp0, 3.19 km]]",
+      "Poste centrale du Louvre [[1, POI atm, t1-w1+0-oth0-1elo-tp0, 3.81 km]]",
+      "Rue du Louvre, Les Halles [[1, STREET, t1-w1+0-oth0-tp1, 3.71 km]]",
+      "Rue du Louvre, 1er Arrondissement [[1, STREET, t1-w1+0-oth0-tp1, 3.71 km]]",
+      "Rue du Louvre, Paris [[1, STREET, t1-w1+0-oth0-tp1, 3.88 km]]",
+      "Louvre [[1, POI public_transport_station, t1-w1+0-oth0-tp0, 2.84 km]]",
+      "Musée du Louvre [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 2.99 km]]",
+      "Musée du Louvre [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 2.99 km]]",
+      "Musée du Louvre [[1, POI public_transport_stop_position, t1-w1+0-oth0-tp0, 3.00 km]]",
+      "Musée du Louvre [[1, POI public_transport_stop_position, t1-w1+0-oth0-tp0, 3.00 km]]",
+      "Musée du Louvre [[1, POI public_transport_stop_position, t1-w1+0-oth0-tp0, 3.02 km]]",
+      "Musée du Louvre [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 3.02 km]]",
+      "Musée du Louvre [[1, POI public_transport_platform, t1-w1+0-oth0-tp0, 3.09 km]]"
+    ]
+  ]
+}

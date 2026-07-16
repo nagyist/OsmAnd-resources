@@ -1,0 +1,46 @@
+{
+	"settings": {
+		"lat": "51.37778",
+		"lon": "14.38960",
+		"radiusLevel": 1,
+		"totalLimit": -1,
+		"lang": "",
+		"transliterateIfMissing": false,
+		"emptyQueryAllowed": false,
+		"sortByName": false
+	},
+	"phrases": [
+		"Burger King",
+		"Beatn",
+		"Beat’n’Burger"
+	],
+	"ignore": "true",
+	"results": [
+		[
+			"top_index_brand_burger_king [[2, POI_TYPE, t2-w1+0-oth0-tp2, 0.00 km]]",
+			"Burger King Thiendorf [[2, POI fast_food, t2-w1+0-oth0-tp0, 46.35 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 46.75 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 57.61 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 58.23 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 59.20 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 66.93 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 118.29 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 135.11 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 139.54 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 139.98 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 140.17 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 144.43 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 146.38 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 147.72 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 148.27 km]]",
+			"Burger King [[2, POI fast_food, t2-w1+0-oth0-tp0, 151.57 km]]",
+			"Bürger King Chemnitz [[2, POI fast_food, t2-w1+0-oth1-tp0, 121.13 km]]"
+	],
+	[
+		"Beat’n’Burger [[1, POI, 10.000, 56.07 km]]"
+	],
+	[
+		"Beat’n’Burger [[1, POI, 10.000, 56.07 km]]"
+	]
+	]
+}
