@@ -3663,11 +3663,11 @@
 						<poi_additional name="stars_1s" tag="stars" value="1s"/>
 						<poi_additional name="stars_2" tag="stars" value="2"/>
 						<poi_additional name="stars_2s" tag="stars" value="2s"/>
-						<poi_additional name="stars_3" tag="stars" value="3" top="true"/>
+						<poi_additional name="stars_3" tag="stars" value="3" />
 						<poi_additional name="stars_3s" tag="stars" value="3s"/>
-						<poi_additional name="stars_4" tag="stars" value="4" top="true"/>
+						<poi_additional name="stars_4" tag="stars" value="4" />
 						<poi_additional name="stars_4s" tag="stars" value="4s"/>
-						<poi_additional name="stars_5" tag="stars" value="5" top="true"/>
+						<poi_additional name="stars_5" tag="stars" value="5" />
 						<poi_additional name="stars_5s" tag="stars" value="5s"/>
 					</poi_additional_category>
 				</poi_type>
