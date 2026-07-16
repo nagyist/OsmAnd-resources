@@ -15,32 +15,86 @@
         "1/1 Salierstraße Waiblingen",
         "3 Hofäckerstraße Kernen im Remstal",
         "Kelterstraße Kernen im Remstal",
-        "Kelter. Kernen im Remstal"
+        "Weber Straße",
+        "WeberStraße",
+        "Von Weberstraße"
     ],
     "results": [
         [
             "1, W&W Platz, Kornwestheim [[5, HOUSE, t5-w2+0-oth0-tp3, 11.75 km]]"
         ],
         [
-            "1/1, Salierstraße, Waiblingen [[4, HOUSE, t4-w2+0-oth0-tp3, 13.49 km]]",
-		    "20/1, Salierstraße, Fellbach [[4, HOUSE, t4-w2+-2-oth0-tp3, 8.90 km]]"
+            "1/1, Salierstraße, Waiblingen [[4, HOUSE, t4-w2+0-oth0-tp3, 13.49 km]]"
         ],
         [
-            "3, Hofäckerstraße, Rommelshausen [[5, HOUSE, t5-w2+0-oth1-tp3, 11.06 km]]"
+            "3, Hofäckerstraße, Stuttgart [[2, HOUSE, t2-w1+0-oth0-tp-1, 5.75 km]]",
+            "3, Hofäckerstraße, Rommelshausen [[2, HOUSE, t2-w1+0-oth0-tp-1, 11.06 km]]",
+            "3, Hofäckerstraße, Wolfschlugen [[2, HOUSE, t2-w1+0-oth0-tp-1, 16.06 km]]",
+            "3, Hofäckerstraße, Tamm [[2, HOUSE, t2-w1+0-oth0-tp-1, 16.18 km]]",
+            "15/3, Hofäckerstraße, Winnenden [[2, HOUSE, t2-w1+0-oth0-tp-1, 21.07 km]]",
+            "3, Hofäckerstraße, Hildrizhausen [[2, HOUSE, t2-w1+0-oth0-tp-1, 22.63 km]]",
+            "3, Hofackerstraße, Hochdorf [[2, HOUSE, t2-w1+0-oth0-tp-1, 23.39 km]]",
+            "3, Hofackerstraße, Gärtringen [[2, HOUSE, t2-w1+0-oth0-tp-1, 24.99 km]]",
+            "3, Hofäckerstraße, Illingen [[2, HOUSE, t2-w1+0-oth0-tp-1, 27.50 km]]",
+            "3, Hofäckerstraße, Uhingen [[2, HOUSE, t2-w1+0-oth0-tp-1, 30.81 km]]",
+            "3, Hofackerstraße, Abstatt [[2, HOUSE, t2-w1+0-oth0-tp-1, 33.60 km]]",
+            "3, Hofäckerstraße, Göppingen [[2, HOUSE, t2-w1+0-oth0-tp-1, 40.41 km]]"
         ],
         [
-            "Kelterstraße, Rommelshausen [[4, STREET, t4-w2+0-oth1-tp5, 10.71 km]]",
-		    "Spielplatz Kelterstraße, Kernen im Remstal [[4, POI, t4-w2+0-oth2-tp4, 10.97 km]]"
+            "Kelterstraße, Stuttgart [[1, STREET, t1-w1+0-oth0-tp1, 2.28 km]]",
+            "Kelterstraße, Kallenberg [[1, STREET, t1-w1+0-oth0-tp1, 8.84 km]]",
+            "Kelterstraße, Esslingen am Neckar [[1, STREET, t1-w1+0-oth0-tp1, 9.08 km]]",
+            "Kelterstraße, Rommelshausen [[1, STREET, t1-w1+0-oth0-tp1, 10.71 km]]",
+            "Kelterstraße, Aldingen [[1, STREET, t1-w1+0-oth0-tp1, 11.82 km]]",
+            "Kelterstraße, Hemmingen [[1, STREET, t1-w1+0-oth0-tp1, 13.98 km]]",
+            "Kelterstraße, Strümpfelbach [[1, STREET, t1-w1+0-oth0-tp1, 14.11 km]]",
+            "Kelterstraße, Waiblingen [[1, STREET, t1-w1+0-oth0-tp1, 14.27 km]]",
+            "Kelterstraße, Asperg [[1, STREET, t1-w1+0-oth0-tp1, 14.72 km]]",
+            "Kelterstraße, Kleinheppach [[1, STREET, t1-w1+0-oth0-tp1, 15.92 km]]",
+            "Kelterstraße, Aichelberg [[1, STREET, t1-w1+0-oth0-tp1, 16.25 km]]",
+            "Kelterstraße, Altbach [[1, STREET, t1-w1+0-oth0-tp1, 16.31 km]]",
+            "Kelterstraße, Schwaikheim [[1, STREET, t1-w1+0-oth0-tp1, 16.52 km]]"
         ],
         [
-            "Kelterweg, Rommelshausen [[4, STREET, t4-w2+0-oth1-tp5, 10.25 km]]",
-            "Kelterstraße, Rommelshausen [[4, STREET, t4-w2+0-oth1-tp5, 10.71 km]]",
-            "Kelterabbruch, Kernen im Remstal [[4, POI, t4-w2+0-oth1-tp4, 12.82 km]]",
-            "Wein- und Kelterroute, Kernen im Remstal [[4, POI, t4-w2+0-oth2-tp4, 10.19 km]]",
-            "Spielplatz Kelterstraße, Kernen im Remstal [[4, POI, t4-w2+0-oth2-tp4, 10.97 km]]",
-            "Hohe Kelter, Kernen im Remstal [[4, POI, t4-w2+0-oth2-tp4, 11.74 km]]",
-            "Stetten i.R. Kelter, Kernen im Remstal [[4, POI, t4-w2+0-oth3-tp4, 12.04 km]]",
-            "Stetten i.R. Kelter, Kernen im Remstal [[4, POI, t4-w2+0-oth3-tp4, 12.05 km]]"
+            "Weberstraße, Stuttgart [[2, STREET, t2-w1+0-oth0-tp1, 0.82 km]]",
+            "Weberstraße, Sindelfingen [[2, STREET, t2-w1+0-oth0-tp1, 14.82 km]]",
+            "Weberstraße, Beutelsbach [[2, STREET, t2-w1+0-oth0-tp1, 15.55 km]]",
+            "Weberstraße, Freiberg am Neckar [[2, STREET, t2-w1+0-oth0-tp1, 16.61 km]]",
+            "Weberstraße, Wendlingen am Neckar [[2, STREET, t2-w1+0-oth0-tp1, 18.84 km]]",
+            "Weberstraße, Markgröningen [[2, STREET, t2-w1+0-oth0-tp1, 19.73 km]]",
+            "Weberstraße, Nürtingen [[2, STREET, t2-w1+0-oth0-tp1, 19.83 km]]",
+            "Weberstraße, Walddorf [[2, STREET, t2-w1+0-oth0-tp1, 20.79 km]]",
+            "Weberstraße, Winterbach [[2, STREET, t2-w1+0-oth0-tp1, 22.14 km]]",
+            "Weberstraße, Reichenbach an der Fils [[2, STREET, t2-w1+0-oth0-tp1, 22.59 km]]",
+            "Von-Weber-Straße, Steinheim an der Murr [[2, STREET, t2-w1+0-oth0-tp1, 23.16 km]]"
+        ],
+        [
+            "Weberstraße, Stuttgart [[2, STREET, t2-w1+0-oth0-tp1, 0.82 km]]",
+            "Weberstraße, Sindelfingen [[2, STREET, t2-w1+0-oth0-tp1, 14.82 km]]",
+            "Weberstraße, Beutelsbach [[2, STREET, t2-w1+0-oth0-tp1, 15.55 km]]",
+            "Weberstraße, Freiberg am Neckar [[2, STREET, t2-w1+0-oth0-tp1, 16.61 km]]",
+            "Weberstraße, Wendlingen am Neckar [[2, STREET, t2-w1+0-oth0-tp1, 18.84 km]]",
+            "Weberstraße, Markgröningen [[2, STREET, t2-w1+0-oth0-tp1, 19.73 km]]",
+            "Weberstraße, Nürtingen [[2, STREET, t2-w1+0-oth0-tp1, 19.83 km]]",
+            "Weberstraße, Walddorf [[2, STREET, t2-w1+0-oth0-tp1, 20.79 km]]",
+            "Weberstraße, Winterbach [[2, STREET, t2-w1+0-oth0-tp1, 22.14 km]]",
+            "Weberstraße, Reichenbach an der Fils [[2, STREET, t2-w1+0-oth0-tp1, 22.59 km]]",
+            "Von-Weber-Straße, Steinheim an der Murr [[2, STREET, t2-w1+0-oth0-tp1, 23.16 km]]"
+        ],
+        [
+            "Von-Weber-Straße, Steinheim an der Murr [[2, STREET, t2-w1+0-oth1-tp1, 23.16 km]]",
+            "Carl-Maria-von-Weber-Straße, Pfedelbach [[2, STREET, t2-w1+0-oth3-tp1, 51.18 km]]",
+            "Carl-Maria-von-Weber-Straße, Bammental [[2, STREET, t2-w1+0-oth3-tp1, 70.00 km]]",
+            "Carl-Maria-von-Weber-Straße, Freiburg im Breisgau [[2, STREET, t2-w1+0-oth3-tp1, 129.18 km]]",
+            "Carl-Maria-von-Weber-Straße, Augsburg [[2, STREET, t2-w1+0-oth3-tp1, 133.01 km]]",
+            "Carl-Maria-von-Weber-Straße, Bad Krozingen [[2, STREET, t2-w1+0-oth3-tp1, 144.58 km]]",
+            "Carl-Maria-von-Weber-Straße, Offenbach am Main [[2, STREET, t2-w1+0-oth3-tp1, 149.20 km]]",
+            "Carl-Maria-von-Weber-Straße, Zell im Wiesental [[2, STREET, t2-w1+0-oth3-tp1, 154.36 km]]",
+            "Carl-Maria-von-Weber-Straße, Bad Soden am Taunus [[2, STREET, t2-w1+0-oth3-tp1, 158.52 km]]",
+            "Carl-Maria-von-Weber-Straße, Schwaig bei Nürnberg [[2, STREET, t2-w1+0-oth3-tp1, 166.86 km]]",
+            "Carl-Maria-von-Weber-Straße, Gießen [[2, STREET, t2-w1+0-oth3-tp1, 202.68 km]]",
+            "Carl-Maria-von-Weber-Straße, Bayreuth [[2, STREET, t2-w1+0-oth3-tp1, 218.22 km]]",
+            "Carl-Maria-von-Weber-Straße, Kirchhain [[2, STREET, t2-w1+0-oth3-tp1, 229.27 km]]"
         ]
     ]
 }

@@ -17,16 +17,15 @@
     ],
     "results": [
         [
-            "53, Langestraße, Benningen am Neckar [[3, HOUSE, t3-w2+0-oth0-tp3, 13.84 km]]",
-		    "53, Langestraße, Kirchheim am Ries [[3, HOUSE, t3-w2+0-oth0-tp3, 79.60 km]]"
+            "53, Langestraße, Benningen am Neckar [[2, HOUSE, t2-w1+0-oth0-tp-1, 13.84 km]]",
+            "53, Langestraße, Kirchheim am Ries [[2, HOUSE, t2-w1+0-oth0-tp-1, 79.60 km]]",
+            "53, Langestraße, Schloßvippach [[2, HOUSE, t2-w1+0-oth0-tp-1, 284.81 km]]"
         ],
         [
-            "69, Daimlerstraße (Bad Cannstatt), Stuttgart [[4, HOUSE, t4-w2+0-oth0-tp3, 7.59 km]]",
-		    "69, Daimlerstraße, Leingarten [[4, HOUSE, t4-w2+0-oth1-tp3, 37.88 km]]"
+            "69, Daimlerstraße (Bad Cannstatt), Stuttgart [[4, HOUSE, t4-w2+0-oth0-tp3, 7.59 km]]"
         ],
         [
-            "69, Daimlerstraße (Bad Cannstatt), Stuttgart [[4, HOUSE, t4-w2+0-oth0-tp3, 7.59 km]]",
-		    "69, Daimlerstraße, Leingarten [[4, HOUSE, t4-w2+0-oth1-tp3, 37.88 km]]"
+            "69, Daimlerstraße (Bad Cannstatt), Stuttgart [[3, HOUSE, t3-w2+0-oth0-tp3, 7.59 km]]"
         ]
     ]
 }
