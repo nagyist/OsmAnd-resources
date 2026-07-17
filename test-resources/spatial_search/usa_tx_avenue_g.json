@@ -1,0 +1,27 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (5 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "-95.06539",
+        "lat": "29.47280"
+    },
+    "ignore": "true",
+    "phrases": [
+        "2419 Avenue G, Dickinson",
+        "2419 Avenue G, Dickinson, TX 77539, USA"
+    ],
+    "results": [
+        [
+            "2419, Avenue G, Dickinson [[3, HOUSE, t3-w2+0-oth1-tp3, 0.01 km]]",
+            "2419, Avenue G, Galveston [[3, HOUSE, t3-w2+0-oth1-tp3, 32.39 km]]"
+        ],
+        [
+            "2419, Avenue G, Dickinson [[3, HOUSE, t3-w2+0-oth1-tp3, 0.01 km]]",
+            "2419, Avenue G, Galveston [[3, HOUSE, t3-w2+0-oth1-tp3, 32.39 km]]"
+        ]
+    ]
+}
