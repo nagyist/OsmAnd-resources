@@ -1673,7 +1673,7 @@
 			<poi_type name="life_ring" tag="emergency" value="life_ring"/>
 			<poi_type name="rescue_box" tag="emergency" value="rescue_box"/>
 			<poi_type name="first_aid_kit" tag="emergency" value="first_aid_kit" icon="health_amenity_type_first_aid_kit"/>
-			<poi_type name="defibrillator" tag="emergency" value="defibrillator">
+			<poi_type name="defibrillator" tag="emergency" value="defibrillator" no_indx="true">
 				<poi_additional name="defibrillator_location" tag="defibrillator:location" type="text"/>
 			</poi_type>
 			<poi_type name="avalanche_transceiver" tag="amenity" value="avalanche_transceiver">
@@ -2265,7 +2265,7 @@
 					</poi_additional_category>
 				</poi_type>
 				<poi_type name="motorcycle_parking" tag="amenity" value="motorcycle_parking" excluded_poi_additional_category="wheelchair_accessibility"/>
-				<poi_type name="parking_entrance" tag="amenity" value="parking_entrance" excluded_poi_additional_category="wheelchair_accessibility,internet_access_type" poi_additional_category="park_ride,access_motorcycle,access_moped,access_mofa,access_disabled"/>
+				<poi_type name="parking_entrance" tag="amenity" value="parking_entrance" no_indx="true" excluded_poi_additional_category="wheelchair_accessibility,internet_access_type" poi_additional_category="park_ride,access_motorcycle,access_moped,access_mofa,access_disabled"/>
 				<poi_type name="parking_space" tag="amenity" value="parking_space" poi_additional_category="access_motorcycle,access_moped,access_mofa,access_disabled"/>
 				<poi_reference name="car_rental"/>
 				<poi_reference name="car_sharing"/>
@@ -2292,9 +2292,9 @@
 					</poi_additional_category>
 					<poi_additional name="passenger_information_display_yes" tag="passenger_information_display" value="yes"/>
 				</poi_type>
-				<poi_type name="public_transport_stop_position" tag="public_transport" value="stop_position" no_edit="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours"/>
-				<poi_type name="bus_stop" tag="highway" value="bus_stop" excluded_poi_additional_category="payment_type,fee,opening_hours" poi_additional_category="bench,covered,tactile_paving"/>
-				<poi_type name="tram_stop" tag="railway" value="tram_stop" excluded_poi_additional_category="payment_type,fee,opening_hours" poi_additional_category="bench,covered,tactile_paving"/>
+				<poi_type name="public_transport_stop_position" tag="public_transport" value="stop_position" no_indx="true" no_edit="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours"/>
+				<poi_type name="bus_stop" tag="highway" value="bus_stop" no_indx="true" excluded_poi_additional_category="payment_type,fee,opening_hours" poi_additional_category="bench,covered,tactile_paving"/>
+				<poi_type name="tram_stop" tag="railway" value="tram_stop" no_indx="true" excluded_poi_additional_category="payment_type,fee,opening_hours" poi_additional_category="bench,covered,tactile_paving"/>
 				<poi_type name="public_transport_station" tag="public_transport" value="station"/>
 				<poi_type name="bus_station" tag="amenity" value="bus_station"/>
 				<poi_type name="railway_station" tag="railway" value="station">
@@ -3960,7 +3960,7 @@
 				<poi_additional name="map_size_city" tag="map_size" value="city"/>
 				<poi_additional name="map_size_region" tag="map_size" value="region"/>
 			</poi_type>
-			<poi_type name="information_guidepost" tag="information" value="guidepost" edit_tag2="tourism" edit_value2="information"
+			<poi_type name="information_guidepost" tag="information" value="guidepost" edit_tag2="tourism	" edit_value2="information"
 					excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours" >
 				<poi_additional name="direction_north" tag="direction_north" type="text"/>
 				<poi_additional name="direction_east" tag="direction_east" type="text"/>
@@ -4272,7 +4272,7 @@
 			<poi_type name="playground_horizontal_bar" tag="playground" value="horizontal_bar"/>
 			<poi_type name="playground_activitypanel" tag="playground" value="activitypanel"/>
 			<poi_type name="playground_exercise" tag="playground" value="exercise"/>
-			<poi_type name="bench" tag="amenity" value="bench" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours,wheelchair_accessibility">
+			<poi_type name="bench" tag="amenity" value="bench" no_indx="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours,wheelchair_accessibility">
 				<poi_additional name="seats" tag="seats" type="text"/>
 				<poi_additional name="backrest_yes" tag="backrest" value="yes"/>
 			</poi_type>
@@ -4901,7 +4901,7 @@
 					<poi_additional name="waste_cigarettes" tag="waste" value="cigarettes"/>
 				</poi_additional_category>
 			</poi_type>
-			<poi_type name="waste_basket" tag="amenity" value="waste_basket" poi_additional_category="waste_accepted" excluded_poi_additional_category="payment_type,fee,internet_access_type,wheelchair_accessibility,opening_hours"/>
+			<poi_type name="waste_basket" tag="amenity" value="waste_basket" no_indx="true" poi_additional_category="waste_accepted" excluded_poi_additional_category="payment_type,fee,internet_access_type,wheelchair_accessibility,opening_hours"/>
 			<poi_type name="waste_transfer_station" tag="amenity" value="waste_transfer_station"/>
 			<poi_type name="trolley_bay" tag="amenity" value="trolley_bay" excluded_poi_additional_category="payment_type,fee,internet_access_type,wheelchair_accessibility,opening_hours"/>
 
