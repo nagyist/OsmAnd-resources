@@ -23,12 +23,12 @@
     ],
     "results": [
         [
-            "Trübbach [[2, POI motorway_junction, t2-w1+0-oth0-tp0, 9.91 km]]",
-            "Trübbach [[2, POI motorway_junction, t2-w1+0-oth0-tp0, 10.63 km]]"
+            "Trübbach 10 [[2, POI motorway_junction, t2-w1+0-oth0-tp0, 9.91 km]]",
+            "Trübbach 10 [[2, POI motorway_junction, t2-w1+0-oth0-tp0, 10.63 km]]"
         ],
         [
-            " [[2, POI helipad, t2-w1+0-oth0-tp0, 11.17 km]]",
-            "2 [[2, POI helipad, t2-w1+0-oth0-tp0, 38.23 km]]",
+            "2 [[2, POI helipad, t2-w1+0-oth0-tp0, 11.17 km]]",
+            "2 2 [[2, POI helipad, t2-w1+0-oth0-tp0, 38.23 km]]",
             "helipad, Cantone Canova 2° [[2, POI_TYPE, t2-w2+0-oth-2-tp6, 208.77 km]]"
         ],
         [
