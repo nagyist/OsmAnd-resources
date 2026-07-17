@@ -1683,7 +1683,7 @@
 			<poi_reference name="clinic"/>
 			<poi_reference name="hospital"/>
 			<poi_type name="emergency_phone" tag="emergency" value="phone"/>
-			<poi_type name="fire_hydrant" tag="emergency" value="fire_hydrant">
+			<poi_type name="fire_hydrant" tag="emergency" value="fire_hydrant" no_indx="true">
 				<poi_additional_category name="fire_hydrant_type">
 					<poi_additional name="fire_hydrant_type_underground" tag="fire_hydrant:type" value="underground"/>
 					<poi_additional name="fire_hydrant_type_pillar" tag="fire_hydrant:type" value="pillar"/>
@@ -2417,7 +2417,7 @@
 		
 		<poi_category name="man_made" default_tag="man_made" excluded_poi_additional_category="payment_type,fee,internet_access_type,wheelchair_accessibility,opening_hours">
 			<poi_filter name="transport_construction">
-				<poi_type name="tunnel" tag="man_made" value="tunnel" no_edit="true">
+				<poi_type name="tunnel" tag="man_made" value="tunnel" no_edit="true" no_indx="true">
 					<poi_additional name="tunnel_car" tag="tunnel_car" value="yes" no_edit="true"/> <!-- internal tag -->
 					<poi_additional name="tunnel_pedestrian" tag="tunnel_pedestrian" value="yes" no_edit="true"/> <!-- internal tag -->
 					<poi_additional name="tunnel_railway" tag="tunnel_railway" value="yes" no_edit="true"/> <!-- internal tag -->
@@ -2791,7 +2791,7 @@
 			<poi_type name="cutline" tag="man_made" value="cutline" name_only="true" no_edit="true"/>
 			<poi_type name="fish_pass" tag="man_made" value="fish_pass"/>
 			<poi_type name="dovecote" tag="man_made" value="dovecote"/>
-			<poi_type name="abandoned_poi" tag="abandoned_poi" value="yes" no_edit="true"/>
+			<poi_type name="abandoned_poi" tag="abandoned_poi" value="yes" no_indx="true" no_edit="true"/>
 <!--			<poi_type name="building" tag="building" value="yes" order="99">
 				<poi_additional name="building_type_church" tag="building:type" value="church" no_edit="true"/>
 				<poi_additional name="building_type_chapel" tag="building:type" value="chapel" no_edit="true"/>
@@ -4621,7 +4621,7 @@
 				<poi_type name="craft_window_construction" tag="craft" value="window_construction"/>
 				<poi_type name="craft_winery" tag="craft" value="winery"/>
 			</poi_filter>
-			<poi_type name="internet_access_yes" tag="internet_access" value="yes" order="99"/>
+			<poi_type name="internet_access_yes" tag="internet_access" value="yes" no_indx="true" order="99"/>
 			<poi_type name="funeral_directors" tag="shop" value="funeral_directors" excluded_poi_additional_category="payment_type,fee,internet_access_type" icon="shop_funeral_directors"/>
 			<poi_reference name="bureau_de_change"/>
 			<poi_reference name="driving_school"/>
@@ -4890,7 +4890,7 @@
 					<poi_additional name="recycling_wood" tag="recycling:wood" value="yes"/>
 				</poi_additional_category>
 			</poi_type>
-			<poi_type name="waste_disposal" tag="amenity" value="waste_disposal" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours">
+			<poi_type name="waste_disposal" tag="amenity" value="waste_disposal" no_indx="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours">
 				<poi_additional_category name="waste_accepted">
 					<poi_additional name="waste_trash" tag="waste" value="trash"/>
 					<poi_additional name="waste_oil" tag="waste" value="oil"/>
