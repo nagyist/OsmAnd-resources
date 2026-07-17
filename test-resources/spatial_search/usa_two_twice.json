@@ -10,18 +10,8 @@
         "lon": "-76.19040",
         "lat": "40.71940"
     },
-    "ignore":"true",
     "phrases": ["2 South 2nd Street Saint Clair"],
     "results": [[
-        "2, South 2nd Street, Saint Clair [[6, HOUSE, 91.817, 0.00 km]]",
-        "South 2nd Street, Saint Clair [[5, STREET, 1.710, 0.53 km]]",
-        "2, South 4th Street, Saint Clair [[5, HOUSE, 1.577, 0.15 km]]",
-        "2, South Mill Street, Saint Clair [[5, HOUSE, 1.577, 0.16 km]]",
-        "2, South Morris Street, Saint Clair [[5, HOUSE, 1.577, 0.32 km]]",
-        "South 2nd Street, Port Carbon Saint Clair Highway, Saint Clair [[5, STREET_INTERSECTION, 1.570, 0.82 km]]",
-        "2, South Saint Clair Street, Staunton [[5, HOUSE, 1.010, 378.41 km]]",
-        "South 3rd Street, Saint Clair [[4, STREET, 1.710, 0.31 km]]",
-        "South 4th Street, Saint Clair [[4, STREET, 1.710, 0.32 km]]",
-        "South Front Street, Saint Clair [[4, STREET, 1.710, 0.18 km]]"
+        "2, South 2nd Street, Saint Clair [[6, HOUSE, t6-w2+0-oth0-tp3, 0.00 km]]",
     ]]
 }
