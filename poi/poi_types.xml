@@ -1767,7 +1767,7 @@
 					</poi_additional_category>
 				<poi_type name="border_control" tag="barrier" value="border_control" poi_additional_category="opening_hours" no_edit="true"/>
 				<poi_type name="military_checkpoint" tag="military" value="checkpoint" excluded_poi_additional_category="wheelchair_accessibility" no_edit="true"/>
-				<poi_type name="traffic_signals" tag="highway" value="traffic_signals" no_edit="true">
+				<poi_type name="traffic_signals" tag="highway" value="traffic_signals" no_edit="true" no_indx="true">
 					<poi_additional_category name="traffic_signals_sound">
 						<poi_additional name="traffic_signals_sound_yes" tag="traffic_signals:sound" value="yes"/>
 						<poi_additional name="traffic_signals_sound_walk" tag="traffic_signals:sound" value="walk"/>
@@ -1794,15 +1794,15 @@
 						<poi_additional name="tactile_paving_incorrect" tag="tactile_paving" value="incorrect"/>
 					</poi_additional_category>
 				</poi_type>
-				<poi_type name="railway_level_crossing" tag="railway" value="level_crossing" no_edit="true" icon="level_crossing"/>
-				<poi_type name="traffic_calming_bump" tag="traffic_calming" value="bump" no_edit="true"/>
-				<poi_type name="traffic_calming_hump" tag="traffic_calming" value="hump" no_edit="true"/>
-				<poi_type name="traffic_calming_cushion" tag="traffic_calming" value="cushion" no_edit="true"/>
-				<poi_type name="traffic_calming_chicane" tag="traffic_calming" value="chicane" no_edit="true"/>
+				<poi_type name="railway_level_crossing" tag="railway" value="level_crossing" no_edit="true" icon="level_crossing" no_indx="true"/>
+				<poi_type name="traffic_calming_bump" tag="traffic_calming" value="bump" no_edit="true" no_indx="true"/>
+				<poi_type name="traffic_calming_hump" tag="traffic_calming" value="hump" no_edit="true" no_indx="true"/>
+				<poi_type name="traffic_calming_cushion" tag="traffic_calming" value="cushion" no_edit="true" no_indx="true"/>
+				<poi_type name="traffic_calming_chicane" tag="traffic_calming" value="chicane" no_edit="true" no_indx="true"/>
 				<poi_type name="traffic_calming_rumble_strip" tag="traffic_calming" value="rumble_strip" no_edit="true"/>
-				<poi_type name="traffic_calming_table" tag="traffic_calming" value="table" no_edit="true"/>
-				<poi_type name="traffic_calming_choker" tag="traffic_calming" value="choker" no_edit="true"/>
-				<poi_type name="traffic_calming_island" tag="traffic_calming" value="island" no_edit="true"/>
+				<poi_type name="traffic_calming_table" tag="traffic_calming" value="table" no_edit="true" no_indx="true"/>
+				<poi_type name="traffic_calming_choker" tag="traffic_calming" value="choker" no_edit="true" no_indx="true"/>
+				<poi_type name="traffic_calming_island" tag="traffic_calming" value="island" no_edit="true" no_indx="true"/>
 				<poi_type name="highway_steps" tag="highway" value="steps" no_edit="true" no_indx="true">
 					<poi_additional name="handrail_yes" tag="handrail" value="yes"/>
 					<poi_additional name="ramp_yes" tag="ramp" value="yes"/>
@@ -1815,7 +1815,7 @@
 					<poi_additional name="step_condition_uneven" tag="step:condition" value="uneven"/>
 					<poi_additional name="step_condition_rough" tag="step:condition" value="rough"/>
 				</poi_type>
-				<poi_type name="elevator" tag="highway" value="elevator"/>
+				<poi_type name="elevator" tag="highway" value="elevator" no_indx="true"/>
 			</poi_filter>
 			<poi_filter name="filling_station" top="true" excluded_poi_additional_category="internet_access_type,fee">
 				<poi_type name="fuel" tag="amenity" value="fuel" poi_additional_category="self_service,cash_withdrawal_bank_card,self_checkout,post_office_type">
@@ -2266,7 +2266,7 @@
 				</poi_type>
 				<poi_type name="motorcycle_parking" tag="amenity" value="motorcycle_parking" excluded_poi_additional_category="wheelchair_accessibility"/>
 				<poi_type name="parking_entrance" tag="amenity" value="parking_entrance" no_indx="true" excluded_poi_additional_category="wheelchair_accessibility,internet_access_type" poi_additional_category="park_ride,access_motorcycle,access_moped,access_mofa,access_disabled"/>
-				<poi_type name="parking_space" tag="amenity" value="parking_space" poi_additional_category="access_motorcycle,access_moped,access_mofa,access_disabled"/>
+				<poi_type name="parking_space" tag="amenity" value="parking_space" no_indx="true" poi_additional_category="access_motorcycle,access_moped,access_mofa,access_disabled"/>
 				<poi_reference name="car_rental"/>
 				<poi_reference name="car_sharing"/>
 			</poi_filter>
@@ -2347,7 +2347,7 @@
 			</poi_filter>
 			<poi_filter name="bicycle_transport">
 				<poi_reference name="bicycle_rental"/>
-				<poi_type name="bicycle_parking" tag="amenity" value="bicycle_parking" excluded_poi_additional_category="wheelchair_accessibility,internet_access_type" poi_additional_category="park_ride">
+				<poi_type name="bicycle_parking" tag="amenity" value="bicycle_parking" no_indx="true" excluded_poi_additional_category="wheelchair_accessibility,internet_access_type" poi_additional_category="park_ride">
 					<poi_additional_category name="bicycle_parking_type" icon="bicycle_parking_rack">
 						<poi_additional name="bicycle_parking_anchors" tag="bicycle_parking" value="anchors"/>
 						<poi_additional name="bicycle_parking_stands" tag="bicycle_parking" value="stands"/>
@@ -2386,7 +2386,7 @@
 				<poi_type name="aerialway_zip_line" tag="aerialway" value="zip_line" no_edit="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours"/>
 				<poi_type name="aerialway_goods" tag="aerialway" value="goods" no_edit="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours"/>
 				<poi_type name="aerialway_magic_carpet" tag="aerialway" value="magic_carpet" no_edit="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours"/>
-				<poi_type name="aerialway_pylon" tag="aerialway" value="pylon" excluded_poi_additional_category="payment_type,fee,internet_access_type,wheelchair_accessibility,opening_hours"/>
+				<poi_type name="aerialway_pylon" tag="aerialway" value="pylon" no_indx="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,wheelchair_accessibility,opening_hours"/>
 			</poi_filter>
 			<!--			<poi_filter name="hiking_routes" excluded_poi_additional_category="fee,payment_type,wheelchair_accessibility,internet_access_type,opening_hours">
 				<poi_type name="route_hiking_iwn_poi" tag="route_hiking_iwn_poi" value="yes" relation="true" name_tag="hiking_route_name" no_edit="true"/>
@@ -2751,7 +2751,7 @@
 				</poi_type>
 				<poi_type name="landuse_education" tag="landuse" value="education" icon="education" name_only="true" no_edit="true"/>
 			</poi_filter>
-			<poi_type name="mast" tag="man_made" value="mast"/>
+			<poi_type name="mast" tag="man_made" value="mast" no_indx="true"/>
 			<poi_type name="satellite_dish" tag="man_made" value="satellite_dish"/>
 			<poi_type name="flare" tag="man_made" value="flare"/>
 			<poi_type name="monitoring_station" tag="man_made" value="monitoring_station">
@@ -2941,7 +2941,7 @@
 			<poi_type name="neighbourhood" tag="place" value="neighbourhood" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="borough" tag="place" value="borough" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="city_block" tag="place" value="city_block" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
-			<poi_type name="locality" tag="place" value="locality" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
+			<poi_type name="locality" tag="place" value="locality" basemap="true" no_indx="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="place_allotments" tag="place" value="allotments" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="place_farm" tag="place" value="farm" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="residential" tag="landuse" value="residential" name_only="true" no_edit="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours">
@@ -3918,9 +3918,9 @@
 			<poi_type name="wayside_cross" tag="historic" value="wayside_cross" excluded_poi_additional_category="fee,payment_type,wheelchair_accessibility,internet_access_type,opening_hours"/>
 			<poi_type name="wayside_shrine" tag="historic" value="wayside_shrine" poi_additional_category="religion_type,denomination,internet_access_type,opening_hours"/>
 			<poi_type name="ranger_station" tag="amenity" value="ranger_station"/>
-			<poi_type name="information" tag="tourism" value="information" excluded_poi_additional_category="payment_type,fee,internet_access_type">
+			<poi_type name="information" tag="tourism" value="information" no_indx="true" excluded_poi_additional_category="payment_type,fee,internet_access_type">
 				<poi_additional_category name="information_type" icon="information_map">
-					<poi_additional name="information_map" tag="information" value="map" top="true"/>
+					<poi_additional name="information_map" tag="information" value="map" no_indx="true" top="true"/>
 					<poi_additional name="information_trail_blaze" tag="information" value="trail_blaze"/>
 					<poi_additional name="information_route_marker" tag="information" value="route_marker"/>
 					<poi_additional name="information_sign" tag="information" value="sign"/>
@@ -3960,8 +3960,8 @@
 				<poi_additional name="map_size_city" tag="map_size" value="city"/>
 				<poi_additional name="map_size_region" tag="map_size" value="region"/>
 			</poi_type>
-			<poi_type name="information_guidepost" tag="information" value="guidepost" edit_tag2="tourism	" edit_value2="information"
-					excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours" >
+			<poi_type name="information_guidepost" tag="information" value="guidepost" edit_tag2="tourism" edit_value2="information"
+					no_indx="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours" >
 				<poi_additional name="direction_north" tag="direction_north" type="text"/>
 				<poi_additional name="direction_east" tag="direction_east" type="text"/>
 				<poi_additional name="direction_south" tag="direction_south" type="text"/>
@@ -4784,10 +4784,10 @@
 			<poi_reference name="sauna"/>
 			<poi_type name="smoking_area" tag="amenity" value="smoking_area" excluded_poi_additional_category="payment_type,fee,internet_access_type,wheelchair_accessibility,opening_hours"/>
 			<poi_reference name="brothel"/>
-			<poi_type name="recycling" tag="amenity" value="recycling" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours">
+			<poi_type name="recycling" tag="amenity" value="recycling" no_indx="true" excluded_poi_additional_category="payment_type,fee,internet_access_type,opening_hours">
 				<poi_additional_category name="recycling_type" icon="recycling_container">
 					<poi_additional name="recycling_centre" tag="recycling_type" value="centre" poi_additional_category="fee,payment_type,wheelchair_accessibility" top="true"/>
-					<poi_additional name="recycling_container" tag="recycling_type" value="container" top="true"/>
+					<poi_additional name="recycling_container" tag="recycling_type" value="container" no_indx="true" top="true"/>
 				</poi_additional_category>
 				<poi_additional_category name="recycling_accepted_waste" icon="barrier_debris">
 					<poi_additional name="recycling_aerosol_cans" tag="recycling:aerosol_cans" value="yes"/>
@@ -4913,7 +4913,7 @@
 			<poi_type name="coworking_space" tag="amenity" value="coworking_space"/>
 			<poi_type name="shelter" tag="amenity" value="shelter" excluded_poi_additional_category="internet_access_type" poi_additional_category="drinking_water,snowmobile_filter,mattress_filter,heating_filter">
 				<poi_additional_category name="shelter_type">
-					<poi_additional name="shelter_type_public_transport" tag="shelter_type" value="public_transport" top="true"/>
+					<poi_additional name="shelter_type_public_transport" tag="shelter_type" value="public_transport" top="true" />
 					<poi_additional name="shelter_type_picnic_shelter" tag="shelter_type" value="picnic_shelter" top="true"/>
 					<poi_additional name="shelter_type_weather_shelter" tag="shelter_type" value="weather_shelter" top="true"/>
 					<poi_additional name="shelter_type_lean_to" tag="shelter_type" value="lean_to" top="true"/>
@@ -5312,7 +5312,7 @@
 			</poi_type>
 		</poi_category>
 		<poi_category name="osmwiki" no_edit="true" excluded_poi_additional_category="fee,payment_type,wheelchair_accessibility,internet_access_type,opening_hours">
-			<poi_type name="wiki_place" tag="osmwiki" value="wiki_place" no_edit="true">
+			<poi_type name="wiki_place" tag="osmwiki" value="wiki_place" no_edit="true" no_indx="true">
 				<poi_additional name="wiki_lang:af" tag="wiki_lang:af" value="yes" no_edit="true"/>
 				<poi_additional name="wiki_lang:als" tag="wiki_lang:als" value="yes" no_edit="true"/>
 				<poi_additional name="wiki_lang:ar" tag="wiki_lang:ar" value="yes" no_edit="true"/>
