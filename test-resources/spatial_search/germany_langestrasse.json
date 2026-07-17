@@ -12,10 +12,16 @@
     },
     "phrases": [
         "53 Langestraße Waiblingen",
+        "53 Lange straße Waiblingen",
         "69 Daimler Straße Stuttgart",
         "69 Daimlerstraße Stuttgart"
     ],
     "results": [
+        [
+            "53, Langestraße, Benningen am Neckar [[2, HOUSE, t2-w1+0-oth0-tp-1, 13.84 km]]",
+            "53, Langestraße, Kirchheim am Ries [[2, HOUSE, t2-w1+0-oth0-tp-1, 79.60 km]]",
+            "53, Langestraße, Schloßvippach [[2, HOUSE, t2-w1+0-oth0-tp-1, 284.81 km]]"
+        ],
         [
             "53, Langestraße, Benningen am Neckar [[2, HOUSE, t2-w1+0-oth0-tp-1, 13.84 km]]",
             "53, Langestraße, Kirchheim am Ries [[2, HOUSE, t2-w1+0-oth0-tp-1, 79.60 km]]",
