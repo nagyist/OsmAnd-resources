@@ -1,5 +1,6 @@
 {
     "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "ignore": "true",
     "settings": {
         "sortByName": false,
         "emptyQueryAllowed": false,
@@ -11,7 +12,10 @@
     },
     "phrases": [
         "Calle 20 188 San Isidro Lima",
-        "Lima Calle 20 San Isidro"
+        "Lima Calle 20 San Isidro",
+        "Calle 20 188",
+        "Calle 20",
+        "Lima 20 188"
     ],
     "results": [
         [
@@ -28,6 +32,16 @@
             "SIGLO XXI, SAN ISIDRO, San Isidro [[5, POI company, t5-w3+0-oth3-tp4, 0.65 km]]",
             "IBM Perú - San Isidro, San Isidro [[5, POI company, t5-w3+0-oth3-tp4, 0.67 km]]",
             "Clínica Internacional - Medicentro San Isidro, San Isidro [[5, POI clinic, t5-w3+0-oth3-tp4, 0.89 km]]"
+        ],
+        [
+            "188, Calle 20, San Isidro [[6, HOUSE, t6-w3+0-oth1-tp6, 0.00 km]]"
+        ],
+        [
+            "Calle 20, San Isidro [[2, STREET, t2-w1+0-oth0-tp1, 0.00 km]]",
+            "Calle 20 (San Miguel)",
+            "Calle 20 (Urbanización Piedra Liza)",
+		    "Calle Los Jilgueros, San Isidro [[2, STREET, t2-w1+0-oth0-tp1, 0.05 km]]",
+            "Dermatologist - 20th floor"
         ]
     ]
 }
