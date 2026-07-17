@@ -20,4 +20,4 @@ _rendering-testcases
 /test-resources/search/*.obf
 /test-resources/spatial_search/gen-source/*.obf.gz
 /test-resources/spatial_search/*.obf.gz
-/test-resources/spatial_search/*.hash
+/test-resources/spatial_search/gen-source/*.hash

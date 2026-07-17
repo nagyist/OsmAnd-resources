@@ -10,8 +10,20 @@
         "lon": "-76.19040",
         "lat": "40.71940"
     },
-    "phrases": ["2 South 2nd Street Saint Clair"],
-    "results": [[
-        "2, South 2nd Street, Saint Clair [[6, HOUSE, t6-w2+0-oth0-tp3, 0.00 km]]",
-    ]]
+    "phrases": [
+        "2 South 2nd Street Saint Clair",
+        "South 2nd Street 2 Saint Clair",
+        "2 South Second Street Saint Clair"
+    ],
+    "results": [
+        [
+            "2, South 2nd Street, Saint Clair [[6, HOUSE, t6-w2+0-oth0-tp3, 0.00 km]]",
+        ],
+        [
+            "2, South 2nd Street, Saint Clair [[6, HOUSE, t6-w2+0-oth0-tp3, 0.00 km]]",
+        ],
+        [
+            "2, South 2nd Street, Saint Clair [[6, HOUSE, t6-w2+0-oth0-tp3, 0.00 km]]"
+        ]
+    ]
 }

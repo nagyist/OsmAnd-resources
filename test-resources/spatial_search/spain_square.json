@@ -1,0 +1,21 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "-0.87860",
+        "lat": "41.65670"
+    },
+    "phrases": ["Square de Nuestra Señora del Pilar"],
+    "results": [[
+        "Plaza de Nuestra Señora del Pilar [[6, POI square, t6-w1+0-oth0-2elo-tp0, 0.11 km]]",
+		"Plaza del Pilar [[6, POI catholic_church, t6-w2+0-oth2-tp0, 388.54 km]]",
+		"Plaza de Nuestra Señora, Tarazona [[6, POI square, t6-w2+0-oth3-tp1, 75.54 km]]",
+		"Plaça del Pilar, Sagunt / Sagunto [[6, POI square, t6-w2+0-oth3-tp1, 228.65 km]]",
+		"Plaza del Pilar, Ciudad Real [[6, POI square, t6-w2+0-oth3-tp1, 394.03 km]]",
+		"MS Square, Zaragoza [[6, POI furniture, t6-w2+0-oth3-tp1, 1.03 km]]"
+    ]]
+}

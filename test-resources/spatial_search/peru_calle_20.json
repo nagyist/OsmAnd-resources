@@ -1,0 +1,33 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "-77.01636",
+        "lat": "-12.09608"
+    },
+    "phrases": [
+        "Calle 20 188 San Isidro Lima",
+        "Lima Calle 20 San Isidro"
+    ],
+    "results": [
+        [
+            "188, Calle 20, San Isidro [[6, HOUSE, t6-w3+0-oth1-tp6, 0.00 km]]"
+        ],
+        [
+            "Calle 20, San Isidro [[5, STREET, t5-w3+0-oth1-tp8, 0.00 km]]",
+            "Calle Los Jilgueros, San Isidro [[5, STREET, t5-w3+0-oth1-tp8, 0.05 km]]",
+            "Parque San Isidro II, San Isidro [[5, POI public_transport_platform, t5-w3+0-oth2-tp4, 0.50 km]]",
+            "HOTEL EL DORADO - SAN ISIDRO, San Isidro [[5, POI hotel, t5-w3+0-oth2-tp4, 0.60 km]]",
+            "Scotiabank San Isidro, San Isidro [[5, POI bank, t5-w3+0-oth2-tp4, 0.60 km]]",
+            "Sede San Isidro, San Isidro [[5, POI clinic, t5-w3+0-oth2-tp4, 0.62 km]]",
+            "Diner's Club San Isidro, San Isidro [[5, POI company, t5-w3+0-oth3-tp4, 0.42 km]]",
+            "SIGLO XXI, SAN ISIDRO, San Isidro [[5, POI company, t5-w3+0-oth3-tp4, 0.65 km]]",
+            "IBM Perú - San Isidro, San Isidro [[5, POI company, t5-w3+0-oth3-tp4, 0.67 km]]",
+            "Clínica Internacional - Medicentro San Isidro, San Isidro [[5, POI clinic, t5-w3+0-oth3-tp4, 0.89 km]]"
+        ]
+    ]
+}
