@@ -1,0 +1,129 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (5 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "9.55879",
+        "lat": "47.15330"
+    },
+    "phrases": [
+        "Trübbach 10",
+        "helipad 2",
+        "Vegan",
+        "Vegan Mai Thai",
+        "Vaduz Lettstrasse",
+        "Bank wheelchair",
+        "Friedenskapelle Church",
+        "Friedhofskapelle Church",
+        "Mamerten Church"
+    ],
+    "results": [
+        [
+            "Trübbach [[2, POI motorway_junction, t2-w1+0-oth0-tp0, 9.91 km]]",
+            "Trübbach [[2, POI motorway_junction, t2-w1+0-oth0-tp0, 10.63 km]]"
+        ],
+        [
+            " [[2, POI helipad, t2-w1+0-oth0-tp0, 11.17 km]]",
+            "2 [[2, POI helipad, t2-w1+0-oth0-tp0, 38.23 km]]",
+            "helipad, Cantone Canova 2° [[2, POI_TYPE, t2-w2+0-oth-2-tp6, 208.77 km]]"
+        ],
+        [
+            "diet_vegan_filter_yes [[1, POI_TYPE, t1-w1+0-oth-675-tp2, 0.00 km]]",
+            "Tölzer Hütte [[1, POI alpine_hut, t1-w1+0-oth0-1elo-tp0, 150.92 km]]",
+            "Gasthaus Traube Buchs [[1, POI restaurant, t1-w1+0-oth0-tp0, 6.89 km]]",
+            "Stumps Alpenrose [[1, POI restaurant, t1-w1+0-oth0-tp0, 17.90 km]]",
+            "Dürne’s Pizza und Grill [[1, POI restaurant, t1-w1+0-oth0-tp0, 18.19 km]]",
+            "D'Eisprinza z'Bludaz [[1, POI ice_cream, t1-w1+0-oth0-tp0, 19.78 km]]",
+            "Eisplatzl Schruns [[1, POI ice_cream, t1-w1+0-oth0-tp0, 28.40 km]]",
+            "Denner [[1, POI supermarket, t1-w1+0-oth0-tp0, 28.84 km]]",
+            "Soleil d'Or [[1, POI restaurant, t1-w1+0-oth0-tp0, 32.86 km]]",
+            "Fürst und Schmalz [[1, POI restaurant, t1-w1+0-oth0-tp0, 34.54 km]]",
+            "Badhus . Café und Unverpacktladen [[1, POI cafe, t1-w1+0-oth0-tp0, 42.86 km]]",
+            "Grenz Bistro [[1, POI fast_food, t1-w1+0-oth0-tp0, 44.75 km]]",
+            "Naturzeithof mit \"Café für Dich\" [[1, POI guest_house, t1-w1+0-oth0-tp0, 49.92 km]]",
+            "Hofcafé [[1, POI cafe, t1-w1+0-oth0-tp0, 51.65 km]]",
+            "Edeka Looks [[1, POI supermarket, t1-w1+0-oth0-tp0, 56.27 km]]",
+            "Spicy-Grill Taverne [[1, POI restaurant, t1-w1+0-oth0-tp0, 56.96 km]]",
+            "Eis Riviera [[1, POI ice_cream, t1-w1+0-oth0-tp0, 61.24 km]]",
+            "AP Café Indoor-Racing [[1, POI restaurant, t1-w1+0-oth0-tp0, 62.43 km]]",
+            "The Tonic [[1, POI restaurant, t1-w1+0-oth0-tp0, 63.12 km]]",
+            "Vegan Burger [[1, POI fast_food, t1-w1+0-oth1-tp0, 31.51 km]]"
+        ],
+        [
+            "Mai Thai [[3, POI restaurant, t3-w1+0-oth1-tp0, 7.20 km]]"
+        ],
+        [
+            "Vaduz Lettstrasse [[2, POI public_transport_platform, t2-w1+0-oth1-tp0, 3.21 km]]",
+            "Vaduz Lettstrasse [[2, POI public_transport_stop_position, t2-w1+0-oth1-tp0, 3.21 km]]",
+            "Vaduz Lettstrasse [[2, POI public_transport_platform, t2-w1+0-oth1-tp0, 3.24 km]]",
+            "Vaduz Lettstrasse [[2, POI public_transport_stop_position, t2-w1+0-oth1-tp0, 3.24 km]]",
+            "Lettstrasse, Vaduz [[2, STREET, t2-w2+0-oth0-tp5, 3.71 km]]",
+            "Lettstrasse, Buchs SG [[2, STREET, t2-w2+0-oth0-tp5, 3.71 km]]",
+            "Lettstrasse, Vaduz [[2, POI bridge, t2-w2+0-oth0-tp4, 3.70 km]]",
+            "Lettstrasse, Vaduz [[2, POI bridge, t2-w2+0-oth0-tp4, 3.86 km]]"
+        ],
+        [
+            "bank [[1, POI_TYPE, t1-w1+0-oth-3942-tp2, 0.00 km]]",
+            "top_index_brand_migros_bank [[1, POI_TYPE, t1-w1+0-oth-60-tp2, 0.00 km]]",
+            "top_index_brand_bank_linth [[1, POI_TYPE, t1-w1+0-oth-54-tp2, 0.00 km]]",
+            "top_index_brand:de_migros_bank [[1, POI_TYPE, t1-w1+0-oth-42-tp2, 0.00 km]]",
+            "top_index_brand_bank_austria [[1, POI_TYPE, t1-w1+0-oth-30-tp2, 0.00 km]]",
+            "top_index_brand:de_bw-bank [[1, POI_TYPE, t1-w1+0-oth-6-tp2, 0.00 km]]",
+            "top_index_brand:en_bw-bank [[1, POI_TYPE, t1-w1+0-oth-6-tp2, 0.00 km]]",
+            "top_index_brand:en_popular_bank_of_verona [[1, POI_TYPE, t1-w1+0-oth-6-tp2, 0.00 km]]",
+            "Bänk (Dägerlen), Bänk (Dägerlen) [[1, CITY, t1-w1+0-oth0-tp4, 75.75 km]]",
+            "blood_bank [[1, POI_TYPE, t1-w1+0-oth0-tp2, 0.00 km]]",
+            "Appenzeller Kantonalbank [[1, POI bank, t1-w1+0-oth0-tp0, 19.67 km]]",
+            "Bank Austria [[1, POI atm, t1-w1+0-oth0-tp0, 19.88 km]]",
+            "Bank Linth [[1, POI atm, t1-w1+0-oth0-tp0, 22.11 km]]",
+            "Appenzeller Kantonalbank [[1, POI bank, t1-w1+0-oth0-tp0, 22.63 km]]",
+            "Appenzeller Kantonalbank [[1, POI bank, t1-w1+0-oth0-tp0, 27.98 km]]",
+            "Volksbank [[1, POI bank, t1-w1+0-oth0-tp0, 28.36 km]]",
+            "Appenzeller Kantonalbank [[1, POI bank, t1-w1+0-oth0-tp0, 29.93 km]]",
+            "Volksbank [[1, POI bank, t1-w1+0-oth0-tp0, 32.14 km]]",
+            "Bank Austria [[1, POI atm, t1-w1+0-oth0-tp0, 32.27 km]]"
+        ],
+        [
+            "Friedenskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 6.82 km]]",
+            "Friedenskapelle [[2, POI roman_catholic_church, t2-w1+0-oth0-tp0, 44.25 km]]",
+            "Friedenskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 138.34 km]]",
+            "Friedenskapelle [[2, POI apostolic_church, t2-w1+0-oth0-tp0, 142.83 km]]",
+            "Friedenskapelle [[2, POI roman_catholic_church, t2-w1+0-oth0-tp0, 152.98 km]]",
+            "Friedenskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 156.37 km]]",
+            "Friedenskapelle [[2, POI protestant_church, t2-w1+0-oth0-tp0, 170.26 km]]",
+            "Friedenskapelle [[2, POI catholic_church, t2-w1+0-oth0-tp0, 171.02 km]]",
+            "Friedenskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 174.42 km]]",
+            "Friedenskapelle [[2, POI protestant_church, t2-w1+0-oth0-tp0, 177.34 km]]",
+            "Friedenskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 190.50 km]]",
+            "Friedenskapelle [[2, POI catholic_church, t2-w1+0-oth0-tp0, 227.78 km]]",
+            "Friedenskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 246.58 km]]",
+            "Friedenskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 250.34 km]]",
+            "Friedenskapelle [[2, POI roman_catholic_church, t2-w1+0-oth0-tp0, 270.54 km]]",
+            "Friedenskapelle [[2, POI roman_catholic_church, t2-w1+0-oth0-tp0, 273.89 km]]",
+            "Friedenskapelle Wallburg [[2, POI catholic_church, t2-w1+0-oth1-tp0, 177.19 km]]"
+        ],
+        [
+            "Friedhofskapelle [[2, POI catholic_church, t2-w1+0-oth0-tp0, 18.93 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 32.18 km]]",
+            "Friedhofskapelle [[2, POI roman_catholic_church, t2-w1+0-oth0-tp0, 57.59 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 59.77 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 63.97 km]]",
+            "Friedhofskapelle [[2, POI roman_catholic_church, t2-w1+0-oth0-tp0, 65.13 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 65.17 km]]",
+            "Friedhofskapelle [[2, POI catholic_church, t2-w1+0-oth0-tp0, 66.72 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 68.01 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 68.46 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 69.40 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 69.43 km]]",
+            "Friedhofskapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 71.79 km]]",
+            "Totenkapelle [[2, POI christian_church, t2-w1+0-oth0-tp0, 72.25 km]]",
+            "Kapelle hl. Margaretha [[2, POI roman_catholic_church, t2-w1+0-oth0-tp0, 72.29 km]]"
+        ],
+        [
+            "Sankt Mamerten [[2, POI roman_catholic_church, t2-w1+0-oth1-tp0, 5.45 km]]"
+        ]
+    ]
+}

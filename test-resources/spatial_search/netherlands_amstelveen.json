@@ -1,0 +1,28 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (5 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "4.86010",
+        "lat": "52.28270"
+    },
+    "phrases": [
+        "1186RZ Logger 324D Amstelveen",
+        "324 Logger 1186RZ",
+        "324 Logger Amstelveen"
+    ],
+    "results": [
+        [
+            "324D, Logger, Amstelveen [[4, HOUSE, t4-w3+0-oth0-tp6, 0.00 km]]"
+        ],
+        [
+            "324, Logger, Amstelveen [[3, HOUSE, t3-w2+0-oth0-tp2, 0.02 km]]"
+        ],
+        [
+            "324, Logger, Amstelveen [[3, HOUSE, t3-w2+0-oth0-tp2, 0.02 km]]"
+        ]
+    ]
+}

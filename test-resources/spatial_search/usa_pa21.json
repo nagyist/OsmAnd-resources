@@ -1,0 +1,66 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "-80.50251",
+        "lat": "41.16376"
+    },
+    "phrases": [
+        "PA21",
+        "PA-21",
+        "PA 21",
+        "West Middlesex Airport - PA21",
+        "3685 PA-318 West Middlesex",
+        "airport West Middlesex"
+    ],
+    "results": [
+        [
+            "Pa-21 Dam [[1, POI dam, t1-w1+0-oth2-tp0, 26.10 km]]",
+            "West Middlesex Airport - PA21 [[1, POI aerodrome, t1-w1+0-oth3-tp0, 0.35 km]]",
+            "Frontier Town RV Site #PA21 [[1, POI camp_pitch, t1-w1+0-oth3-tp0, 558.73 km]]"
+        ],
+        [
+            "Pa-21 Dam [[1, POI dam, t1-w1+0-oth2-tp0, 26.10 km]]",
+            "West Middlesex Airport - PA21 [[1, POI aerodrome, t1-w1+0-oth3-tp0, 0.35 km]]",
+            "Frontier Town RV Site #PA21 [[1, POI camp_pitch, t1-w1+0-oth3-tp0, 558.73 km]]"
+        ],
+        [
+            "21, Pa Avenue, Northampton [[2, HOUSE, t2-w1+0-oth0-tp-1, 444.37 km]]",
+            "Pa-21 Dam [[2, POI dam, t2-w1+0-oth1-tp0, 26.10 km]]",
+            "21, Ja-Pa Road, Mexico [[2, HOUSE, t2-w1+0-oth2-tp-1, 273.58 km]]",
+            "21, Ma & Pa Parkways, Martinsburg [[2, HOUSE, t2-w1+0-oth2-tp-1, 296.23 km]]",
+            "West Middlesex Airport - PA21 [[2, POI aerodrome, t2-w1+0-oth3-tp0, 0.35 km]]",
+            "Frontier Town RV Site #PA21 [[2, POI camp_pitch, t2-w1+0-oth3-tp0, 558.73 km]]",
+            "US 21st PA Cavalry Co B Bingham [[2, POI monument, t2-w1+0-oth3-tp0, 316.00 km]]",
+            "top_index_brand_century_21, Pennsylvania [[2, POI_TYPE, t2-w2+0-oth-54-tp6, 28.24 km]]",
+            "21st Street, Mercer [[2, STREET, t2-w2+0-oth0-tp5, 20.29 km]]",
+            "21st Street, Reynolds Heights [[2, STREET, t2-w2+0-oth0-tp5, 20.41 km]]",
+            "21st Avenue, Beaver Falls [[2, STREET, t2-w2+0-oth0-tp5, 46.36 km]]",
+            "21st Avenue, Beaver [[2, STREET, t2-w2+0-oth0-tp5, 46.59 km]]",
+            "21st Street, Beaver Falls [[2, STREET, t2-w2+0-oth0-tp5, 47.12 km]]",
+            "21st Avenue, Riverview [[2, STREET, t2-w2+0-oth0-tp5, 47.43 km]]",
+            "21st Street, New Brighton [[2, STREET, t2-w2+0-oth0-tp5, 51.99 km]]",
+            "21st Street, Monaca [[2, STREET, t2-w2+0-oth0-tp5, 56.83 km]]",
+            "21st Street, Aliquippa [[2, STREET, t2-w2+0-oth0-tp5, 63.76 km]]",
+            "21st Street, Ambridge [[2, STREET, t2-w2+0-oth0-tp5, 66.59 km]]",
+            "West 21st Street, Erie [[2, STREET, t2-w2+0-oth0-tp5, 110.31 km]]",
+            "21st Street, Pennsylvania [[2, POI tunnel, t2-w2+0-oth0-tp4, 51.98 km]]",
+            "E 21st St, Pennsylvania [[2, POI public_transport_platform, t2-w2+0-oth0-tp4, 111.71 km]]",
+            "7th Ave at 21th St, Pennsylvania [[2, POI public_transport_platform, t2-w2+0-oth2-tp4, 47.30 km]]"
+        ],
+        [
+            "West Middlesex Airport - PA21 [[4, POI aerodrome, t4-w1+0-oth3-tp0, 0.35 km]]"
+        ],
+        [
+            "3685, PA-318, West Middlesex [[4, HOUSE, t4-w2+0-oth0-tp3, 0.35 km]]"
+        ],
+        [
+            "West Middlesex Airport - PA21 [[3, POI aerodrome, t3-w1+0-oth3-tp0, 0.35 km]]",
+            "aerodrome, West Middlesex [[3, POI_TYPE, t3-w2+0-oth-6-tp6, 4.27 km]]"
+        ]
+    ]
+}

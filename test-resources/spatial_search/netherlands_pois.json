@@ -1,0 +1,133 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "transliterateIfMissing": false,
+        "lon": "4.86010",
+        "lat": "52.28270"
+    },
+    "phrases": [
+        "Farm",
+        "Gate D18",
+        "Gate D-18",
+        "Gate D 18",
+        "mcdonalds",
+        "mcdonald's",
+        "mcdonalds fast food",
+        "vegan cafe"
+    ],
+    "results": [
+        [
+            "farm [[1, POI_TYPE, t1-w1+0-oth-291-tp2, 0.00 km]]",
+            "historic_farm [[1, POI_TYPE, t1-w1+0-oth-60-tp2, 0.00 km]]",
+            "place_farm [[1, POI_TYPE, t1-w1+0-oth-22-tp2, 0.00 km]]",
+            "Zur Farm, Edewecht [[1, STREET, t1-w1+0-oth1-tp1, 226.19 km]]",
+            "Farm Auel, Blankenheim [[1, STREET, t1-w1+0-oth1-tp1, 242.27 km]]",
+            "Zur Farm, Heddert [[1, STREET, t1-w1+0-oth1-tp1, 322.29 km]]",
+            "Landgut Farm, Niederheimbach [[1, STREET, t1-w1+0-oth1-tp1, 324.77 km]]",
+            "Farm Visit [[1, POI company, t1-w1+0-oth1-tp0, 41.40 km]]",
+            "Farm de Beauty [[1, POI beauty, t1-w1+0-oth1-tp0, 43.27 km]]",
+            "Campus Farm [[1, POI allotments, t1-w1+0-oth1-tp0, 46.00 km]]",
+            "Amsterdam City Farm [[1, POI restaurant, t1-w1+0-oth2-tp0, 10.96 km]]",
+            "The Farm Kitchen's Kookfabriek [[1, POI company, t1-w1+0-oth2-tp0, 37.13 km]]",
+            "Alpaca Eco Farm [[1, POI farm, t1-w1+0-oth2-tp0, 41.25 km]]",
+            "Windpark Fryslân [[1, POI wiki_place, t1-w1+0-oth2-tp0, 84.67 km]]",
+            "Day care farm De Hoop [[1, POI farm, t1-w1+0-oth3-tp0, 15.86 km]]",
+            "Path to Talana Farm Cemetery, Ieper [[1, STREET, t1-w1+0-oth3-tp1, 208.03 km]]",
+            "Depot of the Travelling Farm Museum [[1, POI museum, t1-w1+0-oth3-tp0, 23.73 km]]"
+        ],
+        [
+            " [[2, POI aeroway_gate, t2-w1+0-oth0-tp0, 6.68 km]]",
+            "18, Rue de la Gâte, Chimay [[2, HOUSE, t2-w1+-1-oth3-tp-1, 253.37 km]]"
+        ],
+        [
+            " [[2, POI aeroway_gate, t2-w1+0-oth0-tp0, 6.68 km]]",
+            "18, Rue de la Gâte, Chimay [[2, HOUSE, t2-w1+-1-oth3-tp-1, 253.37 km]]"
+        ],
+        [
+            " [[3, POI aeroway_gate, t3-w1+0-oth0-tp0, 6.68 km]]",
+            "18, Rue de la Gâte, Chimay [[3, HOUSE, t3-w1+-2-oth3-tp-1, 253.37 km]]"
+        ],
+        [
+            "top_index_brand_mcdonalds [[1, POI_TYPE, t1-w1+0-oth-4110-tp2, 0.00 km]]",
+            "McDonald's, Uden [[1, STREET, t1-w1+0-oth0-tp1, 84.86 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 2.15 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 3.81 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 6.07 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 6.29 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 7.08 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 7.30 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 7.40 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 7.43 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 8.14 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 8.30 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.25 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.27 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.32 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.34 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.61 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.63 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.80 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 10.01 km]]"
+        ],
+        [
+            "top_index_brand_mcdonalds [[1, POI_TYPE, t1-w1+0-oth-4932-tp2, 0.00 km]]",
+            "McDonald's, Uden [[1, STREET, t1-w1+0-oth0-tp1, 84.86 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 2.15 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 3.81 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 6.07 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 6.29 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 7.08 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 7.30 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 7.40 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 7.43 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 8.14 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 8.30 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.25 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.27 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.32 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.34 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.61 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.63 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 9.80 km]]",
+            "McDonald's [[1, POI fast_food, t1-w1+0-oth0-tp0, 10.01 km]]"
+        ],
+        [
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 2.15 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 3.81 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 6.07 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 6.29 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 7.08 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 7.30 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 7.40 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 7.43 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 8.14 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 8.30 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 9.25 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 9.27 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 9.32 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 9.34 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 9.61 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 9.63 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 9.80 km]]",
+            "McDonald's [[3, POI fast_food, t3-w1+0-oth0-tp0, 10.01 km]]"
+        ],
+        [
+            "Buno Coffee [[2, POI cafe, t2-w1+0-oth0-tp0, 7.66 km]]",
+            "Molli Chaoot [[2, POI cafe, t2-w1+0-oth0-tp0, 7.96 km]]",
+            "Rijks museum Cafe [[2, POI cafe, t2-w1+0-oth0-tp0, 8.75 km]]",
+            "Darras Coffee Roasters [[2, POI cafe, t2-w1+0-oth0-tp0, 18.79 km]]",
+            "Your Coffee [[2, POI cafe, t2-w1+0-oth0-tp0, 22.38 km]]",
+            "SOIL Vegan Cafe [[2, POI restaurant, t2-w1+0-oth1-tp0, 9.58 km]]",
+            "SOIL Vegan Cafe [[2, POI restaurant, t2-w1+0-oth1-tp0, 10.28 km]]",
+            "Café STU Vintage, Vegan [[2, POI cafe, t2-w1+0-oth2-tp0, 38.75 km]]",
+            "diet_vegan_filter_yes, Le Café du Renard [[2, POI_TYPE, t2-w2+0-oth-3813-tp6, 324.06 km]]",
+            "The Grill [[2, POI cafe, t2-w2+0-oth0-tp0, 24.46 km]]",
+            "The Market Restaurant [[2, POI cafe, t2-w2+0-oth0-tp0, 24.48 km]]",
+            "Frites Affairs [[2, POI cafe, t2-w2+0-oth0-tp0, 24.49 km]]"
+        ]
+    ]
+}
