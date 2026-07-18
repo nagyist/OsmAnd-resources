@@ -7,8 +7,8 @@
         "regionLang": "uk,ru",
         "radiusLevel": 1,
         "transliterateIfMissing": false,
-        "lon": "30.51868",
-        "lat": "50.45776"
+        "lon": "30.5",
+        "lat": "50.4"
     },
     "ignore": "true",
     "phrases": [
@@ -16,13 +16,9 @@
         "школа 25",
         "25 школа",
         "25 school",
-        "25-та school",
-        "25-та школа"
+        "25-та school"
     ],
     "results": [
-        [
-            "Школа №25 [[2, POI school, t2-w1+0-oth0-tp0, 0.00 km]]"
-        ],
         [
             "Школа №25 [[2, POI school, t2-w1+0-oth0-tp0, 0.00 km]]"
         ],

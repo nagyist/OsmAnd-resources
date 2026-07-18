@@ -9,7 +9,6 @@
         "emptyQueryAllowed": false,
         "sortByName": false
     },
-    "ignore": "true",
     "phrases": [
         "A-13",
         "A, Ramakrishna Puram"
@@ -20,14 +19,11 @@
         "A-13, Ramakrishna Puram [[1, STREET, 30.000, 0.22 km]]"
     ],
     [
-        "A, <Ramakrishna Puram>, Ramakrishna Puram [[3, HOUSE, 4.020, 1.12 km]]",
-        "A-41, <Ramakrishna Puram>, Ramakrishna Puram [[3, HOUSE, 0.420, 0.24 km]]",
-        "A-10, Ramakrishna Puram [[3, STREET, 0.320, 0.60 km]]",
-        "A-11, Ramakrishna Puram [[3, STREET, 0.320, 0.35 km]]",
-        "A-12, Ramakrishna Puram [[3, STREET, 0.320, 0.48 km]]",
-        "A-13, Ramakrishna Puram [[3, STREET, 0.320, 0.22 km]]",
-        "A-15, Ramakrishna Puram [[3, STREET, 0.320, 0.54 km]]",
-        "A-9, Ramakrishna Puram [[3, STREET, 0.320, 0.28 km]]"
+        "A-41, <Ramakrishna Puram>, Ramakrishna Puram [[3, HOUSE, t3-w1+0-oth1-tp-1, 0.24 km]]",
+		"A, <Ramakrishna Puram>, Ramakrishna Puram [[3, HOUSE, t3-w1+0-oth1-tp-1, 1.12 km]]",
+		"fuel_jeta1, Ramakrishna Puram [[3, POI_TYPE, t3-w2+0-oth1-tp6, 1.10 km]]",
+		"A, Ramakrishna Puram [[3, POI building, t3-w2+0-oth1-tp4, 1.12 km]]",
+		"A-9, Ramakrishna Puram [[3, STREET, t3-w2+0-oth2-tp5, 0.28 km]]"
     ]
 ]
 }

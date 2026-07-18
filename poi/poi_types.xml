@@ -2931,11 +2931,11 @@
 			</poi_type>
 			<poi_type name="town" tag="place" value="town" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="village" tag="place" value="village" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
-			<poi_type name="hamlet" tag="place" value="hamlet" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
+			<poi_type name="hamlet" tag="place" value="hamlet" basemap="true" no_indx="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="island" tag="place" value="island" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="islet" tag="place" value="islet" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="atoll" tag="place" value="atoll" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
-			<poi_type name="isolated_dwelling" tag="place" value="isolated_dwelling" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
+			<poi_type name="isolated_dwelling" tag="place" value="isolated_dwelling" no_indx="true" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="suburb" tag="place" value="suburb" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="quarter" tag="place" value="quarter" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
 			<poi_type name="neighbourhood" tag="place" value="neighbourhood" basemap="true" excluded_poi_additional_category="wheelchair_accessibility,opening_hours"/>
