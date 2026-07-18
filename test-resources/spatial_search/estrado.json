@@ -9,6 +9,7 @@
         "emptyQueryAllowed": false,
         "sortByName": false
     },
+    "ignore": true,
     "phrases": [
         "Estrado",
         "Harderwijk",
@@ -31,7 +32,7 @@
             "Harderwijk [[1, POI (motorway_junction),, 1.67 km]]"
         ],
         [
-            "Muziekpodium Estrado, Harderwijk [[2, POI arts_centre, t2-w2+0-oth1-tp4, 0.02 km]]"
+            "Muziekpodium Estrado [[2, POI arts_centre, t2-w2+0-oth1-tp4, 0.02 km]]"
         ],
          [
             "Muziekpodium Estrado, Harderwijk [[2, POI arts_centre, t2-w2+0-oth1-tp4, 0.02 km]]"
