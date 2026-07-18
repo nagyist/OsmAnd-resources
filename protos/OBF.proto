@@ -633,6 +633,8 @@ message OsmAndCategoryTable {
 	optional uint32 frequency = 2;
 	repeated string subcategories = 3;
 	repeated uint32 subcatfreq = 4; // optional
+
+	repeated string subcatWikidataIds = 7;
 }
 
 message OsmAndSubtypesTable {
@@ -647,11 +649,14 @@ message OsmAndPoiSubtype {
 	required string name = 1;
 	optional string tagname = 2; // same to name if not present
 	required bool isText = 3;
+	optional string wikidataId = 4;
 	optional uint32 frequency = 5;
 	
 	optional uint32 subtypeValuesSize = 6;
 	repeated uint32 subtypeValuesFreq = 7; // optional
 	repeated string subtypeValue = 8; 
+
+	repeated string subcatWikidataIds = 12;
 }
 
 message OsmAndPoiTagGroup {
