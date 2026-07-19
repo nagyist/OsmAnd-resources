@@ -11,16 +11,9 @@
         "lon": "-75.86251",
         "lat": "41.23934"
     },
-    "ignore": "true",
     "phrases": ["226 Wilkes-Barre Township Boulevard Wilkes-Barre"],
     "results": [[
-        "226, Wilkes-Barre Township Boulevard, Wilkes-Barre [[5, HOUSE, 91.817, 0.01 km]]",
-        "226, South Wilkes Barre Boulevard, Wilkes-Barre [[5, HOUSE, 91.010, 1.88 km]]",
-        "Wilkes-Barre Township Boulevard, Wilkes-Barre [[4, STREET, 1.710, 0.42 km]]",
-        "Wilkes-Barre Boulevard, Wilkes-Barre [[4, STREET, 1.010, 0.48 km]]",
-        "North Wilkes-Barre Boulevard, Wilkes-Barre [[4, STREET, 1.010, 1.07 km]]",
-        "South Wilkes Barre Boulevard, Wilkes-Barre [[4, STREET, 1.010, 1.50 km]]",
-        "Wilkes-Barre Boulevard (Parsons), Wilkes-Barre [[4, STREET, 1.010, 2.37 km]]",
-        "Wilkes-Barre Twnshp Boulevard, Wilkes-Barre [[4, STREET, 1.010, 2.53 km]]"
+        "226, Wilkes-Barre Township Boulevard, Wilkes-Barre [[7, HOUSE, t7-w2+0-oth1-tp-1, 0.01 km]]",
+		"226, South Wilkes Barre Boulevard, Wilkes-Barre [[7, HOUSE, t7-w2+0-oth2-tp3, 1.88 km]]"
     ]]
 }

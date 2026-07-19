@@ -15,17 +15,11 @@
         "Húns Húns 39a-MLN"
     ],
     "results": [[
-        "39a-MLN, Húns, Leeuwarden [[2, HOUSE, t2-w1+0-oth0-tp-1, 0.01 km]]",
-		"39a-MLN, <Húns>, Húns [[2, HOUSE, t2-w1+0-oth0-tp-1, 0.01 km]]",
-		"Húns, Húns [[2, POI wiki_place, t2-w2+0-oth0-tp4, 0.84 km]]",
-		"Huns Provincialeweg, Húns [[2, POI public_transport_platform, t2-w2+0-oth1-tp4, 0.62 km]]",
-		"Huns Provincialeweg, Húns [[2, POI public_transport_platform, t2-w2+0-oth1-tp4, 0.78 km]]"
+        "39a-MLN, Húns, Leeuwarden [[3, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]",
+		"39a-MLN, <Húns>, Húns [[3, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]",
     ],
     [
-        "39a-MLN, Húns, Leeuwarden [[2, HOUSE, t2-w1+0-oth0-tp-1, 0.01 km]]",
-		"39a-MLN, <Húns>, Húns [[2, HOUSE, t2-w1+0-oth0-tp-1, 0.01 km]]",
-		"Húns, Húns [[2, POI wiki_place, t2-w2+0-oth0-tp4, 0.84 km]]",
-		"Huns Provincialeweg, Húns [[2, POI public_transport_platform, t2-w2+0-oth1-tp4, 0.62 km]]",
-		"Huns Provincialeweg, Húns [[2, POI public_transport_platform, t2-w2+0-oth1-tp4, 0.78 km]]"
+        "39a-MLN, Húns, Leeuwarden [[3, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]",
+		"39a-MLN, <Húns>, Húns [[3, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]",
     ]]
 }
