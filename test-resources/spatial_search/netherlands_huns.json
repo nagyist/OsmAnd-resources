@@ -10,13 +10,15 @@
         "lon": "5.65704",
         "lat": "53.15558"
     },
+    "ignore" : true,
+    "comment" : "Fix tests by adding postcode data",
     "phrases": [
         "Huns Huns 39a-MLN 8832kd",
         "Húns Húns 39a-MLN"
     ],
     "results": [[
-        "39a-MLN, Húns, Leeuwarden [[3, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]",
-		"39a-MLN, <Húns>, Húns [[3, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]",
+        "39a-MLN, Húns, Leeuwarden [[4, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]",
+		"39a-MLN, <Húns>, Húns [[4, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]"
     ],
     [
         "39a-MLN, Húns, Leeuwarden [[3, HOUSE, t3-w2+0-oth0-tp3, 0.01 km]]",

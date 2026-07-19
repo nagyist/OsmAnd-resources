@@ -9,7 +9,8 @@
         "emptyQueryAllowed": false,
         "sortByName": false
     },
-    "ignore": true,
+    "ignore": "true",
+    "comment": "Missing correct boundaries for harderwijk so works as poi intersection not correct",
     "phrases": [
         "Estrado",
         "Harderwijk",
