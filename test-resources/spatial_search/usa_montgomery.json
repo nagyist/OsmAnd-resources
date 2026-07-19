@@ -14,12 +14,12 @@
                 "5676 US 15 Montgomery",
                 "5676 US15 Montgomery"],
     "results": [[
-        "5676, US 15, Montgomery [[3, HOUSE, 91.017, 0.01 km]]"
+        "5676, US 15, Montgomery [[3, HOUSE, t3-w2+0-oth1-tp3, 0.01 km]]"
     ],
     [
-        "5676, US 15, Montgomery [[3, HOUSE, 91.017, 0.01 km]]"
+        "5676, US 15, Montgomery [[4, HOUSE, t4-w2+0-oth0-tp3, 0.01 km]]"
     ],
     [
-        "5676, US 15, Montgomery [[3, HOUSE, 91.017, 0.01 km]]"
+        "5676, US 15, Montgomery [[3, HOUSE, t3-w2+0-oth1-tp3, 0.01 km]]"
     ]]
 }
