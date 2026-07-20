@@ -18,13 +18,13 @@
             "Basílica de Nuestra Señora del Pilar [[7, POI catholic_church, t7-w1+0-oth1-14elo-tp0, 0.01 km]]"
         ],
         [
-            "Basílica de Nuestra Señora del Pilar [[6, POI catholic_church, t6-w1+0-oth1-14elo-tp0, 0.01 km]]",
-            "Residencia de Estudiantes Misioneras de Nuestra Señora del Pilar, La Catedral [[6, POI college, t6-w2+0-oth3-tp4, 66.33 km]]",
-            "Parroquia Nuestra Señora del Pilar, Bilbao [[6, POI catholic_church, t6-w2+0-oth3-tp1, 245.55 km]]",
-            "CPEIPS Nuestra Señora del Pilar, Bilbao [[6, POI school, t6-w2+0-oth3-tp1, 245.73 km]]",
-            "Catedral del Salvador, Zaragoza [[6, POI catholic_church, t6-w2+0-oth3-17elo-tp1, 0.32 km]]",
-            "Iglesia Catedral de la Transfiguración del Señor [[6, POI college, t6-w2+0-oth3-4elo-tp0, 66.43 km]]",
-            "Catedral de Nuestra Señora de la Asunción, Huesca [[6, POI roman_catholic_church, t6-w2+0-oth3-10elo-tp1, 93.05 km]]"
+            "Basílica de Nuestra Señora del Pilar [[6, POI catholic_church, t6+0-w1-oth1-14elo-tp0, 0.01 km]]",
+		    "Residencia de Estudiantes Misioneras de Nuestra Señora del Pilar, La Catedral [[6, POI college, t6+0-w2-oth3-tp4, 66.33 km]]",
+		    "Parroquia Nuestra Señora del Pilar, Bilbao [[6, POI catholic_church, t6+0-w2-oth3-tp1, 245.55 km]]",
+		    "CPEIPS Nuestra Señora del Pilar, Bilbao [[6, POI school, t6+0-w2-oth3-tp1, 245.73 km]]",
+		    "Catedral del Salvador, Zaragoza [[6, POI catholic_church, t6+0-w2-oth3-17elo-tp1, 0.32 km]]",
+		    "Iglesia Catedral de la Transfiguración del Señor [[6, POI roman_catholic_church, t6+0-w2-oth3-4elo-tp0, 66.43 km]]",
+		    "Catedral de Nuestra Señora de la Asunción, Huesca [[6, POI roman_catholic_church, t6+0-w2-oth3-10elo-tp1, 93.05 km]]"
         ]
     ]
 }

@@ -19,10 +19,12 @@
         "A-13, Ramakrishna Puram [[1, STREET, 30.000, 0.22 km]]"
     ],
     [
-        "A-41, <Ramakrishna Puram>, Ramakrishna Puram [[3, HOUSE, t3-w1+0-oth1-tp-1, 0.24 km]]",
-		"A, <Ramakrishna Puram>, Ramakrishna Puram [[3, HOUSE, t3-w1+0-oth1-tp-1, 1.12 km]]",
-		"A, Ramakrishna Puram [[3, POI building, t3-w2+0-oth1-tp4, 1.12 km]]",
-		"A-9, Ramakrishna Puram [[3, STREET, t3-w2+0-oth2-tp5, 0.28 km]]"
+        "A-41, <Ramakrishna Puram>, Ramakrishna Puram [[3, HOUSE, t3+0-w1-oth1-tp-1, 0.24 km]]",
+		"A, <Ramakrishna Puram>, Ramakrishna Puram [[3, HOUSE, t3+0-w1-oth1-tp-1, 1.12 km]]",
+		"A, Ramakrishna Puram [[3, POI building, t3+0-w2-oth1-tp4, 1.12 km]]",
+		"Ramakrishna Puram, Ramakrishna Puram [[3, POI suburb, t3+0-w2-oth1-tp1, 1.10 km]]",
+		"A-13, Ramakrishna Puram [[3, STREET, t3+0-w2-oth2-tp5, 0.22 km]]",
+		"A-9, Ramakrishna Puram [[3, STREET, t3+0-w2-oth2-tp5, 0.28 km]]"
     ]
 ]
 }
