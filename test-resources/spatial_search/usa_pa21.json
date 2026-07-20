@@ -36,7 +36,6 @@
             "West Middlesex Airport - PA21 [[2, POI aerodrome, t2-w1+0-oth3-tp0, 0.35 km]]",
             "Frontier Town RV Site #PA21 [[2, POI camp_pitch, t2-w1+0-oth3-tp0, 558.73 km]]",
             "US 21st PA Cavalry Co B Bingham [[2, POI monument, t2-w1+0-oth3-tp0, 316.00 km]]",
-            "top_index_brand_century_21, Pennsylvania [[2, POI_TYPE, t2-w2+0-oth-54-tp6, 28.24 km]]",
             "21st Street, Mercer [[2, STREET, t2-w2+0-oth0-tp5, 20.29 km]]",
             "21st Street, Reynolds Heights [[2, STREET, t2-w2+0-oth0-tp5, 20.41 km]]",
             "21st Avenue, Beaver Falls [[2, STREET, t2-w2+0-oth0-tp5, 46.36 km]]",
@@ -58,8 +57,8 @@
             "3685, PA-318, West Middlesex [[4, HOUSE, t4-w2+0-oth0-tp3, 0.35 km]]"
         ],
         [
-            "West Middlesex Airport - PA21 [[3, POI aerodrome, t3-w1+0-oth3-tp0, 0.35 km]]",
-            "aerodrome, West Middlesex [[3, POI_TYPE, t3-w2+0-oth-6-tp6, 4.27 km]]"
+            "aerodrome, West Middlesex [[3, POI_TYPE, t3-w2+0-oth-6-tp6, 4.27 km]]",
+            "West Middlesex Airport - PA21 [[3, POI aerodrome, t3-w1+0-oth3-tp0, 0.35 km]]"
         ]
     ]
 }

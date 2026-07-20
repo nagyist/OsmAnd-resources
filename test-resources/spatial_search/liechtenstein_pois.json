@@ -15,7 +15,7 @@
         "Vegan",
         "Vegan Mai Thai",
         "Vaduz Lettstrasse",
-        "Bank wheelchair",
+        "Bank",
         "Friedenskapelle Church",
         "Friedhofskapelle Church",
         "Friedhofskapelle Roman Church",
@@ -28,8 +28,7 @@
         ],
         [
             "2 [[2, POI helipad, t2-w1+0-oth0-tp0, 11.17 km]]",
-            "2 2 [[2, POI helipad, t2-w1+0-oth0-tp0, 38.23 km]]",
-            "helipad, Cantone Canova 2° [[2, POI_TYPE, t2-w2+0-oth-2-tp6, 208.77 km]]"
+            "2 2 [[2, POI helipad, t2-w1+0-oth0-tp0, 38.23 km]]"
         ],
         [
             "diet_vegan_filter_yes [[1, POI_TYPE, t1-w1+0-oth-675-tp2, 0.00 km]]",
@@ -71,9 +70,9 @@
             "top_index_brand_bank_linth [[1, POI_TYPE, t1-w1+0-oth-54-tp2, 0.00 km]]",
             "top_index_brand:de_migros_bank [[1, POI_TYPE, t1-w1+0-oth-42-tp2, 0.00 km]]",
             "top_index_brand_bank_austria [[1, POI_TYPE, t1-w1+0-oth-30-tp2, 0.00 km]]",
+            "blood_bank [[1, POI_TYPE, t1-w1+0-oth0-tp2, 0.00 km]]",
             "Bank J. Safra Sarasin Ltd [[1, POI bank, t1-w1+0-oth0-tp0, 154.80 km]]",
             "Bänk (Dägerlen), Bänk (Dägerlen) [[1, CITY, t1-w1+0-oth0-tp4, 75.75 km]]",
-            "blood_bank [[1, POI_TYPE, t1-w1+0-oth0-tp2, 0.00 km]]",
             "LGT [[1, POI bank, t1-w1+0-oth0-tp0, 3.17 km]]",
             "Western Union [[1, POI bank, t1-w1+0-oth0-tp0, 3.23 km]]",
             "Liechtensteinische Landesbank [[1, POI bank, t1-w1+0-oth0-tp0, 3.24 km]]",
