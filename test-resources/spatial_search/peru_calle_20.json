@@ -14,6 +14,7 @@
         "Lima Calle 20 San Isidro",
         "Calle 20 188",
         "Calle 20",
+        "Lima Calle 20 188",
         "Lima 20 188"
     ],
     "results": [
@@ -40,6 +41,10 @@
             "Calle 20 (Rímac), Lima [[2, STREET, t2+0-w1-oth0-tp1, 8.25 km]]",
             "Calle 20 (Santa Anita), Lima [[2, STREET, t2+0-w1-oth0-tp1, 9.39 km]]"
         ], 
+        [
+            "188, Calle 20 (San Isidro), Lima [[4, HOUSE, t4+0-w2-oth0-tp3, 0.00 km]]",
+		    "188, <Lima>, Lima [[4, HOUSE, t4+0-w2-oth0-tp0, 7.72 km]]"
+        ],
         [
             "188, <Lima>, Lima [[3, HOUSE, t3+-1-w1-oth0-tp-1, 15.09 km]]",
             "20, Santa Rosa de Lima (Agrupación Las Buganvillas), Tacna [[3, HOUSE, t3+-1-w1-oth0-tp-1, 979.43 km]]"

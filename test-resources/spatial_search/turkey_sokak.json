@@ -10,24 +10,43 @@
         "lon": "29.84540",
         "lat": "40.76270"
     },
+    "ignore" : true,
+    "comment" : "(ISMIR / BAlikesir) results like 1. 2 Sokak (house) 2. 2 Sokak (street) 3. 2 <WORD> Sokak (street) or 3381/2 Sokak. 4. '2.Kadriye' (city) .. Sokak!",
     "phrases": [
         "2.Sokak",
         "2 Sokak",
         "Sokak 2",
-        "2. Sokak"
+        "2. Sokak",
+        "Sokak 23018. Balikesir",
+        "1 20051 Sokak",
+        "2301. Sokak",
+        "6178/2.Sokak",
+        "2/6. Sokak",
+        "2. Sanayi 6. Sokak",
+        "2 6 Sokak",
+        "2 2 Sokak",
+        "9 7035 Sokak",
+        "1/2 7029 Sokak",
+        "8/a 7029 Sokak",
+        "2.Kadriye",
+        "2 Kadriye"
     ],
     "results": [
         [
-            "2.Sokak, Derince [[1, STREET, t1-w1+0-oth0-tp1, 0.00 km]]"
+            "2.Sokak, Derince [[1, STREET, t1-w1+0-oth0-tp1, 0.00 km]]",
+            "OTHER RESULTS???"
         ],
         [
-            "2.Sokak, Derince [[2, STREET, t2-w1+0-oth0-tp1, 0.00 km]]"
+            "2.Sokak, Derince [[2, STREET, t2-w1+0-oth0-tp1, 0.00 km]]",
+            "OTHER RESULTS???"
         ],
         [
-            "2.Sokak, Derince [[2, STREET, t2-w1+0-oth0-tp1, 0.00 km]]"
+            "2.Sokak, Derince [[2, STREET, t2-w1+0-oth0-tp1, 0.00 km]]",
+            "OTHER RESULTS???"
         ],
         [
-            "2.Sokak, Derince [[2, STREET, t2-w1+0-oth0-tp1, 0.00 km]]"
+            "2.Sokak, Derince [[2, STREET, t2-w1+0-oth0-tp1, 0.00 km]]",
+            "OTHER RESULTS???"
         ]
     ]
 }
