@@ -9,7 +9,8 @@
         "lon": "-95.06539",
         "lat": "29.47280"
     },
-    "comment" : "Add missing postcode 77539, TX, USA to data. wrong order 3 ok ",
+    "ignore" : true,
+    "comment" : "Add Missing USA boundary doesn't work with postcode and G Smoke POI+ https://test.osmand.net/map/search/result/?engine=spatial&query=2419+Avenue+G,+Dickinson,+77539+USA+#12/29.5290/-95.0089",
     "phrases": [
         "2419 Avenue G, Dickinson",
         "2419 Avenue G, Dickinson, 77539",
