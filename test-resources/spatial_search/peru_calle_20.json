@@ -1,6 +1,5 @@
 {
     "description": "Created with Search Tool - Detector - Unit-Test (10 results, 0 geocoding, routing false)",
-    "ignore": "true",
     "settings": {
         "sortByName": false,
         "emptyQueryAllowed": false,
@@ -19,29 +18,31 @@
     ],
     "results": [
         [
-            "188, Calle 20, San Isidro [[6, HOUSE, t6-w3+0-oth1-tp6, 0.00 km]]"
+            "188, Calle 20 (San Isidro), Lima [[6, HOUSE, t6+0-w3-oth0-tp7, 0.00 km]]",
+            "188, <Lima>, Lima [[6, HOUSE, t6+0-w3-oth0-tp4, 7.72 km]]"
         ],
         [
-            "Calle 20, San Isidro [[5, STREET, t5-w3+0-oth1-tp8, 0.00 km]]",
-            "Calle Los Jilgueros, San Isidro [[5, STREET, t5-w3+0-oth1-tp8, 0.05 km]]",
-            "Parque San Isidro II, San Isidro [[5, POI public_transport_platform, t5-w3+0-oth2-tp4, 0.50 km]]",
-            "HOTEL EL DORADO - SAN ISIDRO, San Isidro [[5, POI hotel, t5-w3+0-oth2-tp4, 0.60 km]]",
-            "Scotiabank San Isidro, San Isidro [[5, POI bank, t5-w3+0-oth2-tp4, 0.60 km]]",
-            "Sede San Isidro, San Isidro [[5, POI clinic, t5-w3+0-oth2-tp4, 0.62 km]]",
-            "Diner's Club San Isidro, San Isidro [[5, POI company, t5-w3+0-oth3-tp4, 0.42 km]]",
-            "SIGLO XXI, SAN ISIDRO, San Isidro [[5, POI company, t5-w3+0-oth3-tp4, 0.65 km]]",
-            "IBM Perú - San Isidro, San Isidro [[5, POI company, t5-w3+0-oth3-tp4, 0.67 km]]",
-            "Clínica Internacional - Medicentro San Isidro, San Isidro [[5, POI clinic, t5-w3+0-oth3-tp4, 0.89 km]]"
+            "20, <Lima>, Lima [[5, HOUSE, t5+0-w2-oth0-tp0, 7.98 km]]",
+            "Calle 20 (San Isidro), Lima [[5, STREET, t5+0-w3-oth0-tp9, 0.00 km]]",
+            "Calle Los Jilgueros (San Isidro), Lima [[5, STREET, t5+0-w3-oth0-tp9, 0.05 km]]",
+            "Calle Los Jilgueros, San Isidro [[5, STREET, t5+0-w3-oth0-tp9, 0.05 km]]"
         ],
         [
-            "188, Calle 20, San Isidro [[6, HOUSE, t6-w3+0-oth1-tp6, 0.00 km]]"
+            "188, Calle 20 (San Isidro), Lima [[3, HOUSE, t3+0-w1-oth0-tp-1, 0.00 km]]"
         ],
         [
-            "Calle 20, San Isidro [[2, STREET, t2-w1+0-oth0-tp1, 0.00 km]]",
-            "Calle 20 (San Miguel)",
-            "Calle 20 (Urbanización Piedra Liza)",
-		    "Calle Los Jilgueros, San Isidro [[2, STREET, t2-w1+0-oth0-tp1, 0.05 km]]",
-            "Dermatologist - 20th floor"
+            "Calle 20 (San Isidro), Lima [[2, STREET, t2+0-w1-oth0-tp1, 0.00 km]]",
+            "Calle Los Jilgueros (San Isidro), Lima [[2, STREET, t2+0-w1-oth0-tp1, 0.05 km]]",
+            "Calle Los Jilgueros, San Isidro [[2, STREET, t2+0-w1-oth0-tp1, 0.05 km]]",
+            "Calle 20 (San Borja), Lima [[2, STREET, t2+0-w1-oth0-tp1, 3.64 km]]",
+            "Calle 20 (El Agustino), Lima [[2, STREET, t2+0-w1-oth0-tp1, 6.14 km]]",
+            "Calle 20 (Urbanización Piedra Liza), Rímac [[2, STREET, t2+0-w1-oth0-tp1, 6.61 km]]",
+            "Calle 20 (Rímac), Lima [[2, STREET, t2+0-w1-oth0-tp1, 8.25 km]]",
+            "Calle 20 (Santa Anita), Lima [[2, STREET, t2+0-w1-oth0-tp1, 9.39 km]]"
+        ], 
+        [
+            "188, <Lima>, Lima [[3, HOUSE, t3+-1-w1-oth0-tp-1, 15.09 km]]",
+            "20, Santa Rosa de Lima (Agrupación Las Buganvillas), Tacna [[3, HOUSE, t3+-1-w1-oth0-tp-1, 979.43 km]]"
         ]
     ]
 }

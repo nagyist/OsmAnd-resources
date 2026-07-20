@@ -9,7 +9,6 @@
         "lon": "-95.06539",
         "lat": "29.47280"
     },
-    "ignore": "true",
     "comment" : "Add missing postcode 77539, TX, USA to data. wrong order 3 ok ",
     "phrases": [
         "2419 Avenue G, Dickinson",
@@ -24,20 +23,19 @@
             "2419, Avenue G, Galveston [[4, HOUSE, t4-w2+0-oth1-tp3, 0.01 km]]"
         ],
         [
-            "2419, Avenue G, Dickinson [[3, HOUSE, t5-w2+0-oth1-tp3, 0.01 km]]",
-            "2419, Avenue G, Galveston [[5, HOUSE, t5-w2+0-oth3-tp-1, 32.39 km]]"
+            "2419, Avenue G, Dickinson [[5, HOUSE, t5+0-w3-oth0-tp6, 0.01 km]]",
+            "2419, Avenue G, Galveston [[5, HOUSE, t5+0-w3-oth0-tp6, 32.39 km]]"
         ],
         [
-            "2419, Avenue G, Dickinson [[4, HOUSE, t4-w2+0-oth1-tp3, 0.01 km]]",
-            "2419, Avenue G, Galveston [[4, HOUSE, t4-w2+0-oth1-tp3, 0.01 km]]"
+            "2419, Avenue G, Galveston [[6, HOUSE, t6+0-w4-oth2-tp7, 32.39 km]]"
         ],
         [
-            "2419, Avenue G, Dickinson [[3, HOUSE, t5-w2+0-oth1-tp3, 0.01 km]]",
-            "2419, Avenue G, Galveston [[5, HOUSE, t5-w2+0-oth3-tp-1, 32.39 km]]"
+            "2419, Avenue G, Dickinson [[5, HOUSE, t5+0-w3-oth0-tp6, 0.01 km]]",
+            "2419, Avenue G, Galveston [[5, HOUSE, t5+0-w3-oth0-tp6, 32.39 km]]"
         ],
         [
-            "2419, Avenue G, Dickinson [[3, HOUSE, t5-w2+0-oth1-tp3, 0.01 km]]",
-            "2419, Avenue G, Galveston [[5, HOUSE, t5-w2+0-oth3-tp-1, 32.39 km]]"
+            "2419, Avenue G, Dickinson [[6, HOUSE, t6+0-w4-oth0-tp10, 0.01 km]]",
+            "2419, Avenue G, Galveston [[6, HOUSE, t6+0-w4-oth0-tp10, 32.39 km]]"
         ]
     ]
 }

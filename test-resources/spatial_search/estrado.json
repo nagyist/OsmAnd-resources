@@ -9,7 +9,6 @@
         "emptyQueryAllowed": false,
         "sortByName": false
     },
-    "ignore": "true",
     "comment": "Missing correct boundaries for harderwijk so works as poi intersection not correct",
     "phrases": [
         "Estrado",
@@ -22,18 +21,27 @@
             "Muziekpodium Estrado [[1, POI, 10.000, 0.02 km]]"
         ],
         [
-            "Harderwijk, Harderwijk [[1, CITY,, 0.91 km]]",
-            "Harderwijk [[1, POI (school),, 0.80 km]]",
-            "Harderwijk [[1, POI (railway_station),, 0.86 km]]",
-            "Harderwijk [[1, POI (public_transport_stop_position),, 0.86 km]]",
-            "Harderwijk [[1, POI (public_transport_stop_position),, 0.87 km]]",
-            "Harderwijk [[1, POI (town),, 0.91 km]]",
-            "Harderwijk [[1, POI (motorway_junction),, 1.24 km]]",
-            "Harderwijk [[1, POI (motorway_junction),, 1.52 km]]",
-            "Harderwijk [[1, POI (motorway_junction),, 1.67 km]]"
+            "Harderwijk, Harderwijk [[1, CITY, t1+0-w1-oth0-tp5, 0.99 km]]",
+            "Harderwijk, Harderwijk [[1, CITY, t1+0-w1-oth0-tp4, 0.91 km]]",
+            "Harderwijk, Harderwijk [[1, CITY, t1+0-w1-oth0-tp4, 61.35 km]]",
+            "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.77 km]]",
+            "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.78 km]]",
+            "Harderwijk, Centrum [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.79 km]]",
+            "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.80 km]]",
+            "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.80 km]]",
+            "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.81 km]]",
+            "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.82 km]]",
+            "Harderwijk, Centrum [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.82 km]]",
+            "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.84 km]]",
+            "Harderwijk [[1, POI railway_station, t1+0-w1-oth0-tp0, 0.86 km]]",
+            "Harderwijk [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.86 km]]",
+            "Harderwijk [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.87 km]]",
+            "Harderwijk [[1, POI motorway_junction, t1+0-w1-oth0-tp0, 1.24 km]]",
+            "Harderwijk [[1, POI motorway_junction, t1+0-w1-oth0-tp0, 1.52 km]]",
+            "Harderwijk [[1, POI motorway_junction, t1+0-w1-oth0-tp0, 1.67 km]]"
         ],
         [
-            "Muziekpodium Estrado [[2, POI arts_centre, t2-w2+0-oth1-tp4, 0.02 km]]"
+            "Muziekpodium Estrado, Harderwijk [[2, POI arts_centre, t2+0-w2-oth1-tp4, 0.02 km]]"
         ],
          [
             "Muziekpodium Estrado, Harderwijk [[2, POI arts_centre, t2-w2+0-oth1-tp4, 0.02 km]]"
