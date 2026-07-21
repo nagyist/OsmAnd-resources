@@ -9,7 +9,7 @@
         "lon": "-95.06539",
         "lat": "29.47280"
     },
-    "ignore" : true,
+    "ignore" : false,
     "comment" : "Add Missing USA boundary doesn't work with postcode and G Smoke POI+ https://test.osmand.net/map/search/result/?engine=spatial&query=2419+Avenue+G,+Dickinson,+77539+USA+#12/29.5290/-95.0089",
     "phrases": [
         "2419 Avenue G, Dickinson",
@@ -20,23 +20,19 @@
     ],
     "results": [
         [
-            "2419, Avenue G, Dickinson [[4, HOUSE, t4-w2+0-oth1-tp3, 0.01 km]]",
-            "2419, Avenue G, Galveston [[4, HOUSE, t4-w2+0-oth1-tp3, 0.01 km]]"
+            "2419, Avenue G, Dickinson [[4, HOUSE, t4+0-w2-oth0-tp3, 0.01 km]]"
         ],
         [
-            "2419, Avenue G, Dickinson [[5, HOUSE, t5+0-w3-oth0-tp6, 0.01 km]]",
-            "2419, Avenue G, Galveston [[5, HOUSE, t5+0-w3-oth0-tp6, 32.39 km]]"
+            "2419, Avenue G, Dickinson [[4, HOUSE, t4+0-w2-oth0-tp3, 0.01 km]]"
         ],
         [
-            "2419, Avenue G, Galveston [[6, HOUSE, t6+0-w4-oth2-tp7, 32.39 km]]"
+            "2419, Avenue G, Dickinson [[5, HOUSE, t5+0-w3-oth0-tp7, 0.01 km]]"
         ],
         [
-            "2419, Avenue G, Dickinson [[5, HOUSE, t5+0-w3-oth0-tp6, 0.01 km]]",
-            "2419, Avenue G, Galveston [[5, HOUSE, t5+0-w3-oth0-tp6, 32.39 km]]"
+            "2419, Avenue G, Dickinson [[4, HOUSE, t4+0-w2-oth0-tp3, 0.01 km]]"
         ],
         [
-            "2419, Avenue G, Dickinson [[6, HOUSE, t6+0-w4-oth0-tp10, 0.01 km]]",
-            "2419, Avenue G, Galveston [[6, HOUSE, t6+0-w4-oth0-tp10, 32.39 km]]"
+            "2419, Avenue G, Dickinson [[5, HOUSE, t5+0-w3-oth0-tp7, 0.01 km]]"
         ]
     ]
 }
