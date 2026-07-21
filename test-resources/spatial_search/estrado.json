@@ -23,7 +23,7 @@
         [
             "Harderwijk, Harderwijk [[1, CITY, t1+0-w1-oth0-tp5, 0.99 km]]",
             "Harderwijk, Harderwijk [[1, CITY, t1+0-w1-oth0-tp4, 0.91 km]]",
-            "Harderwijk, Harderwijk [[1, CITY, t1+0-w1-oth0-tp4, 61.35 km]]",
+            "Harderwijk [[1, CITY hamlet, t1+0-w1-oth0-tp4, 61.35 km]]",
             "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.77 km]]",
             "Harderwijk, Station [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.78 km]]",
             "Harderwijk, Centrum [[1, POI public_transport_stop_position, t1+0-w1-oth0-tp0, 0.79 km]]",

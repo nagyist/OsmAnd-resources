@@ -17,10 +17,15 @@
     ],
     "results": [
         [
-            "14-45, 31st Road, New York [[3, HOUSE,, 0.00 km]]"
+            "14-45, 31st Road (Queens), New York [[3, HOUSE, t3+0-w1-oth0-tp-1, 0.00 km]]",
+		    "14-45, 31st Drive (Queens), New York [[3, HOUSE, t3+0-w2-oth2-tp-1, 0.08 km]]",
+		    "14-45, 31st Avenue (Queens), New York [[3, HOUSE, t3+0-w2-oth2-tp-1, 0.08 km]]"
         ],
         [
-           "14-45, 31st Road, New York [[3, HOUSE,, 0.00 km]]"
+           "14-45, 31st Road (Queens), New York [[3, HOUSE, t3+0-w1-oth0-tp-1, 0.00 km]]",
+           "31-14, 31st Street (Queens), New York [[3, HOUSE, t3+0-w2-oth1-tp-1, 0.67 km]]",
+		   "14-50, 31st Avenue (Queens), New York [[3, HOUSE, t3+0-w2-oth2-tp-1, 0.04 km]]",
+		   "14-49, 31st Drive (Queens), New York [[3, HOUSE, t3+0-w2-oth2-tp-1, 0.08 km]]"
         ],
         [
             "31st Road, New York [[2, STREET,, 0.12 km]]",
