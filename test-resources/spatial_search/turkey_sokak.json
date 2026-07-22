@@ -9,7 +9,7 @@
         "transliterateIfMissing": false,
         "lon": "29.84540",
         "lat": "40.76270",
-        "OPTIM_READ_COMMON_WORDS_LIMIT": 150
+        "OPTIM_READ_COMMON_WORDS_LIMIT": 200
     },
     "ignore" : false,
     "comment" : "(ISMIR / BAlikesir) results like 1. 2 Sokak (house) 2. 2 Sokak (street) 3. 2 <WORD> Sokak (street) or 3381/2 Sokak. 4. '2.Kadriye' (city) .. Sokak!",
@@ -56,7 +56,9 @@
             "Balıkesir Süt Ürünleri, Kocaeli [[2, POI dairy, t2+0-w2-oth2-tp1, 7.34 km]]"
         ],
         [
-            "1. Sokak (Aydınlı), İstanbul [[2, STREET, t2+0-w1-oth0-tp1, 40.20 km]]"
+            "1, Çam Sokak (Bağlarbaşı), İstanbul [[3, HOUSE, t3+-1-w1-oth0-tp-1, 62.65 km]]",
+            "1, Fatih Sokak (Acıbadem), İstanbul [[3, HOUSE, t3+-1-w1-oth0-tp-1, 73.33 km]]",
+            "1, Çam Sokak (Zekeriyaköy), İstanbul [[3, HOUSE, t3+-1-w1-oth0-tp-1, 83.13 km]]"
         ],
         [
             "2301. Sokak, İstanbul [[2, STREET, t2+0-w1-oth0-tp1, 90.72 km]]"
@@ -74,7 +76,7 @@
             "2, 6. Sokak (Aydınlı), İstanbul [[3, HOUSE, t3+0-w1-oth0-tp-1, 40.33 km]]"
         ],
         [
-            "2002.Sokak, Nergiz [[3, STREET, t3+0-w2-oth0-tp2, 347.42 km]]"
+            "2002.Sokak, İzmir [[3, STREET, t3+0-w2-oth0-tp2, 347.42 km]]"
         ],
         [
             "9, Çam Sokak (Zekeriyaköy), İstanbul [[3, HOUSE, t3+-1-w1-oth0-tp-1, 83.11 km]]"
