@@ -1,0 +1,58 @@
+{
+    "description": "Created with Search Tool - Detector - Unit-Test (5 results, 0 geocoding, routing false)",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "regionLang": "en",
+        "transliterateIfMissing": false,
+        "lon": "-73.99356",
+        "lat": "40.75246"
+    },
+    "phrases": [
+        "New York 4 av 8",
+        "4 av",
+        "4 avenue 8",
+        "4th ave",
+        "8 4 paterson ave"
+    ],
+    "results": [
+        [
+            "4, 8th Avenue (Manhattan), New York [[5, HOUSE, t5+0-w2-oth0-tp3, 1.90 km]]",
+            "4, 8th Avenue, Passaic [[5, HOUSE, t5+0-w2-oth0-tp3, 17.27 km]]",
+            "8, 4th Avenue, Passaic [[5, HOUSE, t5+0-w2-oth0-tp3, 23.72 km]]",
+            "4, 8th Avenue, Paterson [[5, HOUSE, t5+0-w2-oth0-tp3, 23.96 km]]",
+            "8, 4th Avenue, Paterson [[5, HOUSE, t5+0-w2-oth0-tp3, 24.57 km]]"
+        ],
+        [
+            "4th Avenue, Paterson [[2, STREET, t2+0-w1-oth0-tp1, 24.12 km]]",
+            "4th Avenue, Passaic [[2, STREET, t2+0-w1-oth0-tp1, 39.89 km]]",
+            "4th Avenue, Huntington Station [[2, STREET, t2+0-w1-oth0-tp1, 49.76 km]]",
+            "4th Avenue, East Northport [[2, STREET, t2+0-w1-oth0-tp1, 57.51 km]]",
+            "4th Avenue, North Bay Shore [[2, STREET, t2+0-w1-oth0-tp1, 62.03 km]]"
+        ],
+        [
+            "4, 8th Avenue (Manhattan), New York [[3, HOUSE, t3+0-w1-oth0-tp-1, 1.90 km]]",
+            "4, 8th Avenue, Passaic [[3, HOUSE, t3+0-w1-oth0-tp-1, 17.27 km]]",
+            "8, 4th Avenue, Passaic [[3, HOUSE, t3+0-w1-oth0-tp-1, 23.72 km]]",
+            "4, 8th Avenue, Paterson [[3, HOUSE, t3+0-w1-oth0-tp-1, 23.96 km]]",
+            "8, 4th Avenue, Paterson [[3, HOUSE, t3+0-w1-oth0-tp-1, 24.57 km]]"
+        ],
+        [
+            "4th Avenue, Paterson [[2, STREET, t2+0-w1-oth0-tp1, 24.12 km]]",
+            "4th Avenue, Passaic [[2, STREET, t2+0-w1-oth0-tp1, 39.89 km]]",
+            "4th Avenue, Huntington Station [[2, STREET, t2+0-w1-oth0-tp1, 49.76 km]]",
+            "4th Avenue, East Northport [[2, STREET, t2+0-w1-oth0-tp1, 57.51 km]]",
+            "4th Avenue, North Bay Shore [[2, STREET, t2+0-w1-oth0-tp1, 62.03 km]]",
+            "4th Avenue, Brentwood [[2, STREET, t2+0-w1-oth0-tp1, 62.66 km]]"
+        ],
+        [
+            "4, 8th Avenue, Passaic [[4, HOUSE, t4+0-w2-oth0-tp3, 17.27 km]]",
+            "8, 4th Avenue, Passaic [[4, HOUSE, t4+0-w2-oth0-tp3, 23.72 km]]",
+            "4, 8th Avenue, Paterson [[4, HOUSE, t4+0-w2-oth0-tp3, 23.96 km]]",
+            "8, 4th Avenue, Paterson [[4, HOUSE, t4+0-w2-oth0-tp3, 24.57 km]]",
+            "8, Paterson Avenue, Hoboken [[4, HOUSE, t4+0-w2-oth0-tp-1, 4.33 km]]"
+        ]
+    ]
+}
