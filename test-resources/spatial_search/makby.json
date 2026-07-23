@@ -1,0 +1,37 @@
+{
+    "description": "Gen OBF from OSM",
+    "settings": {
+        "sortByName": false,
+        "emptyQueryAllowed": false,
+        "totalLimit": -1,
+        "radiusLevel": 1,
+        "regionLang": "en",
+        "transliterateIfMissing": false,
+        "lon": "27.65786",
+        "lat": "53.93502"
+    },
+    "phrases": [
+        "Mak.by",
+        "Mak By"
+    ],
+    "results": [
+        [
+            "top_index_brand_mak.by [[POI_TYPE, t1+0-w1-oth0-tp-2, 0.00 km, TYPE_Q118149500 ['mak.by' [POI_TYPE] 'top_index_brand_mak.by' id=1342, obj=0 ]]]",
+            "Мак Бай [[POI fast_food;internet_access_yes, t1+0-w1-oth1-tp0, 0.00 km, ['mak.by' [POI Fast food] 'Мак Бай' 13721164919 33343 (53.9350 27.6579)]]]",
+            "Mak.by [[POI fast_food, t1+0-w1-oth1-tp0, 1.83 km, ['mak.by' [POI Fast food] 'Mak.by' 144032862 21592 (53.9427 27.6825)]]]",
+            "Mak.by [[POI fast_food, t1+0-w1-oth1-tp0, 3.34 km, ['mak.by' [POI Fast food] 'Mak.by' 1112981475 38992 (53.9548 27.6196)]]]",
+            "Mak.by [[POI fast_food, t1+0-w1-oth1-tp0, 5.22 km, ['mak.by' [POI Fast food] 'Mak.by' 9032118449 25922 (53.9160 27.5850)]]]",
+            "Mak.by [[POI fast_food, t1+0-w1-oth1-tp0, 5.30 km, ['mak.by' [POI Fast food] 'Mak.by' 25325766 18268 (53.9301 27.5774)]]]"
+        ],
+        [
+            "top_index_brand_mak.by [[POI_TYPE, t2+0-w1-oth0-tp-2, 0.00 km, TYPE_Q118149500 ['mak by' [POI_TYPE] 'top_index_brand_mak.by' id=1342, obj=0 ]]]",
+            "Mak.by [[POI fast_food;internet_access_yes, t2+0-w1-oth0-tp0, 10.96 km, ['mak by' [POI Fast food] 'Mak.by' 5848594656 53061 (53.9304 27.4907)]]]",
+            "Mak.by [[POI fast_food, t2+0-w1-oth0-tp0, 12.52 km, ['mak by' [POI Fast food] 'Mak.by' 806510324 11092 (53.8747 27.4966)]]]",
+            "Mak.by [[POI fast_food, t2+0-w1-oth0-tp0, 17.50 km, ['mak by' [POI Fast food] 'Mak.by' 7945836185 22852 (53.8498 27.4335)]]]",
+            "Мак Бай [[POI fast_food;internet_access_yes, t2+0-w1-oth1-tp0, 0.00 km, ['mak by' [POI Fast food] 'Мак Бай' 13721164919 33343 (53.9350 27.6579)]]]",
+            "Mak.by [[POI fast_food, t2+0-w1-oth1-tp0, 1.83 km, ['mak by' [POI Fast food] 'Mak.by' 144032862 21592 (53.9427 27.6825)]]]",
+            "Mak.by [[POI fast_food, t2+0-w1-oth1-tp0, 3.34 km, ['mak by' [POI Fast food] 'Mak.by' 1112981475 38992 (53.9548 27.6196)]]]",
+            "Mak.by [[POI fast_food, t2+0-w1-oth1-tp0, 5.22 km, ['mak by' [POI Fast food] 'Mak.by' 9032118449 25922 (53.9160 27.5850)]]]"
+        ]
+    ]
+}
