@@ -1,5 +1,5 @@
 {
-    "description": "",
+    "description": "Gen OBF from OSM",
     "settings": {
         "sortByName": false,
         "emptyQueryAllowed": false,
